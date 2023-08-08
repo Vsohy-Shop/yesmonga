@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/account_user_address_graph" app:startDestination="@+id/updateUserAddressFragment">
+    <fragment android:name="com.carrefour.fid.android.account.presentation.p018ui.address.UpdateUserAddressFragment" android:id="@+id/updateUserAddressFragment">
+        <argument android:name="address_category" app:argType="com.carrefour.fid.android.domain.models.AddressCategory"/>
+        <argument android:name="filled_delivery_address" android:defaultValue="@null" app:argType="com.carrefour.fid.android.domain.models.account.Address" app:nullable="true"/>
+        <argument android:name="filled_billing_address" android:defaultValue="@null" app:argType="com.carrefour.fid.android.domain.models.account.Address" app:nullable="true"/>
+        <argument android:name="fill_phone" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <argument android:name="pop_back_stack_on_dismiss" android:defaultValue="false" app:argType="boolean"/>
+        <action android:id="@+id/action_updateUserAddressFragment_to_verifyUserAddressFragment" app:destination="@+id/verifyUserAddressFragment" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out"/>
+        <argument android:name="autoSaveAddress" android:defaultValue="true" app:argType="boolean"/>
+    </fragment>
+    <fragment android:name="com.carrefour.fid.android.account.presentation.p018ui.address.VerifyUserAddressFragment" android:id="@+id/verifyUserAddressFragment">
+        <argument android:name="address_model" app:argType="com.carrefour.fid.android.domain.models.account.Address"/>
+        <argument android:name="telephone" app:argType="string"/>
+        <argument android:name="isShowingKeepAddressOption" android:defaultValue="true" app:argType="boolean"/>
+        <argument android:name="autoSaveAddress" android:defaultValue="true" app:argType="boolean"/>
+    </fragment>
+</navigation>

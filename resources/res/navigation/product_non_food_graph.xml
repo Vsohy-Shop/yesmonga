@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/product_non_food_graph" app:startDestination="@+id/nonFoodProductDetailsFragment">
+    <fragment android:label="product_non_food_details" android:name="com.carrefour.fid.android.product.presentation.p039ui.details.nal.NonFoodProductDetailsFragment" android:id="@+id/nonFoodProductDetailsFragment">
+        <argument android:name="offerIdentifier" android:defaultValue="@null" app:argType="com.carrefour.fid.android.domain.models.offer.OfferIdentifier" app:nullable="true"/>
+        <argument android:name="position" android:defaultValue="0" app:argType="integer"/>
+        <argument android:name="product_ean" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <action android:id="@+id/action_productDetailsFragment_to_productDetailsFragment" app:destination="@+id/nonFoodProductDetailsFragment" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out"/>
+        <action android:id="@+id/action_productDetailsFragment_to_productDetailsImageFragment" app:destination="@+id/productDetailsImageFragment"/>
+        <action android:id="@+id/action_productDetailsFragment_to_deliveryChoiceInfoFragment" app:destination="@+id/deliveryChoiceInfoFragment"/>
+        <action android:id="@+id/action_nonFoodProductDetailsFragment_to_reinsuranceFragment" app:destination="@+id/reinsuranceFragment" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out"/>
+    </fragment>
+    <fragment android:label="fragment_product_details_image" android:name="com.carrefour.fid.android.product.presentation.p039ui.details.ProductDetailsImageFragment" android:id="@+id/productDetailsImageFragment">
+        <argument android:name="product_images" android:defaultValue="@null" app:argType="com.carrefour.fid.android.product.presentation.models.ProductImagesModel" app:nullable="true"/>
+        <action android:id="@+id/action_productDetailsImageFragment_to_productDetailsFragment" app:destination="@+id/productDetailsFragment" app:launchSingleTop="true" app:popUpTo="@+id/productDetailsImageFragment" app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment android:label="DeliveryChoiceInfoFragment" android:name="com.carrefour.fid.android.product.presentation.p039ui.details.nal.DeliveryChoiceInfoFragment" android:id="@+id/deliveryChoiceInfoFragment">
+        <argument android:name="relayPointEligible" android:defaultValue="false" app:argType="boolean"/>
+    </fragment>
+    <fragment android:label="fragment_reinsurance" android:name="com.carrefour.fid.android.product.presentation.p039ui.details.nal.ReinsuranceFragment" android:id="@+id/reinsuranceFragment">
+        <argument android:name="reinsurance_type" android:defaultValue="REFUNDED" app:argType="com.carrefour.fid.android.product.presentation.ui.details.nal.ReinsuranceType"/>
+    </fragment>
+</navigation>

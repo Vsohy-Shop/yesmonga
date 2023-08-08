@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/ic_home_navigation_selector" android:enabled="true" android:id="@+id/home_graph" android:title="@string/title_home" android:contentDescription="@string/title_home"/>
+    <item android:icon="@drawable/ic_search_department_navigation_selector" android:enabled="true" android:id="@+id/departments_graph" android:title="@string/title_tab_bar_search_department" android:contentDescription="@string/title_tab_bar_search_department"/>
+    <item android:icon="@drawable/ic_cart_navigation_selector" android:enabled="true" android:id="@+id/basket_graph" android:title="@string/title_basket" android:contentDescription="@string/title_basket"/>
+    <item android:icon="@drawable/ds_ic_store" android:enabled="true" android:id="@+id/physical_store_graph" android:title="@string/title_physical_store" android:contentDescription="@string/title_basket"/>
+    <item android:icon="@drawable/ic_orders_navigation_selector" android:enabled="true" android:id="@+id/orders_graph" android:title="@string/title_purchases" android:contentDescription="@string/title_purchases"/>
+</menu>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/ds_grey_white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/product_list_header_layout" android:background="@color/ds_grey_white" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/ds_header_elevation" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <androidx.compose.p004ui.platform.ComposeView android:id="@+id/product_list_header" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@+id/coordinator_layout" android:background="@color/ds_grey_white" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/product_list_header_layout">
+        <com.google.android.material.appbar.AppBarLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@+id/collapsing_toolbar_plp" android:background="@drawable/bg_product_list_header" android:layout_width="match_parent" android:layout_height="wrap_content" app:contentInsetStart="0dp" app:contentInsetStartWithNavigation="0dp" app:layout_scrollFlags="5">
+                <include android:id="@+id/sub_header" layout="@layout/plp_sub_header"/>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/product_list" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+        <ViewStub android:id="@+id/product_list_error" android:layout="@layout/fragment_message_view" android:inflatedId="@+id/product_list_error" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ViewStub android:id="@+id/product_list_empty" android:layout="@layout/plp_list_empty" android:inflatedId="@+id/product_list_retry" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.facebook.shimmer.ShimmerFrameLayout android:orientation="vertical" android:id="@+id/product_list_loading" android:background="@color/ds_grey_white" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" app:shimmer_duration="2000">
+            <include layout="@layout/plp_cell_header_placeholder2"/>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,211 @@
+{
+  "version": 6,
+  "form": {
+    "pages": [
+      {
+        "type": "form",
+        "fields": [
+          {
+            "type": "mood",
+            "caption": "Mood",
+            "autoSubmit": false,
+            "forceRequired": true,
+            "fixed": "mood",
+            "interactive": true,
+            "showHideRule": [],
+            "validationText": "Please check the fields marked with *",
+            "name": "mood",
+            "title": "Click to edit question",
+            "required": true,
+            "points": 5,
+            "options": [
+              {
+                "title": "Hate",
+                "value": "1"
+              },
+              {
+                "title": "Dislike",
+                "value": "2"
+              },
+              {
+                "title": "Neutral",
+                "value": "3"
+              },
+              {
+                "title": "Like",
+                "value": "4"
+              },
+              {
+                "title": "Love",
+                "value": "5"
+              }
+            ],
+            "mode": "emoticon"
+          },
+          {
+            "type": "checkbox",
+            "caption": "Checkboxes",
+            "autoSubmit": false,
+            "forceRequired": false,
+            "fixed": false,
+            "interactive": true,
+            "showHideRule": [],
+            "validationText": "This field is required",
+            "title": "Checkbox",
+            "options": [
+              {
+                "title": "Option 1",
+                "value": "option_1"
+              },
+              {
+                "title": "Option 2",
+                "value": "option_2"
+              },
+              {
+                "title": "Option 3",
+                "value": "option_3"
+              }
+            ],
+            "name": "Checkbox"
+          }
+        ],
+        "jump": "end",
+        "jumpRules": [
+          {
+            "control": "Checkbox",
+            "value": ["option_1"],
+            "jump": "page1"
+          },
+          {
+            "control": "Checkbox",
+            "value": ["option_1", "option_2", "option_3"],
+            "jump": "page2"
+          },
+          {
+            "control": "Checkbox",
+            "value": ["option_3"],
+            "jump": "page3"
+          }
+        ],
+        "autoSubmit": false,
+        "name": "start"
+      },
+      {
+        "type": "form",
+        "fields": [
+          {
+            "type": "paragraph",
+            "caption": "Paragraph",
+            "autoSubmit": false,
+            "forceRequired": false,
+            "fixed": false,
+            "interactive": true,
+            "showHideRule": [],
+            "validationText": "This field is required",
+            "text": "Page 1"
+          }
+        ],
+        "jumpRules": [],
+        "autoSubmit": false,
+        "name": "page1"
+      },
+      {
+        "type": "form",
+        "fields": [
+          {
+            "type": "paragraph",
+            "caption": "Paragraph",
+            "autoSubmit": false,
+            "forceRequired": false,
+            "fixed": false,
+            "interactive": true,
+            "showHideRule": [],
+            "validationText": "This field is required",
+            "text": "Page 2"
+          }
+        ],
+        "jumpRules": [],
+        "autoSubmit": false,
+        "name": "page2"
+      },
+      {
+        "type": "form",
+        "fields": [
+          {
+            "type": "paragraph",
+            "caption": "Paragraph",
+            "autoSubmit": false,
+            "forceRequired": false,
+            "fixed": false,
+            "interactive": true,
+            "showHideRule": [],
+            "validationText": "This field is required",
+            "text": "Page 3"
+          }
+        ],
+        "jumpRules": [],
+        "autoSubmit": false,
+        "name": "page3"
+      },
+      {
+        "type": "end",
+        "fields": [
+          {
+            "type": "header",
+            "caption": "Header",
+            "autoSubmit": false,
+            "forceRequired": false,
+            "fixed": false,
+            "interactive": true,
+            "showHideRule": [],
+            "validationText": "This field is required",
+            "text": "Thanks!"
+          }
+        ],
+        "jumpRules": [],
+        "autoSubmit": false,
+        "autoclose": false,
+        "name": "end"
+      }
+    ],
+    "allowedPageTypes": ["form", "end"]
+  },
+  "data": {
+    "primaryColor": "#00A9C5",
+    "secondaryColor": "#fafafa",
+    "textColor": "#6B6B6B",
+    "screenshot": false,
+    "progressBar": false,
+    "appStoreRedirect": false,
+    "appTitle": "Feedback",
+    "appSubmit": "Submit",
+    "errorMessage": "Please check the fields marked with *"
+  },
+  "colors": {
+    "group1": {
+      "hash": "#41474c"
+    },
+    "group2": {
+      "hash": "#00a5c9"
+    },
+    "group3": {
+      "hash": "#59636b"
+    },
+    "group4": {
+      "hash": "#f4606e"
+    },
+    "group5": {
+      "hash": "#ffffff"
+    },
+    "group6": {
+      "hash": "#ffffff"
+    }
+  },
+  "localization": {
+    "navigationNext": "Next",
+    "cancelButton": "Cancel",
+    "screenshotTitle": "Screenshot",
+    "moreFeedback": "Give more feedback",
+    "appStore": "Go to the app store"
+  }
+}

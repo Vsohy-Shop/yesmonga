@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/product_search_graph" app:startDestination="@+id/productSearchFragment">
+    <fragment android:label="search_fragment" android:name="com.carrefour.fid.android.presentation.p035ui.product.search.ProductSearchFragment" android:id="@+id/productSearchFragment">
+        <action android:id="@+id/action_productSearchFragment_to_productSearchWithListFragment" app:destination="@+id/search_with_list_graph" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+        <argument android:name="arguments_settings" android:defaultValue="@null" app:argType="android.os.Bundle" app:nullable="true"/>
+        <argument android:name="should_animate_transition" android:defaultValue="false" app:argType="boolean"/>
+        <action android:id="@+id/action_productSearchFragment_to_scanBarCodeFragment" app:destination="@+id/scanBarCodeFragment"/>
+    </fragment>
+    <fragment android:label="ScanBarCodeFragment" android:name="com.carrefour.fid.android.presentation.p035ui.scan.BarcodeScannerFragment" android:id="@+id/scanBarCodeFragment">
+        <argument android:name="slotId" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <argument android:name="facilityServiceId" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <action android:id="@+id/action_scanBarCodeFragment_to_productSearchFragment" app:destination="@+id/productSearchFragment" app:launchSingleTop="true" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/fade_out" app:popUpTo="@+id/productSearchFragment" app:popUpToInclusive="true"/>
+    </fragment>
+</navigation>

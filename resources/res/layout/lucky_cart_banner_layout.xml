@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textColor="@color/ds_grey_5" android:id="@+id/lucky_cart_banner_title" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/luck_cart_banner_title" android:textAlignment="textStart" android:layout_marginStart="@dimen/ds_spacing_s" android:layout_marginEnd="@dimen/ds_spacing_s" app:layout_constraintEnd_toStartOf="@+id/learn_more_button" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/ds_title_xs"/>
+    <ImageView android:id="@+id/lucky_cart_banner_image" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ds_spacing_xs" android:adjustViewBounds="true" app:layout_constraintTop_toBottomOf="@+id/lucky_cart_banner_title"/>
+</merge>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.facebook.shimmer.ShimmerFrameLayout android:orientation="vertical" android:id="@+id/shimmer_fragment_basket" android:background="@color/ds_grey_white" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include layout="@layout/basket_cell_placeholder"/>
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/margin_60dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/list_fragment_basket" android:background="@color/ds_grey_white" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never"/>
+            <androidx.compose.p004ui.platform.ComposeView android:id="@+id/recap_basket" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <ViewStub android:id="@+id/stub_fragment_basket_error" android:layout="@layout/fragment_message_view" android:inflatedId="@+id/basket_error" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <ViewStub android:id="@+id/stub_fragment_basket_empty" android:layout="@layout/fragment_checkout_step_1_empty" android:inflatedId="@+id/basket_retry" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@+id/coordinator_fragment_basket" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0"/>
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@+id/guideline_list_product" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="76dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

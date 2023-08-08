@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:id="@+id/layout_component_switch" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.SwitchCompat android:gravity="center" android:id="@+id/item_switch" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatTextView android:gravity="center" android:layout_gravity="center" android:id="@+id/switch_text" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="false" android:textAlignment="center" android:layout_marginStart="@dimen/ds_sizing_xs" style="@style/ds_body_m"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</merge>

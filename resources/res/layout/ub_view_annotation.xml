@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.usabilla.sdk.ubform.screenshot.annotation.view.UbAnnotationCanvasView android:id="@+id/ub_screenshot_canvas" android:layout_width="match_parent" android:layout_height="0dp" android:layout_margin="@dimen/ub_screenshot_margin" android:layout_weight="1">
+        <ImageView android:id="@+id/ub_screenshot_preview" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/ub_screenshot_preview"/>
+    </com.usabilla.sdk.ubform.screenshot.annotation.view.UbAnnotationCanvasView>
+    <FrameLayout android:id="@+id/ub_annotation_menu_container" android:layout_width="match_parent" android:layout_height="@dimen/ub_plugin_container_height">
+        <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@+id/ub_annotation_plugins_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </FrameLayout>
+</merge>

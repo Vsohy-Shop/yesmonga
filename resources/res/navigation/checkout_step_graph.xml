@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/checkout_step_graph" app:startDestination="@+id/checkoutStep2Fragment">
+    <include app:graph="@navigation/checkout_slot_graph"/>
+    <fragment android:label="fragment_checkout_step_2" android:name="com.carrefour.fid.android.presentation.p035ui.checkout.p036al.CheckoutStep2Fragment" android:id="@+id/checkoutStep2Fragment">
+        <action android:id="@+id/action_checkoutStep2Fragment_to_checkoutStep3Fragment" app:destination="@+id/checkoutStep3Fragment" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out"/>
+        <argument android:name="basket_slot_booked_message_type" app:argType="com.carrefour.fid.android.domain.models.slot.BasketSlotBookedMessageType"/>
+        <argument android:name="basket_slot_express" android:defaultValue="@null" app:argType="com.carrefour.fid.android.domain.models.slot.SlotExpress" app:nullable="true"/>
+        <argument android:name="basket_selected_slot" android:defaultValue="@null" app:argType="com.carrefour.fid.android.domain.models.slot.Slot" app:nullable="true"/>
+        <argument android:name="category_list_by_gtin" android:defaultValue="@null" app:argType="android.os.Bundle" app:nullable="true"/>
+    </fragment>
+    <fragment android:label="fragment_checkout_step_3" android:name="com.carrefour.fid.android.presentation.p035ui.checkout.p036al.CheckoutStep3Fragment" android:id="@+id/checkoutStep3Fragment">
+        <action android:id="@+id/action_checkoutStep3Fragment_to_checkoutStep4Fragment" app:destination="@+id/checkoutStep4Fragment" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out"/>
+        <argument android:name="is_express_pickup" android:defaultValue="false" app:argType="boolean"/>
+        <argument android:name="basket_slot_express" android:defaultValue="@null" app:argType="com.carrefour.fid.android.domain.models.slot.SlotExpress" app:nullable="true"/>
+        <argument android:name="is_post_order_substitution_enabled" android:defaultValue="true" app:argType="boolean"/>
+        <argument android:name="category_list_by_gtin" android:defaultValue="@null" app:argType="android.os.Bundle" app:nullable="true"/>
+        <action android:id="@+id/action_checkoutStep3Fragment_to_checkoutStep3CgvFragment" app:destination="@+id/checkoutStep3CgvFragment"/>
+        <action android:id="@+id/action_checkoutStep3Fragment_to_serviceSlot" app:destination="@+id/checkout_slot_graph" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right">
+            <argument android:name="is_from_checkout_step_3" android:defaultValue="false" app:argType="boolean"/>
+        </action>
+        <action android:id="@+id/checkoutStep3_to_channelsFidFromCheckoutAl" app:destination="@+id/channelsFidFromCheckoutAl"/>
+        <action android:id="@+id/action_checkoutStep3Fragment_to_blockedCard" app:destination="@+id/blockedCardFromCheckoutStep3"/>
+    </fragment>
+    <fragment android:label="fragment_checkout_step_4" android:name="com.carrefour.fid.android.presentation.p035ui.checkout.p036al.CheckoutStep4Fragment" android:id="@+id/checkoutStep4Fragment">
+        <argument android:name="arguments_payment_confirmation" android:defaultValue="@null" app:argType="android.os.Bundle" app:nullable="true"/>
+        <argument android:name="basket_slot_express" android:defaultValue="@null" app:argType="com.carrefour.fid.android.domain.models.slot.SlotExpress" app:nullable="true"/>
+        <argument android:name="sub_basket_id" app:argType="string" app:nullable="false"/>
+        <argument android:name="category_list_by_gtin" android:defaultValue="@null" app:argType="android.os.Bundle" app:nullable="true"/>
+    </fragment>
+    <fragment android:label="CheckoutStep3CgvFragment" android:name="com.carrefour.fid.android.presentation.p035ui.checkout.p036al.CheckoutStep3CgvFragment" android:id="@+id/checkoutStep3CgvFragment"/>
+    <fragment android:label="ChannelsFidFragment" android:name="com.carrefour.fid.android.presentation.p035ui.loyalty.fragments.otp.ChannelsFidFragment" android:id="@+id/channelsFidFromCheckoutAl">
+        <argument android:name="loyaltyCardNumber" app:argType="string"/>
+        <argument android:name="origination" app:argType="com.carrefour.fid.android.presentation.ui.loyalty.fragments.otp.OtpOrigination"/>
+        <action android:id="@+id/action_channelsFidFromCheckoutAl_to_validateOtpFragment2" app:destination="@+id/validateOtpFromCheckoutAlStep3"/>
+    </fragment>
+    <fragment android:label="ValidateOtpFragment" android:name="com.carrefour.fid.android.presentation.p035ui.loyalty.fragments.otp.ValidateOtpFragment" android:id="@+id/validateOtpFromCheckoutAlStep3">
+        <argument android:name="loyaltyCardNumber" app:argType="string"/>
+        <argument android:name="origination" app:argType="com.carrefour.fid.android.presentation.ui.loyalty.fragments.otp.OtpOrigination"/>
+        <action android:id="@+id/action_validateOtpFromCheckoutAlStep3_to_secretCodeFragment2" app:destination="@+id/secretCodeFromCheckoutAlStep3"/>
+    </fragment>
+    <fragment android:label="SecretCodeFragment" android:name="com.carrefour.fid.android.presentation.p035ui.loyalty.fragments.otp.SecretCodeFragment" android:id="@+id/secretCodeFromCheckoutAlStep3">
+        <argument android:name="loyaltyCardNumber" app:argType="string"/>
+        <argument android:name="validationOtpCode" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <argument android:name="origination" app:argType="com.carrefour.fid.android.presentation.ui.loyalty.fragments.otp.OtpOrigination"/>
+    </fragment>
+    <fragment android:label="fragment_blocked_card" android:name="com.carrefour.fid.android.presentation.p035ui.loyalty.fragments.otp.BlockedCardFragment" android:id="@+id/blockedCardFromCheckoutStep3">
+        <argument android:name="loyaltyCardNumber" app:argType="string"/>
+        <argument android:name="origination" app:argType="com.carrefour.fid.android.presentation.ui.loyalty.fragments.otp.OtpOrigination"/>
+        <action android:id="@+id/blockedCard_to_channelsFidFromCheckoutAl" app:destination="@+id/channelsFidFromCheckoutAl"/>
+    </fragment>
+</navigation>

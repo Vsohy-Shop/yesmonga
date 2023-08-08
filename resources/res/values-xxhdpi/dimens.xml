@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="basket_address_conflicts_dialog_width">340dp</dimen>
+    <dimen name="service_slot_day_selected">18sp</dimen>
+    <dimen name="service_slot_day_unselected">12sp</dimen>
+    <dimen name="signin_in_app_bar_height">180dp</dimen>
+</resources>

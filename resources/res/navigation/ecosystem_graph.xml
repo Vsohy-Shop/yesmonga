@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/ecosystem_graph" app:startDestination="@+id/ecosystemFragment">
+    <fragment android:name="com.carrefour.fid.android.ecosystem.p058ui.fragment.EcosystemFragment" android:id="@+id/ecosystemFragment">
+        <argument android:name="show_mobile" android:defaultValue="false" app:argType="boolean"/>
+    </fragment>
+</navigation>

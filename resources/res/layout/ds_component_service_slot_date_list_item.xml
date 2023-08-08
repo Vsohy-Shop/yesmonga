@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carrefour.fid.android.design.components.widgets.ServiceSlotDateComponent xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/holder_slot_item" android:layout_width="84dp" android:layout_height="84dp" android:layout_marginEnd="@dimen/ds_spacing_xs"/>

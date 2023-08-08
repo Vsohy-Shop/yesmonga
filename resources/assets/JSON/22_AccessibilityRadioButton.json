@@ -1,0 +1,158 @@
+{
+   "version":0,
+   "form":{
+      "pages":[
+         {
+            "type":"form",
+            "fields":[
+               {
+                  "type":"mood",
+                  "caption":"Mood",
+                  "autoSubmit":false,
+                  "forceRequired":true,
+                  "fixed":"mood",
+                  "interactive":true,
+                  "showHideRule":[
+
+                  ],
+                  "validationText":"Please check the fields marked with *",
+                  "name":"mood",
+                  "title":"Click to edit question",
+                  "required":true,
+                  "points":5,
+                  "options":[
+                     {
+                        "title":"Hate",
+                        "value":"1"
+                     },
+                     {
+                        "title":"Dislike",
+                        "value":"2"
+                     },
+                     {
+                        "title":"Neutral",
+                        "value":"3"
+                     },
+                     {
+                        "title":"Like",
+                        "value":"4"
+                     },
+                     {
+                        "title":"Love",
+                        "value":"5"
+                     }
+                  ]
+               },
+               {
+                  "type":"radio",
+                  "caption":"Radio buttons",
+                  "autoSubmit":false,
+                  "forceRequired":false,
+                  "fixed":false,
+                  "interactive":true,
+                  "showHideRule":[
+
+                  ],
+                  "validationText":"This field is required",
+                  "title":"choose your spirit animal",
+                  "options":[
+                     {
+                        "title":"dragon",
+                        "value":"option_1"
+                     },
+                     {
+                        "title":"monkey",
+                        "value":"option_2"
+                     }
+                  ],
+                  "name":"choose_your_spir"
+               }
+            ],
+            "jumpRules":[
+
+            ],
+            "autoSubmit":false,
+            "name":"start"
+         },
+         {
+            "type":"end",
+            "fields":[
+               {
+                  "type":"header",
+                  "caption":"Header",
+                  "autoSubmit":false,
+                  "forceRequired":false,
+                  "fixed":false,
+                  "interactive":true,
+                  "showHideRule":[
+
+                  ],
+                  "validationText":"This field is required",
+                  "text":"Thanks!"
+               },
+               {
+                  "type":"paragraph",
+                  "caption":"Paragraph",
+                  "autoSubmit":false,
+                  "forceRequired":false,
+                  "fixed":false,
+                  "interactive":true,
+                  "showHideRule":[
+
+                  ],
+                  "validationText":"This field is required",
+                  "text":"Thank you for sharing your feedback with us."
+               }
+            ],
+            "jumpRules":[
+
+            ],
+            "autoSubmit":false,
+            "autoclose":false,
+            "name":"end"
+         }
+      ],
+      "allowedPageTypes":[
+         "form",
+         "end"
+      ]
+   },
+   "data":{
+      "primaryColor":"#00A9C5",
+      "secondaryColor":"#fafafa",
+      "textColor":"#6B6B6B",
+      "screenshot":true,
+      "progressBar":false,
+      "appStoreRedirect":false,
+      "appTitle":"Feedback",
+      "appSubmit":"Submit",
+      "errorMessage":"Please check the fields marked with *"
+   },
+   "colors":{
+      "group1":{
+         "hash":"#41474c"
+      },
+      "group2":{
+         "hash":"#00a5c9"
+      },
+      "group3":{
+         "hash":"#59636b"
+      },
+      "group4":{
+         "hash":"#f4606e"
+      },
+      "group5":{
+         "hash":"#ffffff"
+      },
+      "group6":{
+         "hash":"#ffffff"
+      }
+   },
+   "localization":{
+      "navigationNext":"Next",
+      "cancelButton":"Cancel",
+      "screenshotTitle":"Screenshot",
+      "moreFeedback":"Give more feedback",
+      "appStore":"Go to the app store"
+   }
+}

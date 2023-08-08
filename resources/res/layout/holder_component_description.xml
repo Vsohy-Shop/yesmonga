@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:textSize="@dimen/ds_font_size_s" android:textColor="@color/dark_grey" android:id="@+id/product_description" android:paddingBottom="@dimen/ds_spacing_s" android:layout_width="match_parent" android:layout_height="match_parent" android:lineSpacingExtra="3dp" android:paddingEnd="@dimen/ds_spacing_xxs"/>

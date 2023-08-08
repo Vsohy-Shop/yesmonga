@@ -1,0 +1,54 @@
+package com.carrefour.fid.android.presentation.p035ui.checkout.nal.step2.component;
+
+import androidx.compose.foundation.layout.PaddingKt;
+import androidx.compose.p004ui.C8767m;
+import androidx.compose.p004ui.unit.C16483g;
+import androidx.compose.runtime.C8540g;
+import androidx.compose.runtime.C8570j;
+import androidx.compose.runtime.C8592o;
+import androidx.compose.runtime.ComposerKt;
+import com.carrefour.fid.android.domain.models.AddressCategory;
+import com.carrefour.fid.android.domain.models.account.Address;
+import kotlin.C11076d0;
+import kotlin.C11079d2;
+import kotlin.jvm.functions.C11304p;
+import kotlin.jvm.internal.C11363r0;
+import kotlin.jvm.internal.DefaultConstructorMarker;
+import kotlin.jvm.internal.Lambda;
+import org.jetbrains.annotations.C12580l;
+
+@C11076d0(mo22515d1 = {"\u0000\b\n\u0002\u0018\u0002\n\u0002\b\u0003\u0010\u0003\u001a\u00020\u0000H\u000b¢\u0006\u0004\b\u0001\u0010\u0002"}, mo22516d2 = {"Lkotlin/d2;", "invoke", "(Landroidx/compose/runtime/o;I)V", "<anonymous>"}, mo22517k = 3, mo22518mv = {1, 8, 0})
+@C11363r0({"SMAP\nAddressComponent.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AddressComponent.kt\ncom/carrefour/fid/android/presentation/ui/checkout/nal/step2/component/ComposableSingletons$AddressComponentKt$lambda-3$1\n+ 2 Dp.kt\nandroidx/compose/ui/unit/DpKt\n*L\n1#1,175:1\n154#2:176\n*S KotlinDebug\n*F\n+ 1 AddressComponent.kt\ncom/carrefour/fid/android/presentation/ui/checkout/nal/step2/component/ComposableSingletons$AddressComponentKt$lambda-3$1\n*L\n163#1:176\n*E\n"})
+/* renamed from: com.carrefour.fid.android.presentation.ui.checkout.nal.step2.component.ComposableSingletons$AddressComponentKt$lambda-3$1  reason: invalid class name */
+public final class ComposableSingletons$AddressComponentKt$lambda3$1 extends Lambda implements C11304p<C8592o, Integer, C11079d2> {
+
+    /* renamed from: f */
+    public static final ComposableSingletons$AddressComponentKt$lambda3$1 f59618f = new ComposableSingletons$AddressComponentKt$lambda3$1();
+
+    public ComposableSingletons$AddressComponentKt$lambda3$1() {
+        super(2);
+    }
+
+    public /* bridge */ /* synthetic */ Object invoke(Object obj, Object obj2) {
+        invoke((C8592o) obj, ((Number) obj2).intValue());
+        return C11079d2.f28267a;
+    }
+
+    @C8540g
+    @C8570j(applier = "androidx.compose.ui.UiComposable")
+    public final void invoke(@C12580l C8592o oVar, int i) {
+        int i2 = i;
+        if ((i2 & 11) != 2 || !oVar.mo15011p()) {
+            if (ComposerKt.m29813g0()) {
+                ComposerKt.m29845w0(414372322, i2, -1, "com.carrefour.fid.android.presentation.ui.checkout.nal.step2.component.ComposableSingletons$AddressComponentKt.lambda-3.<anonymous> (AddressComponent.kt:160)");
+            }
+            AddressComponentKt.m104986d(PaddingKt.m10024k(C8767m.f23478j, C16483g.m74435M((float) 16)), "Adresse de facturation", new Address((String) null, (String) null, "second adresse", (String) null, "first adresse", (String) null, (String) null, (String) null, false, (String) null, (String) null, (String) null, (String) null, AddressCategory.DELIVERY, 0, false, 0.0d, 0.0d, (Boolean) null, (String) null, 1040363, (DefaultConstructorMarker) null), C236401.f59619f, oVar, 3638);
+            if (ComposerKt.m29813g0()) {
+                ComposerKt.m29843v0();
+                return;
+            }
+            return;
+        }
+        oVar.mo14958a0();
+    }
+}

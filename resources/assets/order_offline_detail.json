@@ -1,0 +1,125 @@
+{
+  "offline_order_header": {
+    "order_key": "158-83-1353",
+    "order_date": "20190905",
+    "total_monetary_amount_including_taxes": {
+      "unscaled_amount": 1651,
+      "scale": 2,
+      "currency": "EUR"
+    },
+    "facility_id": "0071",
+    "facility_name": "CARRE SENART",
+    "total_discount_amount": {
+      "unscaled_amount": 0,
+      "scale": 0,
+      "currency": "EUR"
+    }
+  },
+  "offline_offers": [
+    {
+      "quantity": 1,
+      "gtin": "3471780018337",
+      "short_description": "BQ 300G TOM CER GR",
+      "discount_amount": {
+        "unscaled_amount": 0,
+        "scale": 0,
+        "currency": "euro"
+      },
+      "offer_total_amount": {
+        "unscaled_amount": 300,
+        "scale": 2,
+        "currency": "euro"
+      }
+    },
+    {
+      "quantity": 1,
+      "gtin": "3280220106110",
+      "short_description": "MACHE JP EPINARD  ",
+      "discount_amount": {
+        "unscaled_amount": 0,
+        "scale": 0,
+        "currency": "euro"
+      },
+      "offer_total_amount": {
+        "unscaled_amount": 200,
+        "scale": 2,
+        "currency": "euro"
+      }
+    },
+    {
+      "quantity": 1,
+      "gtin": "8000500310427",
+      "short_description": "304G NUTELLA BISCU",
+      "discount_amount": {
+        "unscaled_amount": 0,
+        "scale": 0,
+        "currency": "euro"
+      },
+      "offer_total_amount": {
+        "unscaled_amount": 319,
+        "scale": 2,
+        "currency": "euro"
+      }
+    },
+    {
+      "quantity": 1,
+      "gtin": "5202877000335",
+      "short_description": "FETA AOP BIO ALLEG",
+      "discount_amount": {
+        "unscaled_amount": 0,
+        "scale": 0,
+        "currency": "euro"
+      },
+      "offer_total_amount": {
+        "unscaled_amount": 307,
+        "scale": 2,
+        "currency": "euro"
+      }
+    },
+    {
+      "quantity": 1,
+      "gtin": "3176571645005",
+      "short_description": "LAIT CANDIA       ",
+      "discount_amount": {
+        "unscaled_amount": 0,
+        "scale": 0,
+        "currency": "euro"
+      },
+      "offer_total_amount": {
+        "unscaled_amount": 139,
+        "scale": 2,
+        "currency": "euro"
+      }
+    },
+    {
+      "quantity": 1,
+      "gtin": "7613036020732",
+      "short_description": "BONPARIS-25%SEL 2T",
+      "discount_amount": {
+        "unscaled_amount": 0,
+        "scale": 0,
+        "currency": "euro"
+      },
+      "offer_total_amount": {
+        "unscaled_amount": 150,
+        "scale": 2,
+        "currency": "euro"
+      }
+    },
+    {
+      "quantity": 1,
+      "gtin": "3095757648107",
+      "short_description": "ROTI PORC X2 100G ",
+      "discount_amount": {
+        "unscaled_amount": 0,
+        "scale": 0,
+        "currency": "euro"
+      },
+      "offer_total_amount": {
+        "unscaled_amount": 236,
+        "scale": 2,
+        "currency": "euro"
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/ds_grey_80" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.carrefour.fid.android.storelocator.p048ui.customview.StoreHourDayCell android:id="@+id/mondayCell" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ds_spacing_xs"/>
+    <com.carrefour.fid.android.storelocator.p048ui.customview.StoreHourDayCell android:id="@+id/tuesdayCell" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ds_spacing_xxs"/>
+    <com.carrefour.fid.android.storelocator.p048ui.customview.StoreHourDayCell android:id="@+id/wednesdayCell" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ds_spacing_xxs"/>
+    <com.carrefour.fid.android.storelocator.p048ui.customview.StoreHourDayCell android:id="@+id/thursdayCell" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ds_spacing_xxs"/>
+    <com.carrefour.fid.android.storelocator.p048ui.customview.StoreHourDayCell android:id="@+id/fridayCell" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ds_spacing_xxs"/>
+    <com.carrefour.fid.android.storelocator.p048ui.customview.StoreHourDayCell android:id="@+id/saturdayCell" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ds_spacing_xxs"/>
+    <com.carrefour.fid.android.storelocator.p048ui.customview.StoreHourDayCell android:id="@+id/sundayCell" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ds_spacing_xxs" android:layout_marginBottom="@dimen/ds_spacing_s"/>
+</LinearLayout>

@@ -1,0 +1,107 @@
+{
+  "id": "a811367c-d158-4036-863e-823394e9cfea",
+  "version": 3,
+  "structure": {
+    "colors": {
+      "group1": {
+        "hash": "#41474C"
+      },
+      "group2": {
+        "hash": "#00A5C9"
+      },
+      "group3": {
+        "hash": "#59636B"
+      },
+      "group4": {
+        "hash": "#F4606E"
+      },
+      "group5": {
+        "hash": "#FFFFFF"
+      },
+      "group6": {
+        "hash": "#FFFFFF"
+      }
+    },
+    "data": {
+      "appStoreRedirect": false,
+      "appSubmit": "Submit",
+      "appTitle": "Feedback",
+      "errorMessage": "Please check the fields marked with *",
+      "progressbar": false,
+      "screenshot": false,
+      "store_ip": false
+    },
+    "form": {
+      "pages": [
+        {
+          "type": "banner",
+          "fields": [
+            {
+              "type": "titleParagraph",
+              "caption": "Title and text",
+              "autoSubmit": false,
+              "forceRequired": false,
+              "fixed": false,
+              "interactive": true,
+              "showHideRule": [],
+              "validationText": "This field is required",
+              "title": "Banner 1",
+              "text": "Click to edit text",
+              "name": "titleText"
+            },
+            {
+              "type": "continue",
+              "caption": "Continue Button",
+              "autoSubmit": false,
+              "forceRequired": false,
+              "fixed": "continue",
+              "interactive": true,
+              "showHideRule": [],
+              "validationText": "This field is required",
+              "title": "Continue",
+              "cancel": "Cancel"
+            }
+          ],
+          "jumpRules": [],
+          "autoSubmit": true,
+          "name": "banner"
+        },
+        {
+          "type": "form",
+          "fields": [
+            {
+              "type": "continue",
+              "caption": "Continue Button",
+              "autoSubmit": false,
+              "forceRequired": false,
+              "fixed": "continue",
+              "interactive": true,
+              "showHideRule": [],
+              "validationText": "This field is required",
+              "title": "Continue",
+              "cancel": "Cancel"
+            }
+          ],
+          "jumpRules": [],
+          "autoSubmit": true,
+          "name": "page1"
+        },
+        {
+          "type": "toast",
+          "fields": [],
+          "jumpRules": [],
+          "autoSubmit": false,
+          "name": "toast1"
+        }
+      ],
+      "allowedPageTypes": ["banner", "form", "toast"]
+    },
+    "localization": {
+      "appStore": "Go to the app store",
+      "cancelButton": "Cancel",
+      "moreFeedback": "Give more feedback",
+      "navigationNext": "Next",
+      "screenshotTitle": "Screenshot"
+    }
+  }
+}

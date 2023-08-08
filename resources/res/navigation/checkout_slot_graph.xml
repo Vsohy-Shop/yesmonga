@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/checkout_slot_graph" app:startDestination="@+id/serviceSlotFragment">
+    <fragment android:label="fragment_service_slot" android:name="com.carrefour.fid.android.checkout.presentation.p071ui.slot.ServiceSlotFragment" android:id="@+id/serviceSlotFragment">
+        <argument android:name="is_from_home_page" android:defaultValue="false" app:argType="boolean"/>
+        <argument android:name="is_from_checkout_step_3" android:defaultValue="false" app:argType="boolean"/>
+        <argument android:name="basket_slot" android:defaultValue="@null" app:argType="com.carrefour.fid.android.domain.models.basket.BasketSlot" app:nullable="true"/>
+        <argument android:name="category_list_by_gtin" android:defaultValue="@null" app:argType="android.os.Bundle" app:nullable="true"/>
+        <argument android:name="order_id" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <argument android:name="order_type" android:defaultValue="@null" app:argType="com.carrefour.fid.android.shared.domain.models.order.OrderType" app:nullable="true"/>
+        <argument android:name="facility_store_id" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <argument android:name="home_args" android:defaultValue="@null" app:argType="com.carrefour.fid.android.checkout.presentation.viewmodels.slot.mvi.SlotArgsHome" app:nullable="true"/>
+        <action android:id="@+id/action_serviceSlotFragment_to_serviceSlotOmrFragment" app:destination="@+id/serviceSlotOmrFragment"/>
+    </fragment>
+    <fragment android:label="fragment_service_slot_omr" android:name="com.carrefour.fid.android.checkout.presentation.p071ui.slot.ServiceSlotOmrFragment" android:id="@+id/serviceSlotOmrFragment">
+        <argument android:name="is_from_home_page" android:defaultValue="false" app:argType="boolean"/>
+        <argument android:name="basket_slot" android:defaultValue="@null" app:argType="com.carrefour.fid.android.domain.models.basket.BasketSlot" app:nullable="true"/>
+        <argument android:name="category_list_by_gtin" android:defaultValue="@null" app:argType="android.os.Bundle" app:nullable="true"/>
+        <argument android:name="home_args" android:defaultValue="@null" app:argType="com.carrefour.fid.android.checkout.presentation.viewmodels.slot.mvi.SlotArgsHome" app:nullable="true"/>
+        <argument android:name="order_id" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <argument android:name="order_type" android:defaultValue="@null" app:argType="com.carrefour.fid.android.shared.domain.models.order.OrderType" app:nullable="true"/>
+        <argument android:name="facility_service_id" app:argType="string"/>
+    </fragment>
+</navigation>

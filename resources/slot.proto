@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "com.carrefour.fid.android";
+option java_multiple_files = true;
+
+message SlotItem {
+  string id = 1;
+  string startDate = 2;
+  string endDate = 3;
+  string status = 4;
+  bool isAvailable = 5;
+  string slice = 6;
+  double yieldFeePrice = 7;
+  string yieldFeeToken = 8;
+  bool isGreenSlot = 9;
+}

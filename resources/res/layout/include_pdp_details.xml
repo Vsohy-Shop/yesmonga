@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:scrollbarStyle="insideOverlay" android:layout_gravity="fill_vertical" android:paddingBottom="@dimen/ds_spacing_s" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:isScrollContainer="true" android:overScrollMode="never" app:layout_constraintBottom_toTopOf="@+id/product_details_bottom_sheet" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/toolbar_pdp">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:id="@+id/offer_details_header" layout="@layout/offer_details_header"/>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler_product_details" android:focusable="false" android:focusableInTouchMode="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ds_spacing_xs" android:overScrollMode="never" android:splitMotionEvents="false" android:nestedScrollingEnabled="false"/>
+        <include android:id="@+id/offer_details_sponsored_products" layout="@layout/offer_details_sponsored_products"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/coupons_graph" app:startDestination="@+id/couponsListFragment">
+    <fragment android:label="CouponsListFragment" android:name="com.carrefour.fid.android.presentation.p035ui.coupons.list.CouponsListFragment" android:id="@+id/couponsListFragment">
+        <argument android:name="isOnlineOnly" android:defaultValue="false" app:argType="boolean" app:nullable="false"/>
+        <action android:id="@+id/action_couponsFragment_to_couponBarcodeFragment" app:destination="@+id/couponBarcodeFragment" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out"/>
+        <action android:id="@+id/action_couponsFragment_to_couponsFilterFragment" app:destination="@+id/couponsFilterFragment" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out"/>
+        <action android:id="@+id/action_couponsFragment_to_loyaltyCardFragment" app:destination="@+id/loyalty_card_graph" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out"/>
+        <action android:id="@+id/action_couponsFragment_to_couponsScanBarcodeFragment" app:destination="@+id/couponsScanBarcodeFragment" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out"/>
+        <action android:id="@+id/action_couponsFragment_to_couponDetails" app:destination="@+id/couponDetailsOverlayBottomSheetFragment"/>
+    </fragment>
+    <fragment android:label="CouponBarcodeFragment" android:name="com.carrefour.fid.android.presentation.p035ui.coupons.CouponBarcodeFragment" android:id="@+id/couponBarcodeFragment"/>
+    <fragment android:label="CouponsFilterFragment" android:name="com.carrefour.fid.android.presentation.p035ui.coupons.filter.CouponsFilterFragment" android:id="@+id/couponsFilterFragment">
+        <argument android:name="couponsList" app:argType="com.carrefour.fid.android.presentation.models.CouponModel[]"/>
+        <argument android:name="filtersList" app:argType="com.carrefour.fid.android.presentation.models.CouponsFilter[]"/>
+        <argument android:name="isInStore" android:defaultValue="true" app:argType="boolean"/>
+    </fragment>
+    <fragment android:label="CouponsScanBarcodeFragment" android:name="com.carrefour.fid.android.presentation.p035ui.coupons.CouponsScanBarcodeFragment" android:id="@+id/couponsScanBarcodeFragment">
+        <argument android:name="selectedCoupon" app:argType="com.carrefour.fid.android.presentation.models.CouponModel"/>
+    </fragment>
+    <dialog android:label="CouponDetailsOverlayBottomSheetFragment" android:name="com.carrefour.fid.android.presentation.p035ui.coupons.overlay.coupondetails.CouponDetailsOverlayBottomSheetFragment" android:id="@+id/couponDetailsOverlayBottomSheetFragment">
+        <argument android:name="selectedCoupon" app:argType="com.carrefour.fid.android.presentation.models.CouponDetailModel"/>
+    </dialog>
+</navigation>

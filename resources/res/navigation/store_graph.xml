@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/store_graph" app:startDestination="@+id/baseStoreFragment">
+    <argument android:name="sourceGraphId" android:defaultValue="@+id/store_graph" app:argType="reference"/>
+    <argument android:name="forceStoreIfExist" android:defaultValue="false" app:argType="boolean"/>
+    <include app:graph="@navigation/catalog_details_graph"/>
+    <fragment android:label="fragment_base_store" android:name="com.carrefour.fid.android.presentation.p035ui.store.BaseStoreFragment" android:id="@+id/baseStoreFragment">
+        <action android:id="@+id/action_baseStoreFragment_to_facilitiesFragment" app:destination="@+id/facilitiesFragment" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out" app:popUpTo="@+id/baseStoreFragment" app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment android:label="fragment_store_locator_home" android:name="com.carrefour.fid.android.storelocator.p048ui.fragments.FacilitiesFragment" android:id="@+id/facilitiesFragment">
+        <argument android:name="sourceGraphId" android:defaultValue="@+id/store_graph" app:argType="reference"/>
+    </fragment>
+</navigation>

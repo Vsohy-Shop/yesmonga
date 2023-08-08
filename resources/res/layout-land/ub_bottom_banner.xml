@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.usabilla.sdk.ubform.customViews.ShadowLinearLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:orientation="vertical" android:id="@+id/banner_container" android:padding="@dimen/ub_banner_padding" android:layout_width="@dimen/ub_banner_width" android:layout_height="wrap_content"/>
+</FrameLayout>

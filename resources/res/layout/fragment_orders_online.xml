@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/orders_online_list_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@+id/stub_fragment_orders_online_empty" android:layout="@layout/view_empty" android:inflatedId="@+id/view_fragment_orders_online_empty" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/stub_fragment_orders_online_error" android:layout="@layout/fragment_message_view" android:inflatedId="@+id/view_fragment_orders_online_error" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.carrefour.fid.android.design.components.widgets.swipetorefresh.PullToRefreshLayout android:id="@+id/order_online_swipe_refresh" android:layout_width="match_parent" android:layout_height="match_parent" app:behavior_overlapTop="120dp" app:max_offset_top="70dp" app:pull_to_refresh_lottieFile="@raw/carrefour_lottie_logo" app:trigger_offset_top="50dp">
+        <com.carrefour.fid.android.design.components.widgets.infinitelist.InfiniteListRecyclerView android:id="@+id/recycler_fragment_orders_online" android:layout_width="match_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_type="1"/>
+    </com.carrefour.fid.android.design.components.widgets.swipetorefresh.PullToRefreshLayout>
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@+id/shimmer_fragment_orders_online_list" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:shimmer_duration="2000">
+        <include layout="@layout/shimmer_orders_online_list"/>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@+id/shimmer_fragment_orders_offline_list" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:shimmer_duration="2000">
+        <include layout="@layout/shimmer_orders_offline_list"/>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</FrameLayout>

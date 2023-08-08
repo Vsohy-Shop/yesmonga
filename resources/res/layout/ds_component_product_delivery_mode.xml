@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.constraintlayout.helper.widget.Flow android:id="@+id/flow" android:layout_width="match_parent" android:layout_height="wrap_content" app:constraint_referenced_ids="first_delivery_mode, second_delivery_mode" app:flow_horizontalBias="1" app:flow_horizontalGap="@dimen/ds_spacing_xs" app:flow_horizontalStyle="2" app:flow_wrapMode="1" app:layout_constraintEnd_toEndOf="0"/>
+    <TextView android:id="@+id/first_delivery_mode" android:background="@drawable/backround_round_blue_grey" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/DeliveryTextView"/>
+    <TextView android:id="@+id/second_delivery_mode" android:background="@drawable/backround_round_blue_grey" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/DeliveryTextView"/>
+</merge>

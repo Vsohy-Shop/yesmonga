@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/home_graph" app:startDestination="@+id/homePageFragment">
+    <include app:graph="@navigation/basket_builder_graph"/>
+    <include app:graph="@navigation/departments_graph"/>
+    <include app:graph="@navigation/delivery_graph"/>
+    <include app:graph="@navigation/drive_graph"/>
+    <include app:graph="@navigation/catalogs_graph"/>
+    <include app:graph="@navigation/store_graph"/>
+    <include app:graph="@navigation/webview_graph"/>
+    <include app:graph="@navigation/catalog_webview_graph"/>
+    <include app:graph="@navigation/checkout_slot_graph"/>
+    <fragment android:label="home_page_fragment" android:name="com.carrefour.fid.android.presentation.p035ui.home.HomePageFragment" android:id="@+id/homePageFragment">
+        <action android:id="@+id/action_homePageFragment_to_search_fragment" app:destination="@+id/product_search_graph" app:enterAnim="@anim/fade_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/fade_out">
+            <argument android:name="should_animate_transition" android:defaultValue="false" app:argType="boolean"/>
+        </action>
+        <action android:id="@+id/to_storeFragment" app:destination="@+id/store_graph" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out"/>
+        <action android:id="@+id/action_homePageFragment_to_loyaltyAmountHistoryFragment" app:destination="@+id/loyaltyAmountHistoryFragment" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out"/>
+        <action android:id="@+id/to_subscribeToNewsNotification" app:destination="@+id/subscribeToNewsNotification" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out"/>
+        <action android:id="@+id/action_homePageFragment_to_accountList" app:destination="@+id/account_list_graph" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out">
+            <argument android:name="account_list_type" android:defaultValue="@null" app:argType="com.carrefour.fid.android.core.type.AccountListType" app:nullable="true"/>
+        </action>
+        <action android:id="@+id/action_homePageFragment_to_loyaltyCardFragment" app:destination="@+id/loyalty_card_graph" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out"/>
+        <action android:id="@+id/action_homePageFragment_to_couponsFragment" app:destination="@+id/coupons_graph" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right">
+            <argument android:name="isInStoreOnly" android:defaultValue="false" app:argType="boolean" app:nullable="false"/>
+        </action>
+        <action android:id="@+id/action_homePageFragment_to_basketBuilderFragment" app:destination="@+id/basket_builder_graph" app:enterAnim="@anim/fade_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/fade_out">
+            <argument android:name="basketBuilderType" app:argType="com.carrefour.fid.android.presentation.models.BasketBuilderType"/>
+        </action>
+        <action android:id="@+id/action_homePageFragment_to_scanBarCodeFragment" app:destination="@+id/scanBarCodeFragment" app:enterAnim="@anim/fade_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/fade_out"/>
+        <action android:id="@+id/action_homePageFragment_to_delivery_graph" app:destination="@+id/delivery_graph"/>
+        <action android:id="@+id/action_homePageFragment_to_account" app:destination="@+id/account_graph" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out"/>
+        <action android:id="@+id/action_homePageFragment_to_catalogs" app:destination="@+id/catalogs_graph" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out">
+            <argument android:name="forceStoreIfExist" android:defaultValue="true" app:argType="boolean"/>
+        </action>
+        <action android:id="@+id/action_homePageFragment_to_storePage" app:destination="@+id/store_graph" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out">
+            <argument android:name="forceStoreIfExist" android:defaultValue="false" app:argType="boolean"/>
+        </action>
+        <action android:id="@+id/action_homePageFragment_to_driveMapPage" app:destination="@+id/drive_graph" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out"/>
+        <action android:id="@+id/action_homePageFragment_to_challengeFidFragment" app:destination="@+id/challenge_fid_graph">
+            <argument android:name="screenName" app:argType="string"/>
+            <argument android:name="screenTemplate" app:argType="string"/>
+        </action>
+        <action android:id="@+id/to_additional_orders" app:destination="@+id/additional_orders_graph" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right">
+            <argument android:name="sourceGraphId" android:defaultValue="@+id/homePageFragment" app:argType="reference"/>
+        </action>
+        <action android:id="@+id/to_withdrawalOrderDriveFragment" app:destination="@+id/withdrawalOrderDriveFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+        <action android:id="@+id/to_basketBuilder" app:destination="@+id/basket_builder_graph" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+        <action android:id="@+id/to_catalog_webView" app:destination="@+id/catalog_webview_graph">
+            <argument android:name="webviewUrl" app:argType="string" app:nullable="false"/>
+            <argument android:name="webViewHeaderKey" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+            <argument android:name="webViewHeaderValue" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        </action>
+        <action android:id="@+id/to_webView" app:destination="@+id/webview_graph">
+            <argument android:name="webviewUrl" app:argType="string" app:nullable="false"/>
+            <argument android:name="webViewTitle" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+            <argument android:name="webViewHeaderKey" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+            <argument android:name="webViewHeaderValue" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+            <argument android:name="showToolBar" android:defaultValue="true" app:argType="boolean" app:nullable="false"/>
+            <argument android:name="shouldInterceptDeeplink" android:defaultValue="false" app:argType="boolean"/>
+        </action>
+        <action android:id="@+id/action_home_to_Slot" app:destination="@+id/checkout_slot_graph" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right">
+            <argument android:name="is_from_home_page" android:defaultValue="false" app:argType="boolean"/>
+            <argument android:name="home_args" android:defaultValue="@null" app:argType="com.carrefour.fid.android.checkout.presentation.viewmodels.slot.mvi.SlotArgsHome" app:nullable="true"/>
+            <argument android:name="basket_slot" android:defaultValue="@null" app:argType="com.carrefour.fid.android.domain.models.basket.BasketSlot" app:nullable="true"/>
+            <argument android:name="facility_store_id" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        </action>
+    </fragment>
+    <fragment android:label="ScanBarCodeFragment" android:name="com.carrefour.fid.android.presentation.p035ui.scan.BarcodeScannerFragment" android:id="@+id/scanBarCodeFragment">
+        <argument android:name="slotId" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <argument android:name="facilityServiceId" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+    </fragment>
+    <fragment android:label="fragment_loyalty_amount_history" android:name="com.carrefour.fid.android.presentation.p035ui.loyalty.fragments.history.LoyaltyAmountHistoryFragment" android:id="@+id/loyaltyAmountHistoryFragment">
+        <argument android:name="loyaltyBalance" app:argType="string"/>
+    </fragment>
+    <fragment android:name="com.carrefour.fid.android.presentation.p035ui.notification.SubscribeToNewsNotificationFragment" android:id="@+id/subscribeToNewsNotification"/>
+    <fragment android:name="com.carrefour.fid.android.presentation.p035ui.orders.legacy.WithdrawalOrderDriveFragment" android:id="@+id/withdrawalOrderDriveFragment">
+        <argument android:name="order_id" app:argType="string"/>
+    </fragment>
+</navigation>

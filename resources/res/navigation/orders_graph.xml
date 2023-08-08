@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/orders_graph" app:startDestination="@+id/ordersFragment">
+    <include app:graph="@navigation/checkout_slot_graph"/>
+    <fragment android:label="fragment_orders" android:name="com.carrefour.fid.android.presentation.p035ui.orders.OrdersFragment" android:id="@+id/ordersFragment">
+        <action android:id="@+id/action_ordersOnlineFragment_to_ordersSuccessHandleFragment" app:destination="@+id/ordersSuccessHandleFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+        <action android:id="@+id/to_withdrawalOrderDriveFragment" app:destination="@+id/withdrawalOrderDriveFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+        <action android:id="@+id/to_serviceSlot" app:destination="@+id/checkout_slot_graph" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right">
+            <argument android:name="order_id" app:argType="string"/>
+            <argument android:name="order_type" app:argType="com.carrefour.fid.android.shared.domain.models.order.OrderType"/>
+            <argument android:name="facility_store_id" app:argType="string"/>
+        </action>
+        <action android:id="@+id/action_ordersFragment_to_ordersOnlineDetailsFragment" app:destination="@+id/ordersOnlineDetailsFragment" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out"/>
+        <action android:id="@+id/action_ordersFragment_to_ordersOfflineDetailsFragment" app:destination="@+id/ordersOfflineDetailsFragment" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out"/>
+        <action android:id="@+id/action_ordersFragment_to_accountListFragment" app:destination="@+id/account_list_graph" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out">
+            <argument android:name="order_id" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+            <argument android:name="account_list_type" android:defaultValue="@null" app:argType="com.carrefour.fid.android.core.type.AccountListType" app:nullable="true"/>
+        </action>
+        <action android:id="@+id/to_additional_orders" app:destination="@+id/additional_orders_graph" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right">
+            <argument android:name="sourceGraphId" android:defaultValue="@+id/ordersFragment" app:argType="reference"/>
+        </action>
+    </fragment>
+    <fragment android:label="fragment_orders_online_details" android:name="com.carrefour.fid.android.presentation.p035ui.orders.online.OrdersOnlineDetailsFragment" android:id="@+id/ordersOnlineDetailsFragment">
+        <argument android:name="order_id" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <argument android:name="order_status_is_at_least_billed" android:defaultValue="false" app:argType="boolean"/>
+        <argument android:name="order_type" app:argType="com.carrefour.fid.android.shared.domain.models.order.OrderType"/>
+        <action android:id="@+id/action_ordersOnlineDetailsFragment_to_accountListFragment" app:destination="@+id/account_list_graph" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out">
+            <argument android:name="order_id" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+            <argument android:name="account_list_type" android:defaultValue="@null" app:argType="com.carrefour.fid.android.core.type.AccountListType" app:nullable="true"/>
+        </action>
+        <action android:id="@+id/action_ordersOnlineDetailsFragment_to_ordersSuccessHandleFragment" app:destination="@+id/ordersSuccessHandleFragment"/>
+        <action android:id="@+id/action_ordersOnlineDetailsFragment_to_listProductsOrderedFragment" app:destination="@+id/listProductsOrderedFragment"/>
+        <action android:id="@+id/to_additional_orders" app:destination="@+id/additional_orders_graph" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right">
+            <argument android:name="sourceGraphId" android:defaultValue="@+id/ordersOnlineDetailsFragment" app:argType="reference"/>
+        </action>
+        <action android:id="@+id/to_withdrawalOrderDriveFragment" app:destination="@+id/withdrawalOrderDriveFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+        <action android:id="@+id/to_serviceSlot" app:destination="@+id/checkout_slot_graph" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right">
+            <argument android:name="order_id" app:argType="string"/>
+            <argument android:name="order_type" app:argType="com.carrefour.fid.android.shared.domain.models.order.OrderType"/>
+            <argument android:name="facility_store_id" app:argType="string"/>
+        </action>
+    </fragment>
+    <fragment android:label="fragment_orders_online_details" android:name="com.carrefour.fid.android.presentation.p035ui.orders.offline.OrdersOfflineDetailsFragment" android:id="@+id/ordersOfflineDetailsFragment">
+        <argument android:name="order_detail_param" app:argType="com.carrefour.fid.android.presentation.ui.orders.offline.model.OrderDetailParam"/>
+        <action android:id="@+id/action_ordersOfflineDetailsFragment_to_ordersOfflineReceiptFragment" app:destination="@+id/ordersOfflineReceiptFragment" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out"/>
+    </fragment>
+    <fragment android:label="fragment_orders_success_handle" android:name="com.carrefour.fid.android.presentation.p035ui.orders.OrdersSuccessHandleFragment" android:id="@+id/ordersSuccessHandleFragment">
+        <argument android:name="order_id" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <action android:id="@+id/action_ordersSuccessHandleFragment_to_ordersOnlineDetailsFragment" app:destination="@+id/ordersOnlineDetailsFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right" app:popUpTo="@+id/ordersSuccessHandleFragment" app:popUpToInclusive="true"/>
+        <action android:id="@+id/action_ordersSuccessHandleFragment_to_ordersOnlineFragment" app:destination="@+id/ordersFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right" app:popUpTo="@+id/ordersSuccessHandleFragment" app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment android:label="ListProductsOrderedFragment" android:name="com.carrefour.fid.android.presentation.p035ui.orders.online.ListProductsOrderedFragment" android:id="@+id/listProductsOrderedFragment">
+        <argument android:name="order_id" app:argType="string"/>
+        <argument android:name="detail_type" app:argType="com.carrefour.fid.android.presentation.ui.orders.online.model.OrdersOnlineDetailType"/>
+        <action android:id="@+id/action_listProductsOrderedFragment_to_accountListFragment" app:destination="@+id/account_list_graph" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out">
+            <argument android:name="order_id" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+            <argument android:name="account_list_type" android:defaultValue="@null" app:argType="com.carrefour.fid.android.core.type.AccountListType" app:nullable="true"/>
+        </action>
+    </fragment>
+    <fragment android:name="com.carrefour.fid.android.presentation.p035ui.orders.legacy.WithdrawalOrderDriveFragment" android:id="@+id/withdrawalOrderDriveFragment">
+        <argument android:name="order_id" app:argType="string"/>
+    </fragment>
+    <fragment android:label="OrdersOfflineReceiptFragment" android:name="com.carrefour.fid.android.presentation.p035ui.orders.offline.OrdersOfflineReceiptFragment" android:id="@+id/ordersOfflineReceiptFragment">
+        <argument android:name="orderDetails" app:argType="com.carrefour.fid.android.presentation.ui.orders.offline.model.OrderDetailParam"/>
+        <argument android:name="filePath" app:argType="string"/>
+        <argument android:name="receipt" app:argType="com.carrefour.fid.android.presentation.ui.orders.offline.model.DownloadReceipt"/>
+    </fragment>
+</navigation>

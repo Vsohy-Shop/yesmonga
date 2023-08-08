@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/account_module_graph" app:startDestination="@+id/signInFragment">
+    <fragment android:label="SignInFragment" android:name="com.carrefour.fid.android.account.presentation.p018ui.signin.SignInFragment" android:id="@+id/signInFragment">
+        <action android:id="@+id/action_signInFragment_to_forgotPasswordFragment" app:destination="@+id/forgotPasswordFragment"/>
+        <action android:id="@+id/action_signInFragment_to_createAccountFragment" app:destination="@+id/createAccountFragment"/>
+    </fragment>
+    <fragment android:label="ForgotPasswordFragment" android:name="com.carrefour.fid.android.account.presentation.p018ui.forgot.ForgotPasswordFragment" android:id="@+id/forgotPasswordFragment">
+        <action android:id="@+id/action_forgotPasswordFragment_to_accountUpdateSuccessFragment" app:destination="@+id/accountUpdateSuccessFragment"/>
+    </fragment>
+    <fragment android:label="CreateAccountFragment" android:name="com.carrefour.fid.android.account.presentation.p018ui.create.CreateAccountFragment" android:id="@+id/createAccountFragment">
+        <action android:id="@+id/action_createAccountFragment_to_signInFragment" app:destination="@+id/signInFragment"/>
+    </fragment>
+    <fragment android:label="AccountUpdateSuccessFragment" android:name="com.carrefour.fid.android.account.presentation.p018ui.success.AccountUpdateSuccessFragment" android:id="@+id/accountUpdateSuccessFragment">
+        <argument android:name="isSuccessLogin" android:defaultValue="false" app:argType="boolean"/>
+        <argument android:name="lastView" app:argType="com.carrefour.fid.android.account.presentation.models.NameLastView"/>
+        <argument android:name="login" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <action android:id="@+id/action_accountUpdateSuccessFragment_to_signInFragment" app:destination="@+id/signInFragment"/>
+    </fragment>
+</navigation>

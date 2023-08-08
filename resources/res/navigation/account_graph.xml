@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/account_graph" app:startDestination="@+id/baseAccountFragment">
+    <include app:graph="@navigation/account_info_graph"/>
+    <include app:graph="@navigation/checkout_module_graph"/>
+    <fragment android:label="fragment_base_account" android:name="com.carrefour.fid.android.presentation.p035ui.account.BaseAccountFragment" android:id="@+id/baseAccountFragment">
+        <action android:id="@+id/action_baseAccountFragment_to_accountAnonymousFragment" app:destination="@+id/accountAnonymousFragment" app:popUpTo="@+id/baseAccountFragment" app:popUpToInclusive="true"/>
+        <action android:id="@+id/action_baseAccountFragment_to_accountHomeFragment" app:destination="@+id/accountMenuFragment" app:popUpTo="@+id/baseAccountFragment" app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment android:label="@string/title_account" android:name="com.carrefour.fid.android.presentation.p035ui.account.anonymous.AccountAnonymousFragment" android:id="@+id/accountAnonymousFragment">
+        <action android:id="@+id/action_accountHomeFragment_to_legal_notice_fragment" app:destination="@+id/legal_notice_graph" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment android:label="fragment_account_home" android:name="com.carrefour.fid.android.presentation.p035ui.account.menu.AccountMenuFragment" android:id="@+id/accountMenuFragment">
+        <action android:id="@+id/action_accountMenuFragment_to_accountAnonymousFragment" app:destination="@+id/accountAnonymousFragment" app:popUpTo="@+id/accountMenuFragment" app:popUpToInclusive="true"/>
+        <action android:id="@+id/action_accountMenuFragment_to_messageCenterFragment" app:destination="@+id/messageCenterFragment"/>
+        <action android:id="@+id/action_accountMenuFragment_to_loyalty_home_fragment" app:destination="@+id/loyalty_graph"/>
+        <action android:id="@+id/action_accountMenuFragment_to_home_page_fragment" app:destination="@+id/home_graph"/>
+        <action android:id="@+id/action_accountMenuFragment_to_payment_method" app:destination="@+id/checkout_module_graph" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+        <action android:id="@+id/action_accountMenuFragment_to_legalNoticeFragment" app:destination="@+id/legal_notice_graph" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+        <action android:id="@+id/action_accountMenuFragment_to_landingPageCarrefourPayActivity" app:destination="@+id/landingPageCarrefourPayActivity" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+        <action android:id="@+id/action_accountMenuFragment_to_ecosystemFragment" app:destination="@+id/ecosystem_graph" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+        <action android:id="@+id/action_accountMenuFragment_to_accountConsentParameterFragment" app:destination="@+id/account_consent_parameter_graph" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+        <action android:id="@+id/action_accountMenuFragment_to_account_info_graph" app:destination="@+id/account_info_graph" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+        <action android:id="@+id/action_accountMenuFragment_to_account_order_graph" app:destination="@+id/orders_graph" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment android:name="com.carrefour.fid.android.presentation.p035ui.account.consent.AccountConsentParameterFragment" android:id="@+id/accountConsentParameterFragment"/>
+    <fragment android:label="message_center" android:name="com.urbanairship.messagecenter.MessageCenterFragment" android:id="@+id/messageCenterFragment"/>
+    <activity android:name="com.carrefour.fid.android.carrefourpay.ui.activities.LandingPageCarrefourPayActivity" android:id="@+id/landingPageCarrefourPayActivity"/>
+</navigation>

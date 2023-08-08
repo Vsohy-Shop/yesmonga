@@ -1,0 +1,236 @@
+{
+  "id": "30bdb9b6-e4c8-489b-9948-8caaabd067e7",
+  "version": 5,
+  "structure": {
+    "colors": {
+      "group1": {
+        "hash": "#41474C"
+      },
+      "group2": {
+        "hash": "#00A5C9"
+      },
+      "group3": {
+        "hash": "#59636B"
+      },
+      "group4": {
+        "hash": "#F4606E"
+      },
+      "group5": {
+        "hash": "#FFFFFF"
+      },
+      "group6": {
+        "hash": "#FFFFFF"
+      }
+    },
+    "data": {
+      "appStoreRedirect": false,
+      "appSubmit": "Submit",
+      "appTitle": "Feedback",
+      "errorMessage": "Please check the fields marked with *",
+      "progressbar": false,
+      "screenshot": false,
+      "store_ip": false
+    },
+    "form": {
+      "pages": [
+        {
+          "type": "banner",
+          "fields": [
+            {
+              "type": "nps",
+              "caption": "NPS",
+              "autoSubmit": false,
+              "forceRequired": false,
+              "fixed": false,
+              "interactive": true,
+              "showHideRule": [],
+              "validationText": "This field is required",
+              "name": "nps",
+              "title":
+                "How likely are you to recommend our company/product/service to your friends and colleagues?",
+              "low": "not at all",
+              "high": "very likely",
+              "mode": "radio",
+              "required": true
+            },
+            {
+              "type": "continue",
+              "caption": "Continue Button",
+              "autoSubmit": false,
+              "forceRequired": false,
+              "fixed": "continue",
+              "interactive": true,
+              "showHideRule": [],
+              "validationText": "This field is required",
+              "title": "Continue",
+              "cancel": "Cancel"
+            }
+          ],
+          "jumpRules": [
+            {
+              "control": "nps",
+              "value": ["0"],
+              "jump": "page2"
+            },
+            {
+              "control": "nps",
+              "value": ["1"],
+              "jump": "page3"
+            },
+            {
+              "control": "nps",
+              "value": ["2"],
+              "jump": "toast1"
+            },
+            {
+              "control": "nps",
+              "value": ["3", "4", "5", "6"],
+              "jump": "toast2"
+            }
+          ],
+          "autoSubmit": true,
+          "name": "start"
+        },
+        {
+          "type": "form",
+          "fields": [
+            {
+              "type": "paragraph",
+              "caption": "Paragraph",
+              "autoSubmit": false,
+              "forceRequired": false,
+              "fixed": false,
+              "interactive": true,
+              "showHideRule": [],
+              "validationText": "This field is required",
+              "text": "Page 1"
+            },
+            {
+              "type": "continue",
+              "caption": "Continue Button",
+              "autoSubmit": false,
+              "forceRequired": false,
+              "fixed": "continue",
+              "interactive": true,
+              "showHideRule": [],
+              "validationText": "This field is required",
+              "title": "Continue",
+              "cancel": "Cancel"
+            }
+          ],
+          "jumpRules": [],
+          "autoSubmit": true,
+          "name": "page1"
+        },
+        {
+          "type": "form",
+          "fields": [
+            {
+              "type": "paragraph",
+              "caption": "Paragraph",
+              "autoSubmit": false,
+              "forceRequired": false,
+              "fixed": false,
+              "interactive": true,
+              "showHideRule": [],
+              "validationText": "This field is required",
+              "text": "Page 2"
+            },
+            {
+              "type": "continue",
+              "caption": "Continue Button",
+              "autoSubmit": false,
+              "forceRequired": false,
+              "fixed": "continue",
+              "interactive": true,
+              "showHideRule": [],
+              "validationText": "This field is required",
+              "title": "Continue",
+              "cancel": "Cancel"
+            }
+          ],
+          "jumpRules": [],
+          "autoSubmit": true,
+          "name": "page2"
+        },
+        {
+          "type": "form",
+          "fields": [
+            {
+              "type": "paragraph",
+              "caption": "Paragraph",
+              "autoSubmit": false,
+              "forceRequired": false,
+              "fixed": false,
+              "interactive": true,
+              "showHideRule": [],
+              "validationText": "This field is required",
+              "text": "Page 3"
+            },
+            {
+              "type": "continue",
+              "caption": "Continue Button",
+              "autoSubmit": false,
+              "forceRequired": false,
+              "fixed": "continue",
+              "interactive": true,
+              "showHideRule": [],
+              "validationText": "This field is required",
+              "title": "Continue",
+              "cancel": "Cancel"
+            }
+          ],
+          "jumpRules": [],
+          "autoSubmit": true,
+          "name": "page3"
+        },
+        {
+          "type": "toast",
+          "fields": [
+            {
+              "type": "paragraph",
+              "caption": "Paragraph",
+              "autoSubmit": false,
+              "forceRequired": false,
+              "fixed": false,
+              "interactive": true,
+              "showHideRule": [],
+              "validationText": "This field is required",
+              "text": "Toast 1"
+            }
+          ],
+          "jumpRules": [],
+          "autoSubmit": false,
+          "name": "toast1"
+        },
+        {
+          "type": "toast",
+          "fields": [
+            {
+              "type": "paragraph",
+              "caption": "Paragraph",
+              "autoSubmit": false,
+              "forceRequired": false,
+              "fixed": false,
+              "interactive": true,
+              "showHideRule": [],
+              "validationText": "This field is required",
+              "text": "Toast 2"
+            }
+          ],
+          "jumpRules": [],
+          "autoSubmit": false,
+          "name": "toast2"
+        }
+      ],
+      "allowedPageTypes": ["banner", "form", "toast"]
+    },
+    "localization": {
+      "appStore": "Go to the app store",
+      "cancelButton": "Cancel",
+      "moreFeedback": "Give more feedback",
+      "navigationNext": "Next",
+      "screenshotTitle": "Screenshot"
+    }
+  }
+}

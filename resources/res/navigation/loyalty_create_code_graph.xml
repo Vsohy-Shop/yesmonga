@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/loyalty_create_code_graph" app:startDestination="@+id/createLoyaltyCardStepOne">
+    <include app:graph="@navigation/account_verify_address_graph"/>
+    <fragment android:label="createLoyaltyCardStepOneFragment" android:name="com.carrefour.fid.android.presentation.p035ui.loyalty.fragments.create.CreateLoyaltyCardStepOneFragment" android:id="@+id/createLoyaltyCardStepOne">
+        <argument android:name="isFromActiveFid" android:defaultValue="false" app:argType="boolean"/>
+        <argument android:name="loyaltyCardNumber" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <action android:id="@+id/action_initSecretCodeFragment_to_createLoyaltyCardStepTwo" app:destination="@+id/createLoyaltyCardStepTwo"/>
+    </fragment>
+    <fragment android:label="createLoyaltyCardStepTwo" android:name="com.carrefour.fid.android.presentation.p035ui.loyalty.fragments.create.CreateLoyaltyCardStepTwoFragment" android:id="@+id/createLoyaltyCardStepTwo">
+        <argument android:name="isFromActiveFid" android:defaultValue="false" app:argType="boolean"/>
+        <argument android:name="loyaltyCardNumber" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <argument android:name="loyaltyCodeSecret" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <action android:id="@+id/action_createLoyaltyCardStepTwoFragment_to_loyaltyBonusListFragment" app:destination="@+id/loyaltyBonusListFragment"/>
+    </fragment>
+    <fragment android:label="loyaltyBonusListFragment" android:name="com.carrefour.fid.android.presentation.p035ui.loyalty.fragments.bonus.LoyaltyBonusListFragment" android:id="@+id/loyaltyBonusListFragment">
+        <argument android:name="isFromActiveFid" android:defaultValue="false" app:argType="boolean"/>
+        <action android:id="@+id/action_loyaltyBonusListFragment_to_successCreateCardFragment" app:destination="@+id/successCreateCardFragment"/>
+    </fragment>
+    <fragment android:label="successCreateCardFragment" android:name="com.carrefour.fid.android.presentation.p035ui.loyalty.fragments.create.SuccessCreateCardFragment" android:id="@+id/successCreateCardFragment">
+        <argument android:name="isFromActiveFid" android:defaultValue="false" app:argType="boolean"/>
+        <argument android:name="primeList" app:argType="com.carrefour.fid.android.cms.data.entities.DataPrimeCmsResponse[]"/>
+    </fragment>
+</navigation>

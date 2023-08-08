@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <font name="ds_font_family_brand">@font/ubuntu</font>
+    <font name="ds_font_family_brand_bold">@font/ubuntu_bold</font>
+    <font name="ds_font_family_brand_medium">@font/ubuntu_medium</font>
+    <font name="ds_font_family_content">@font/open_sans</font>
+    <font name="ds_font_family_content_bold">@font/open_sans_bold</font>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/ds_font_size_s" android:textColor="@color/dark" android:ellipsize="end" android:id="@+id/text_pdp_allergen_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginEnd="@dimen/ds_spacing_xs"/>
+    <View android:id="@+id/view_pdp_allergen_separator" android:background="@color/separator_grey" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginBottom="@dimen/ds_spacing_xxxs" android:layout_marginStart="@dimen/ds_spacing_xxxs" android:layout_marginEnd="@dimen/ds_spacing_xs"/>
+</LinearLayout>

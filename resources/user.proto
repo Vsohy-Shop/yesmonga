@@ -1,0 +1,60 @@
+syntax = "proto3";
+
+option java_package = "com.carrefour.fid.android";
+option java_multiple_files = true;
+
+message UserInfo {
+  string email = 1;
+  string firstName = 2;
+  string lastName = 3;
+  string birthDate = 4;
+  string civility = 5;
+  string cgu = 6;
+  int64 dateOfSave = 7;
+  string lastModification = 8;
+  repeated UserAddress addresses = 9;
+  repeated UserCard cards = 10;
+  repeated UserPhone phones = 11;
+  repeated UserConsent consents = 12;
+}
+
+message UserAddress {
+  string country = 1;
+  string city = 2;
+  string address1 = 3;
+  string address2 = 4;
+  string address3 = 5;
+  bool preference = 6;
+  string postcode = 7;
+  string postalCode = 8 [deprecated=true];
+  bool lift = 9;
+  string category = 10;
+  int32 key = 11;
+  string building = 12;
+  string digitalCode = 13;
+  string interphone = 14;
+  string floor = 15;
+  string information = 16;
+  string addressName = 17;
+  double longitude = 18;
+  double latitude = 19;
+  bool approximateAddress = 20;
+}
+
+message UserCard {
+  string date = 1;
+  string num = 2;
+  string category = 3;
+  bool isSecured = 4;
+  int32 key = 5;
+}
+
+message UserPhone {
+  string number = 1;
+  bool preference = 2;
+}
+
+message UserConsent {
+  string key = 1;
+  string choice = 2;
+}

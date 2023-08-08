@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_focused="true">
+        <set>
+            <objectAnimator android:duration="100" android:valueTo="1.05" android:valueType="floatType" android:propertyName="scaleX"/>
+            <objectAnimator android:duration="100" android:valueTo="1.05" android:valueType="floatType" android:propertyName="scaleY"/>
+        </set>
+    </item>
+    <item android:state_enabled="true">
+        <set>
+            <objectAnimator android:duration="100" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleX" android:startDelay="100"/>
+            <objectAnimator android:duration="100" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleY" android:startDelay="100"/>
+        </set>
+    </item>
+    <item>
+        <set>
+            <objectAnimator android:duration="0" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleX"/>
+            <objectAnimator android:duration="0" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleY"/>
+        </set>
+    </item>
+</selector>

@@ -1,0 +1,905 @@
+[
+    {
+      "RAISON SOCIALE\nPROMOCASH": "ANGLET",
+      "CP": 64600,
+      "VILLE": "ANGLET",
+      "Adresse": "14 Rue de Pitoys, 64600 ANGLET",
+      "TEL": "05 59 31 43 23"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "ANGOULEME",
+      "CP": 16000,
+      "VILLE": "ANGOULEME",
+      "Adresse": "Rue Louis Pergaud, 16000 ANGOULEME",
+      "TEL": "05 45 67 33 00"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "ARCACHON LA TESTE",
+      "CP": 33260,
+      "VILLE": "LA TESTE DE BUCH",
+      "Adresse": "640 Boulevard de l'Industrie, 33260 LA TESTE DE BUCH",
+      "TEL": "05 56 54 75 66"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "AUCH",
+      "CP": 32000,
+      "VILLE": "AUCH",
+      "Adresse": "Route d'Engachies, 32000 AUCH",
+      "TEL": "05 62 60 01 43"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "BORDEAUX",
+      "CP": 33800,
+      "VILLE": "BORDEAUX",
+      "Adresse": "Quai de Paludate, 33800 BORDEAUX",
+      "TEL": "05 57 35 83 83"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "CHOLET",
+      "CP": 49300,
+      "VILLE": "CHOLET",
+      "Adresse": "10 Rue de Vouvray , 49300 CHOLET",
+      "TEL": "02 41 58 03 29"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "DAX",
+      "CP": 40990,
+      "VILLE": "SAINT PAUL LES DAX CEDEX",
+      "Adresse": "Route de Mont de Marsan, 40990 SAINT PAUL LES DAX CEDEX",
+      "TEL": "05 58 91 47 00"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "LA ROCHELLE",
+      "CP": 17180,
+      "VILLE": "PERIGNY",
+      "Adresse": "Avenue Paul Langevin, 17180 PERIGNY",
+      "TEL": "05 46 44 16 29"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "LIBOURNE",
+      "CP": 33500,
+      "VILLE": "LIBOURNE Cedex",
+      "Adresse": "ZI La Ballastière, 33500 LIBOURNE Cedex",
+      "TEL": "05 57 51 62 50"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "MONT DE MARSAN",
+      "CP": 40280,
+      "VILLE": "SAINT PIERRE DU MONT",
+      "Adresse": "Mont Alma, 40280 SAINT PIERRE DU MONT",
+      "TEL": "05 58 85 76 00"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "PAU",
+      "CP": 64148,
+      "VILLE": "LONS INDUSPAL CEDEX",
+      "Adresse": "Avenue Blaise Pascal, 64148 LONS INDUSPAL CEDEX",
+      "TEL": "05 59 72 03 90"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "BLOIS",
+      "CP": 41000,
+      "VILLE": "VILLEBAROU / BLOIS",
+      "Adresse": "21 Rue des Mardeaux , 41000 VILLEBAROU / BLOIS",
+      "TEL": "02 54 90 28 80"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "CHARTRES",
+      "CP": 28630,
+      "VILLE": "GELLAINVILLE",
+      "Adresse": "10 Avenue Gustave Eiffel, 28630 GELLAINVILLE",
+      "TEL": "02 37 88 33 00"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "CHATEAUROUX",
+      "CP": 36130,
+      "VILLE": "DEOLS",
+      "Adresse": "Rue Malbete, 36130 DEOLS",
+      "TEL": "02 54 27 40 13"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "CHATELLERAULT",
+      "CP": 86100,
+      "VILLE": "CHATELLERAULT",
+      "Adresse": "1 Rue Henri Martin, 86100 CHATELLERAULT",
+      "TEL": "05 49 23 48 68"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "GUERET",
+      "CP": 23000,
+      "VILLE": "SAINT FIELS",
+      "Adresse": "ZA Cher du Cerisier, 23000 SAINT FIELS",
+      "TEL": "08 11 95 11 11"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "LE MANS",
+      "CP": 72100,
+      "VILLE": "LE MANS",
+      "Adresse": "95 rue de la Foucaudiere, 72100 LE MANS",
+      "TEL": "02 43 86 70 10"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "MONTLUCON",
+      "CP": 3100,
+      "VILLE": "MONTLUCON",
+      "Adresse": "ZI de Blanzat , 3100 MONTLUCON",
+      "TEL": "04 70 28 42 86"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "MOULINS",
+      "CP": 3000,
+      "VILLE": "MOULINS -AVERMES",
+      "Adresse": "ZA de la rigolée, 3000 MOULINS -AVERMES",
+      "TEL": "04 70 96 54 60"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "NEVERS",
+      "CP": 58000,
+      "VILLE": "NEVERS",
+      "Adresse": "4 rue de Père Charles de Foucault, 58000 NEVERS",
+      "TEL": "03 86 59 14 87"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "ORLEANS",
+      "CP": 45380,
+      "VILLE": "LA CHAPELLE ST MESMIN",
+      "Adresse": "La Chistéra de Bel Air , 45380 LA CHAPELLE ST MESMIN",
+      "TEL": "02 38 72 95 50"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "ROANNE",
+      "CP": 42300,
+      "VILLE": "MABLY",
+      "Adresse": "Zac du Parc d'Activités Districal, 42300 MABLY",
+      "TEL": "04 77 71 41 13"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "SAUMUR",
+      "CP": 49400,
+      "VILLE": "ST LAMBERT DES LEVEES",
+      "Adresse": "ZI Ecoparc, 49400 ST LAMBERT DES LEVEES",
+      "TEL": "02 41 67 56 44"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "TOURS",
+      "CP": 37700,
+      "VILLE": "ST PIERRE DES CORPS",
+      "Adresse": "ZI des Gds Mortiers , 37700 ST PIERRE DES CORPS",
+      "TEL": "02 47 46 45 00"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "VENDOME",
+      "CP": 41100,
+      "VILLE": "VENDOME",
+      "Adresse": "69 Avenue Ronsard , 41100 VENDOME",
+      "TEL": "02 54 77 26 74"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "VICHY",
+      "CP": 3300,
+      "VILLE": "CUSSET",
+      "Adresse": "Rue Jean Bonnet, 3300 CUSSET",
+      "TEL": "04 70 96 54 60"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "AGEN",
+      "CP": 47100,
+      "VILLE": "AGEN",
+      "Adresse": "Avenue d'Espagne, 47100 AGEN",
+      "TEL": "05 53 77 07 20"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "AURILLAC",
+      "CP": 15000,
+      "VILLE": "AURILLAC",
+      "Adresse": "Avenue de Pompidou, 15000 AURILLAC",
+      "TEL": "04 71 64 24 94"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "BERGERAC",
+      "CP": 24100,
+      "VILLE": "BERGERAC",
+      "Adresse": "ZI de Vallade nord, 24100 BERGERAC",
+      "TEL": "05 53 74 42 60"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "BRIVE LA GAILLARDE",
+      "CP": 19100,
+      "VILLE": "BRIVE LA GAILLARDE",
+      "Adresse": "ZAC du Mazaud , 19100 BRIVE LA GAILLARDE",
+      "TEL": "05 55 86 34 80"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "CLERMONT FERRAND",
+      "CP": 63100,
+      "VILLE": "CLERMONT-FERRAND",
+      "Adresse": "Rue du Pré Comtal , 63100 CLERMONT-FERRAND",
+      "TEL": "04 73 23 49 79"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "LIMOGES",
+      "CP": 87280,
+      "VILLE": "LIMOGES",
+      "Adresse": "ZI Nord, 87280 LIMOGES",
+      "TEL": "05 55 38 29 90"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "MILLAU",
+      "CP": 12100,
+      "VILLE": "CREISSELS",
+      "Adresse": "Avenue Jean Monnet, 12100 CREISSELS",
+      "TEL": "05 65 61 29 85"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "MONTAUBAN",
+      "CP": 82000,
+      "VILLE": "MONTAUBAN",
+      "Adresse": "1 771 Boulevard de Chantilly, 82000 MONTAUBAN",
+      "TEL": "05 63 91 61 10"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "PERIGUEUX",
+      "CP": 24750,
+      "VILLE": "BOULAZAC",
+      "Adresse": "ZI du Marché de Gros, 24750 BOULAZAC",
+      "TEL": "05 53 35 89 60"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "POITIERS",
+      "CP": 86000,
+      "VILLE": "POITIERS",
+      "Adresse": "6 Rue Alfred Nobel, 86000 POITIERS",
+      "TEL": "05 49 52 33 00"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "RODEZ",
+      "CP": 12000,
+      "VILLE": "RODEZ",
+      "Adresse": "ZAC de Bel Air, 12000 RODEZ",
+      "TEL": "05 65 67 86 50"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "SARLAT",
+      "CP": 24200,
+      "VILLE": "SARLAT LA CANEDA",
+      "Adresse": "8 avenue 26 ème RI 1944, 24200 SARLAT LA CANEDA",
+      "TEL": "05 53 31 73 30"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "BARR",
+      "CP": 67140,
+      "VILLE": "BARR",
+      "Adresse": "2 Impasse Neubrunnen, 67140 BARR",
+      "TEL": "03 90 57 85 10"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "BELFORT",
+      "CP": 90400,
+      "VILLE": "DANJOUTIN",
+      "Adresse": "34 Rue des Nos, 90400 DANJOUTIN",
+      "TEL": "03 84 21 32 66"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "DIJON",
+      "CP": 21000,
+      "VILLE": "DIJON",
+      "Adresse": "ZI Nord, 21000 DIJON",
+      "TEL": "03 80 60 03 80"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "FORBACH",
+      "CP": 57600,
+      "VILLE": "FORBACH",
+      "Adresse": "Technopole Forbach sud, 57600 FORBACH",
+      "TEL": "03 87 87 50 01"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "METZ",
+      "CP": 57070,
+      "VILLE": "METZ",
+      "Adresse": "28 Rue Des Potiers D'Etain, 57070 METZ",
+      "TEL": "03 87 21 55 90"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "MONTCEAU LES MINES",
+      "CP": 71300,
+      "VILLE": "MONTCEAU LES MINES",
+      "Adresse": "13 Rue de Nancy , 71300 MONTCEAU LES MINES",
+      "TEL": "03 85 58 90 40"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "MULHOUSE",
+      "CP": 68000,
+      "VILLE": "MULHOUSE",
+      "Adresse": "Parc de la Mer Rouge, 68000 MULHOUSE",
+      "TEL": "03 89 60 73 50"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "NANCY",
+      "CP": 54320,
+      "VILLE": "MAXEVILLE",
+      "Adresse": "14 Rue Jean Jaurès, 54320 MAXEVILLE",
+      "TEL": "03 83 30 89 89"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "PONTARLIER",
+      "CP": 25300,
+      "VILLE": "PONTARLIER",
+      "Adresse": "Zone Industrielle, 25300 PONTARLIER",
+      "TEL": "03 81 39 51 61"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "SAINT DIE",
+      "CP": 88100,
+      "VILLE": "SAINT DIE",
+      "Adresse": "ZAC D'Hellieule 4, 88100 SAINT DIE",
+      "TEL": "03 29 52 61 20"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "SARREBOURG",
+      "CP": 57400,
+      "VILLE": "SARREBOURG",
+      "Adresse": "ZAC Les Terrasses de Sarre, 57400 SARREBOURG",
+      "TEL": "03 87 25 69 35"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "STRASBOURG",
+      "CP": 67200,
+      "VILLE": "STRASBOURG",
+      "Adresse": "Rue de l’Abattoir, 67200 STRASBOURG",
+      "TEL": "03 88 27 50 50"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "THIONVILLE",
+      "CP": 57100,
+      "VILLE": "THIONVILLE",
+      "Adresse": "ZAC du Gassion, 57100 THIONVILLE",
+      "TEL": "03 82 80 12 90"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "VESOUL",
+      "CP": 70000,
+      "VILLE": "VESOUL",
+      "Adresse": "Rue du Petit Montmarin, 70000 VESOUL",
+      "TEL": "03 84 76 23 11"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "AMIENS",
+      "CP": 80136,
+      "VILLE": "RIVERY LES AMIENS",
+      "Adresse": "4 Rue Alain Bombard, 80136 RIVERY LES AMIENS",
+      "TEL": "03 22 97 93 42"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "BEAUVAIS",
+      "CP": 60000,
+      "VILLE": "BEAUVAIS",
+      "Adresse": "ZAC de Pinçonlieu, 60000 BEAUVAIS",
+      "TEL": "03 44 12 46 00"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "BETHUNE",
+      "CP": 62131,
+      "VILLE": "VERQUIN",
+      "Adresse": "ZAC du Beau Pré, 62131 VERQUIN",
+      "TEL": "03 91 82 70 00"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "BOULOGNE",
+      "CP": 62200,
+      "VILLE": "ST MARTIN LES BOULOGNE",
+      "Adresse": "9003 Rue Pierre Martin, 62200 ST MARTIN LES BOULOGNE",
+      "TEL": "03 21 10 06 80"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "CHARLEVILLE",
+      "CP": 8000,
+      "VILLE": "CHARLEVILLE MEZIERES",
+      "Adresse": "Boulevard Louis Aragon, 8000 CHARLEVILLE MEZIERES",
+      "TEL": "03 24 37 38 38"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "DOUAI",
+      "CP": 59500,
+      "VILLE": "DOUAI",
+      "Adresse": "ZI de Dorignies, 59500 DOUAI",
+      "TEL": "03 27 87 01 11"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "DUNKERQUE",
+      "CP": 59180,
+      "VILLE": "CAPELLE LA GRANDE",
+      "Adresse": "ZAC de la Grande Porte, 59180 CAPELLE LA GRANDE",
+      "TEL": "03 28 25 44 20"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "LILLE",
+      "CP": 59290,
+      "VILLE": "WASQUEHAL",
+      "Adresse": "ZI La Pilaterie , 59290 WASQUEHAL",
+      "TEL": "03 28 32 61 80"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "REIMS",
+      "CP": 51689,
+      "VILLE": "REIMS",
+      "Adresse": "ZAC Henri Farman Sud, 51689 REIMS",
+      "TEL": "03 26 79 34 00"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "SAINT DIZIER",
+      "CP": 52100,
+      "VILLE": "BETTANCOURT LA FERREE",
+      "Adresse": "Rue de la Vaquerie, 52100 BETTANCOURT LA FERREE",
+      "TEL": "03 25 56 15 87"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "SAINT QUENTIN",
+      "CP": 2100,
+      "VILLE": "ST QUENTIN",
+      "Adresse": "Zac De la Chaussée Romaine, 02100 ST QUENTIN",
+      "TEL": "03 23 06 52 52"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "VALENCIENNES",
+      "CP": 59300,
+      "VILLE": "AULNOY LEZ VALENCIENNES",
+      "Adresse": "Zone Artisanale, 59300 AULNOY LEZ VALENCIENNES",
+      "TEL": "03 27 32 31 31"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "ANGERS",
+      "CP": 49100,
+      "VILLE": "ANGERS",
+      "Adresse": "12 Avenue Jean Joxé, 49100 ANGERS",
+      "TEL": "02 41 43 63 12"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "BREST",
+      "CP": 29490,
+      "VILLE": "GUIPAVAS",
+      "Adresse": "ZAC de Kergaradec, 29490 GUIPAVAS",
+      "TEL": "02 98 41 33 60"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "FOUGERES",
+      "CP": 35300,
+      "VILLE": "FOUGERES",
+      "Adresse": "ZI Rue Colbert, 35300 FOUGERES",
+      "TEL": "02 99 99 00 57"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "LANNION",
+      "CP": 22300,
+      "VILLE": "LANNION",
+      "Adresse": "Rue Monge, 22300 LANNION",
+      "TEL": "02 96 48 09 10"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "LAVAL",
+      "CP": 53000,
+      "VILLE": "LAVAL",
+      "Adresse": "ZA des Bozées, 53000 LAVAL",
+      "TEL": "02 43 59 16 40"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "LORIENT",
+      "CP": 56850,
+      "VILLE": "CAUDAN",
+      "Adresse": "Zone de Lan Sévelin, 56850 CAUDAN",
+      "TEL": "02 97 89 00 80"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "MORLAIX",
+      "CP": 29600,
+      "VILLE": "SAINT MARTIN DES CHAMPS",
+      "Adresse": "ZA du Launay , 29600 SAINT MARTIN DES CHAMPS",
+      "TEL": "02 98 88 11 88"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "NANTES",
+      "CP": 44000,
+      "VILLE": "REZE",
+      "Adresse": "71 BD Alfred Nobel Bât B, 44000 REZE",
+      "TEL": "02 40 47 74 44"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "QUIMPER",
+      "CP": 29000,
+      "VILLE": "QUIMPER",
+      "Adresse": "ZI de Ty-Douar, 29000 QUIMPER",
+      "TEL": "02 98 90 99 00"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "RENNES",
+      "CP": 35132,
+      "VILLE": "VEZIN LE COQUET",
+      "Adresse": "19 rue des maréchales, 35132 VEZIN LE COQUET",
+      "TEL": "02 99 14 56 56"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "SAINT BRIEUC",
+      "CP": 22190,
+      "VILLE": "PLERIN",
+      "Adresse": "ZAC des Longs Réages, 22190 PLERIN",
+      "TEL": "02 96 79 90 20"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "SAINT MALO",
+      "CP": 35400,
+      "VILLE": "SAINT MALO",
+      "Adresse": "ZAC de la Moinerie, 35400 SAINT MALO",
+      "TEL": "02 99 19 97 10"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "SAINT NAZAIRE",
+      "CP": 44570,
+      "VILLE": "TRIGNAC",
+      "Adresse": "ZAC de la Savine, 44570 TRIGNAC",
+      "TEL": "02 28 54 32 10"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "VANNES",
+      "CP": 56037,
+      "VILLE": "VANNES",
+      "Adresse": "ZI du Prat, 56037 VANNES",
+      "TEL": "02 97 42 55 45"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "ALENCON",
+      "CP": 61250,
+      "VILLE": "DAMIGNY",
+      "Adresse": "69 Rue Lazare Carnot, 61250 DAMIGNY",
+      "TEL": "02 33 29 04 51"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "ANTONY",
+      "CP": 92160,
+      "VILLE": "ANTONY",
+      "Adresse": "12 Avenue François Sommer, 92160 ANTONY",
+      "TEL": "01 46 74 55 00"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "CAEN",
+      "CP": 14460,
+      "VILLE": "COLOMBELLES",
+      "Adresse": "ZAC Normandial, 14460 COLOMBELLES",
+      "TEL": "02 31 35 78 00"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "CHERBOURG",
+      "CP": 50110,
+      "VILLE": "TOURLAVILLE",
+      "Adresse": "Rue des Industries, 50110 TOURLAVILLE",
+      "TEL": "02 33 88 43 43"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "DIEPPE",
+      "CP": 76370,
+      "VILLE": "NEUVILLE LES DIEPPE",
+      "Adresse": "40 Rue Louis Bleriot, 76370 NEUVILLE LES DIEPPE",
+      "TEL": "02 27 28 27 40"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "DREUX",
+      "CP": 28100,
+      "VILLE": "DREUX",
+      "Adresse": "ZI Nord, 28100 DREUX",
+      "TEL": "02 37 46 00 65"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "EVREUX",
+      "CP": 27000,
+      "VILLE": "EVREUX",
+      "Adresse": "Rue de Lomé , 27000 EVREUX",
+      "TEL": "02 32 62 02 94"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "GRANVILLE",
+      "CP": 50380,
+      "VILLE": "SAINT PAIR SUR MER",
+      "Adresse": "140 impasse Sophie Germain, 50380 SAINT PAIR SUR MER",
+      "TEL": "02 33 61 61 00"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "LE HAVRE",
+      "CP": 76600,
+      "VILLE": "LE HAVRE",
+      "Adresse": "48 Rue Denfert Rochereau, 76600 LE HAVRE",
+      "TEL": "02 35 26 27 70"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "MELUN",
+      "CP": 77240,
+      "VILLE": "VERT SAINT DENIS",
+      "Adresse": "460, Avenue Anna Lindt, 77240 VERT SAINT DENIS",
+      "TEL": "01 60 56 93 30"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "ROUEN",
+      "CP": 76000,
+      "VILLE": "ROUEN",
+      "Adresse": "MIN, 76000 ROUEN",
+      "TEL": "02 32 10 76 10"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "SAINT LO",
+      "CP": 50000,
+      "VILLE": "SAINT LO",
+      "Adresse": "1049 Route de Carentan , 50000 SAINT LO",
+      "TEL": "02 33 57 82 66"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "AIX EN PROVENCE",
+      "CP": 13854,
+      "VILLE": "AIX EN PROVENCE CEDEX 03",
+      "Adresse": "Rue des Frères Perret, 13854 AIX EN PROVENCE CEDEX 03",
+      "TEL": "04 42 39 64 20"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "AJACCIO",
+      "CP": 20167,
+      "VILLE": "SARROLA CARCOPINO",
+      "Adresse": "Trenta Costa, 20167 SARROLA CARCOPINO",
+      "TEL": "04 95 78 50 89"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "ALES",
+      "CP": 30100,
+      "VILLE": "ALES",
+      "Adresse": "Rue de la Bergerie, 30100 ALES",
+      "TEL": "04 66 34 65 90"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "ARLES",
+      "CP": 13200,
+      "VILLE": "ARLES",
+      "Adresse": "8 Rue du Cigalon, 13200 ARLES",
+      "TEL": "04 90 18 86 70"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "AVIGNON",
+      "CP": 84000,
+      "VILLE": "AVIGNON",
+      "Adresse": "135 Avenue Pierre Sémard, 84000 AVIGNON",
+      "TEL": "04 90 13 22 22"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "FREJUS",
+      "CP": 83480,
+      "VILLE": "PUGET SUR ARGENS",
+      "Adresse": "Espace Vernede 4, 83480 PUGET SUR ARGENS",
+      "TEL": "04 94 19 88 00"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "GAP",
+      "CP": 5000,
+      "VILLE": "GAP",
+      "Adresse": "94 Avenue d'Embrun, 5000 GAP",
+      "TEL": "04 92 56 53 10"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "GRASSE",
+      "CP": 6130,
+      "VILLE": "GRASSE",
+      "Adresse": "ZI du Carré , 6130 GRASSE",
+      "TEL": "04 93 09 12 90"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "ISTRES",
+      "CP": 13800,
+      "VILLE": "ISTRES",
+      "Adresse": "Zone du Tubé Nord , 13800 ISTRES",
+      "TEL": "04 90 53 00 58"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "MARSEILLE",
+      "CP": 13323,
+      "VILLE": "MARSEILLE CEDEX 14",
+      "Adresse": "MIN Arnavaux , 13323 MARSEILLE CEDEX 14",
+      "TEL": "04 91 12 93 40"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "MONTELIMAR",
+      "CP": 26200,
+      "VILLE": "MONTELIMAR",
+      "Adresse": "PA Nord - Le Meyrol , 26200 MONTELIMAR",
+      "TEL": "04 75 53 12 75"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "TOULON",
+      "CP": 83078,
+      "VILLE": "TOULON CEDEX 09",
+      "Adresse": "380, rue Lavoisier - BP 278 , 83078 TOULON CEDEX 09",
+      "TEL": "04 98 01 34 80"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "VALENCE",
+      "CP": 26000,
+      "VILLE": "VALENCE",
+      "Adresse": "61 Avenue des Auréats, 26000 VALENCE",
+      "TEL": "04 75 44 65 05"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "ANNECY",
+      "CP": 74600,
+      "VILLE": "SEYNOD",
+      "Adresse": "7 Rue des Frères Lumière, 74600 SEYNOD",
+      "TEL": "04 50 63 73 73"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "ANNEMASSE",
+      "CP": 74100,
+      "VILLE": "VILLE LA GRAND",
+      "Adresse": "2 Rue des Chasseurs, 74100 VILLE LA GRAND",
+      "TEL": "04 50 43 20 70"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "BOURG EN BRESSE",
+      "CP": 1000,
+      "VILLE": "BOURG EN BRESSE",
+      "Adresse": "39 Avenue de Marboz , 1000 BOURG EN BRESSE",
+      "TEL": "04 74 23 13 70"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "BOURGOIN JALLIEU",
+      "CP": 38300,
+      "VILLE": "NIVOLAS-VERMELLE",
+      "Adresse": "ZA Le Vernay, 38300 NIVOLAS-VERMELLE",
+      "TEL": "04 37 03 03 27"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "CHAMBERY",
+      "CP": 73000,
+      "VILLE": "CHAMBERY",
+      "Adresse": "310 Rue des Epinettes, 73000 CHAMBERY",
+      "TEL": "04 79 68 61 20"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "GRENOBLE",
+      "CP": 38100,
+      "VILLE": "GRENOBLE",
+      "Adresse": "117/127 Rue des Alliés, 38100 GRENOBLE",
+      "TEL": "04 76 33 59 59"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "LONS LE SAUNIER",
+      "CP": 39570,
+      "VILLE": "PERRIGNY",
+      "Adresse": "ZAC La Condamine, 39570 PERRIGNY",
+      "TEL": "03 84 24 28 06"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "LYON CHAMPAGNE",
+      "CP": 69410,
+      "VILLE": "CHAMPAGNE AU MONT D'OR",
+      "Adresse": "350 Chemin de Paisy, 69410 CHAMPAGNE AU MONT D'OR",
+      "TEL": "04 37 59 84 10"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "LYON GERLAND",
+      "CP": 69007,
+      "VILLE": "LYON",
+      "Adresse": "20, Rue Paul Massimi, 69007 LYON",
+      "TEL": "04 72 71 53 00"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "MACON",
+      "CP": 71000,
+      "VILLE": "VARENNES LES MÂCON",
+      "Adresse": "Parc d'activités des Combes, 71000 VARENNES LES MÂCON",
+      "TEL": "03 85 22 97 60"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "SAINT ETIENNE",
+      "CP": 42000,
+      "VILLE": "SAINT ETIENNE",
+      "Adresse": "9 rue Victor Grignard, 42000 SAINT ETIENNE",
+      "TEL": "04 77 91 41 20"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "THONON",
+      "CP": 74200,
+      "VILLE": "THONON LES BAINS",
+      "Adresse": "27 Avenue de Fontaine Couvert, 74200 THONON LES BAINS",
+      "TEL": "04 50 04 50 96"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "VILLEFRANCHE",
+      "CP": 69400,
+      "VILLE": "VILLEFRANCHE",
+      "Adresse": "89 Rue de l'Ecossais - Limas , 69400 VILLEFRANCHE",
+      "TEL": "04 74 65 47 31"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "AGDE",
+      "CP": 34300,
+      "VILLE": "AGDE",
+      "Adresse": "1 Rue du Moulin à Huile, 34300 AGDE",
+      "TEL": "04 67 01 08 88"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "ALBI",
+      "CP": 81000,
+      "VILLE": "ALBI",
+      "Adresse": "Rue Isaac Newton, 81000 ALBI",
+      "TEL": "05 63 48 62 10"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "BEZIERS",
+      "CP": 34515,
+      "VILLE": "BEZIERS CEDEX",
+      "Adresse": "4 Rue de l'Acropole - BP 3093, 34515 BEZIERS CEDEX",
+      "TEL": "04 67 62 80 30"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "CARCASSONNE",
+      "CP": 11000,
+      "VILLE": "CARCASSONNE",
+      "Adresse": "ZA de SALVAZA, 11000 CARCASSONNE",
+      "TEL": "04 68 11 48 00"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "CASTRES",
+      "CP": 81100,
+      "VILLE": "CASTRES",
+      "Adresse": "32 Rue de l’Industrie , 81100 CASTRES",
+      "TEL": "05 63 72 62 51"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "MAUGUIO",
+      "CP": 34135,
+      "VILLE": "MAUGUIO",
+      "Adresse": "Espace Frégorgues, 34135 MAUGUIO",
+      "TEL": "04 67 22 21 83"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "MONTPELLIER",
+      "CP": 34070,
+      "VILLE": "MONTPELLIER",
+      "Adresse": "MIN - 371 Avenue du Marché Gare, 34070 MONTPELLIER",
+      "TEL": "04 67 06 00 20"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "NARBONNE",
+      "CP": 11100,
+      "VILLE": "NARBONNE",
+      "Adresse": "Rue de Plaisance, 11100 NARBONNE",
+      "TEL": "04 68 58 10 00"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "NIMES",
+      "CP": 30900,
+      "VILLE": "NIMES",
+      "Adresse": "3240 Route de Montpellier, 30900 NIMES",
+      "TEL": "04 66 04 86 86"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "PAMIERS",
+      "CP": 9100,
+      "VILLE": "PAMIERS",
+      "Adresse": "Parc d'Activités Gabrielat, 9100 PAMIERS",
+      "TEL": "05 34 01 25 42"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "PERPIGNAN",
+      "CP": 66000,
+      "VILLE": "PERPIGNAN",
+      "Adresse": "ZAC Saint Charles, 66000 PERPIGNAN",
+      "TEL": "04 68 85 78 00"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "SETE",
+      "CP": 34200,
+      "VILLE": "SETE",
+      "Adresse": "Parc Aquatechnique, 34200 SETE",
+      "TEL": "04 67 18 63 90"
+    },
+    {
+      "RAISON SOCIALE\nPROMOCASH": "TOULOUSE",
+      "CP": 31100,
+      "VILLE": "TOULOUSE",
+      "Adresse": "MIN de Toulouse, 31100 TOULOUSE",
+      "TEL": "05 34 40 52 00"
+    }
+  ]

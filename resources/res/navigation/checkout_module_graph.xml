@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/checkout_module_graph" app:startDestination="@+id/paymentMethodFragment">
+    <fragment android:label="fragment_checkout" android:name="com.carrefour.fid.android.checkout.presentation.p071ui.PaymentMethodFragment" android:id="@+id/paymentMethodFragment"/>
+</navigation>

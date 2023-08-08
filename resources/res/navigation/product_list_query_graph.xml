@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/product_list_query_graph" app:startDestination="@+id/productListQueryFragment">
+    <argument android:name="query" app:argType="string"/>
+    <argument android:name="label" android:defaultValue="" app:argType="string"/>
+    <fragment android:label="fragment_product_list_query" android:name="com.carrefour.fid.android.product.presentation.p039ui.list.ProductListQueryFragment" android:id="@+id/productListQueryFragment">
+        <action android:id="@+id/action_productListQuery_to_scanBarCodeFragment" app:destination="@+id/scanBarCodeFragment" app:enterAnim="@anim/fade_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/fade_out"/>
+    </fragment>
+    <fragment android:label="ScanBarCodeFragment" android:name="com.carrefour.fid.android.presentation.p035ui.scan.BarcodeScannerFragment" android:id="@+id/scanBarCodeFragment"/>
+</navigation>

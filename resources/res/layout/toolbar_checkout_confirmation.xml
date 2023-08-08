@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" style="@style/AppDefaultToolbar">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/ds_font_size_m" android:textColor="@color/ds_primary_dark" android:gravity="center" android:id="@+id/text_toolbar_checkout_confirmation" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/checkout_order_confirmation" android:layout_weight="1" android:fontFamily="@string/font_family_medium" android:layout_marginStart="?attr/actionBarSize"/>
+        <ImageButton android:id="@+id/button_toolbar_checkout_confirmation" android:background="@drawable/ripple_round_blue" android:layout_width="?attr/actionBarSize" android:layout_height="match_parent" android:src="@drawable/ic_close_default"/>
+    </LinearLayout>
+</androidx.appcompat.widget.Toolbar>

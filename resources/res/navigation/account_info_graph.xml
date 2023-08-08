@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/account_info_graph" app:startDestination="@+id/accountInfoFragment">
+    <include app:graph="@navigation/account_user_address_graph"/>
+    <fragment android:name="com.carrefour.fid.android.account.presentation.p018ui.account.AccountInfoFragment" android:id="@+id/accountInfoFragment">
+        <action android:id="@+id/action_accountInfoFragment_to_updateUserInfoFragment" app:destination="@+id/updateUserInfoFragment" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out"/>
+        <action android:id="@+id/action_accountInfoFragment_to_updateUserAddressFragment" app:destination="@+id/account_user_address_graph" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out">
+            <argument android:name="address_category" app:argType="com.carrefour.fid.android.domain.models.AddressCategory"/>
+            <argument android:name="filled_delivery_address" android:defaultValue="@null" app:argType="com.carrefour.fid.android.domain.models.account.Address" app:nullable="true"/>
+            <argument android:name="filled_billing_address" android:defaultValue="@null" app:argType="com.carrefour.fid.android.domain.models.account.Address" app:nullable="true"/>
+            <argument android:name="fill_phone" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+            <argument android:name="back_stack_destination_id" app:argType="integer"/>
+        </action>
+        <action android:id="@+id/action_accountInfoFragment_to_updateUserEmailFragment" app:destination="@+id/updateUserEmailFragment" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out"/>
+        <action android:id="@+id/action_accountInfoFragment_to_updateUserPasswordFragment" app:destination="@+id/updateUserPasswordFragment" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out"/>
+    </fragment>
+    <fragment android:name="com.carrefour.fid.android.account.presentation.p018ui.account.UpdateUserInfoFragment" android:id="@+id/updateUserInfoFragment"/>
+    <fragment android:name="com.carrefour.fid.android.account.presentation.p018ui.account.UpdateEmailFragment" android:id="@+id/updateUserEmailFragment">
+        <action android:id="@+id/action_updateUserEmailFragment_to_accountUpdateSuccessFragment" app:destination="@+id/accountUpdateSuccessFragment"/>
+    </fragment>
+    <fragment android:name="com.carrefour.fid.android.account.presentation.p018ui.account.UpdateUserPasswordFragment" android:id="@+id/updateUserPasswordFragment"/>
+    <fragment android:name="com.carrefour.fid.android.account.presentation.p018ui.account.UpdateUserPasswordFragment" android:id="@+id/accountFragment"/>
+    <fragment android:label="SignInFragment" android:name="com.carrefour.fid.android.account.presentation.p018ui.signin.SignInFragment" android:id="@+id/signInFragment">
+        <action android:id="@+id/action_signInFragment_to_forgotPasswordFragment" app:destination="@+id/forgotPasswordFragment"/>
+        <action android:id="@+id/action_signInFragment_to_createAccountFragment" app:destination="@+id/createAccountFragment"/>
+    </fragment>
+    <fragment android:label="CreateAccountFragment" android:name="com.carrefour.fid.android.account.presentation.p018ui.create.CreateAccountFragment" android:id="@+id/createAccountFragment">
+        <action android:id="@+id/action_createAccountFragment_to_signInFragment" app:destination="@+id/signInFragment"/>
+    </fragment>
+    <fragment android:label="AccountUpdateSuccessFragment" android:name="com.carrefour.fid.android.account.presentation.p018ui.success.AccountUpdateSuccessFragment" android:id="@+id/accountUpdateSuccessFragment">
+        <argument android:name="isSuccessLogin" android:defaultValue="false" app:argType="boolean"/>
+        <argument android:name="lastView" app:argType="com.carrefour.fid.android.account.presentation.models.NameLastView"/>
+        <argument android:name="login" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <action android:id="@+id/action_accountUpdateSuccessFragment_to_signInFragment" app:destination="@+id/signInFragment"/>
+    </fragment>
+</navigation>

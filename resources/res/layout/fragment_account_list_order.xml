@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@+id/header_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="60dp"/>
+    <Button android:textSize="@dimen/ds_font_size_m" android:textColor="@color/ds_primary" android:gravity="center_vertical" android:id="@+id/link_to_all_order" android:background="@null" android:layout_width="match_parent" android:layout_height="0dp" android:foreground="@drawable/ripple_blue" android:text="@string/link_all_order" android:textAllCaps="false" android:fontFamily="@font/ds_font_family_content" android:paddingStart="@dimen/ds_spacing_xs" android:stateListAnimator="@null" app:layout_constraintBottom_toTopOf="@+id/header_guideline" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <TextView android:textSize="@dimen/ds_font_size_s" android:gravity="center" android:id="@+id/text_list_account_list_order" android:background="@color/ds_brand_white" android:paddingTop="@dimen/ds_spacing_xs" android:paddingBottom="@dimen/ds_spacing_xs" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/title_new_order" android:paddingStart="@dimen/ds_spacing_s" android:paddingEnd="@dimen/ds_spacing_s" android:elevation="@dimen/ds_spacing_xxxs" app:layout_constraintBottom_toTopOf="@+id/header_guideline" app:layout_constraintTop_toTopOf="0"/>
+    <com.facebook.shimmer.ShimmerFrameLayout android:orientation="vertical" android:id="@+id/shimmer_account_list_order" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toBottomOf="@+id/header_guideline" app:shimmer_duration="2000">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include layout="@layout/shimmer_cell_listes"/>
+            <include layout="@layout/shimmer_cell_listes"/>
+            <include layout="@layout/shimmer_cell_listes"/>
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/list_account_list_order" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toBottomOf="@+id/header_guideline"/>
+    <ViewStub android:id="@+id/stub_account_list_error" android:layout="@layout/fragment_message_view" android:inflatedId="@+id/account_list_error" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/stub_account_list_empty" android:layout="@layout/fragment_account_list_empty" android:inflatedId="@+id/account_list_empty" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

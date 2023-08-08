@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/orders_fragment_view" android:background="@color/ds_grey_80" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/orders_header_layout" android:background="@color/ds_grey_white" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/ds_header_elevation">
+        <androidx.compose.p004ui.platform.ComposeView android:id="@+id/orders_header" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <com.google.android.material.tabs.TabLayout android:id="@+id/tab_fragment_orders" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/OrderTabLayout"/>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@+id/pager_fragment_orders" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

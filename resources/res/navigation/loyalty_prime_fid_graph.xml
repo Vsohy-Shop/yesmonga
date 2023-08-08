@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/loyalty_prime_fid_graph" app:startDestination="@+id/primeFidFragment">
+    <fragment android:label="fragment_prime_fid" android:name="com.carrefour.fid.android.presentation.p035ui.loyalty.fragments.bonus.PrimeFidFragment" android:id="@+id/primeFidFragment">
+        <argument android:name="primeList" android:defaultValue="@null" app:argType="com.carrefour.fid.android.cms.domain.models.LoyaltyBonus[]" app:nullable="true"/>
+        <argument android:name="isDeepLink" android:defaultValue="true" app:argType="boolean"/>
+    </fragment>
+</navigation>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="accessibility_unit">
+        <item>Litre</item>
+        <item>Kilogramme</item>
+        <item>Unité</item>
+    </array>
+    <array name="account_logged_services_list">
+        <item>Mes achats</item>
+        <item>Fidélité</item>
+        <item>Informations personnelles</item>
+        <item>Moyen de paiement</item>
+        <item>Obtenir de l’aide</item>
+        <item>Mes consentements</item>
+        <item>Services Carrefour</item>
+        <item>Informations légales</item>
+    </array>
+    <array name="airship_url_allow_list">
+        <item>https://www.carrefour-banque.fr/*</item>
+        <item>https://www.croquetteland.com/*</item>
+        <item>https://www.facebook.com/*</item>
+        <item>https://www.greenweez.com/*</item>
+        <item>https://www.instagram.com/*</item>
+        <item>https://www.quitoque.fr/*</item>
+        <item>https://www.quitoquego.fr/*</item>
+        <item>https://jeunutrifresh.fr/*</item>
+        <item>https://play.google.com/store/apps/*</item>
+        <item>https://*.carrefour.fr/*</item>
+        <item>https://*.carrefour.com/fr/*</item>
+        <item>https://landing-page.numberly.com/*</item>
+        <item>https://www.potagercity.fr/*</item>
+        <item>https://survey.usabilla.com/*</item>
+    </array>
+    <array name="contentsquare_developer_session_replay_preset_url_types">
+        <item>Configuration</item>
+        <item>Local</item>
+        <item>Local Legacy</item>
+        <item>Staging</item>
+        <item>Production</item>
+        <item>QA Mock</item>
+    </array>
+    <array name="contentsquare_developer_session_replay_preset_url_values">
+        <item>from_configuration</item>
+        <item>http://10.0.2.2:7014</item>
+        <item>http://10.0.2.2:3457</item>
+        <item>https://ka-aeu1-staging.contentsquare.net</item>
+        <item>https://ka-aeu1.contentsquare.net</item>
+        <item>https://qa-mock-server.csq.fr</item>
+    </array>
+    <array name="days_of_the_week">
+        <item>@string/monday_prefix</item>
+        <item>@string/tuedsay_prefix</item>
+        <item>@string/wednesday_prefix</item>
+        <item>@string/thursday_prefix</item>
+        <item>@string/friday_prefix</item>
+        <item>@string/saturday_prefix</item>
+        <item>@string/sunday_prefix</item>
+    </array>
+    <array name="default_search_list">
+        <item>Papier toilette</item>
+        <item>Lait</item>
+        <item>Eau</item>
+        <item>Beurre</item>
+        <item>Jambon</item>
+        <item>Pomme de terre</item>
+        <item>Cola</item>
+        <item>Mouchoirs</item>
+        <item>Sacs poubelle</item>
+        <item>Pain</item>
+    </array>
+    <array name="embedded_software_licencing_list">
+        <item>Shimmer</item>
+        <item>Glide Image</item>
+        <item>Retrofit</item>
+    </array>
+    <array name="legal_notice_list">
+        <item>CGU</item>
+        <item>Mentions légales</item>
+        <item>Données personnelles</item>
+        <item>Conditions de la Carte Carrefour</item>
+        <item>Données de navigation</item>
+        <item>Licences Logicielles</item>
+    </array>
+    <array name="list_country">
+        <item>FRANCE</item>
+        <item>ALLEMAGNE</item>
+        <item>ANDORRE</item>
+        <item>BELGIQUE</item>
+        <item>ESPAGNE</item>
+        <item>ITALIE</item>
+        <item>LUXEMBOURG</item>
+        <item>MONACO</item>
+        <item>PAYS-BAS</item>
+        <item>SUISSE</item>
+    </array>
+    <array name="picking_services_list">
+        <item>au drive</item>
+        <item>acceuil du magasin</item>
+    </array>
+    <array name="ub_element_mood_five">
+        <item>@string/ub_element_mood_hate</item>
+        <item>@string/ub_element_mood_dislike</item>
+        <item>@string/ub_element_mood_neutral</item>
+        <item>@string/ub_element_mood_like</item>
+        <item>@string/ub_element_mood_love</item>
+    </array>
+    <array name="ub_element_mood_stars">
+        <item>@string/ub_element_mood_one_star</item>
+        <item>@string/ub_element_mood_two_star</item>
+        <item>@string/ub_element_mood_three_star</item>
+        <item>@string/ub_element_mood_four_star</item>
+        <item>@string/ub_element_mood_five_star</item>
+    </array>
+    <array name="ub_element_mood_three">
+        <item>@string/ub_element_mood_hate</item>
+        <item>@string/ub_element_mood_neutral</item>
+        <item>@string/ub_element_mood_love</item>
+    </array>
+    <array name="ub_element_mood_two">
+        <item>@string/ub_element_mood_hate</item>
+        <item>@string/ub_element_mood_love</item>
+    </array>
+</resources>

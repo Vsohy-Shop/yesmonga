@@ -1,0 +1,1035 @@
+{
+  "count": 1,
+  "data": [
+    {
+      "id": "7879",
+      "name": "Market Milly-La-Forêt",
+      "gln": "3021080327808",
+      "displayable_url_id": "market-milly-la-foret",
+      "anabel_key": "7879",
+      "phone_number": "0033164989840",
+      "opening_week_pattern": [
+        {
+          "pattern_id": 29071,
+          "beg_date": "2019-01-01",
+          "end_date": "2019-12-31",
+          "monday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "20:00:00"
+            }
+          ],
+          "tuesday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "20:00:00"
+            }
+          ],
+          "wednesday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "20:00:00"
+            }
+          ],
+          "thursday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "20:00:00"
+            }
+          ],
+          "friday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "20:00:00"
+            }
+          ],
+          "saturday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "20:00:00"
+            }
+          ],
+          "sunday_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "12:30:00"
+            }
+          ]
+        },
+        {
+          "pattern_id": 34973,
+          "beg_date": "2020-01-01",
+          "end_date": "2020-03-22",
+          "monday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "20:00:00"
+            }
+          ],
+          "tuesday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "20:00:00"
+            }
+          ],
+          "wednesday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "20:00:00"
+            }
+          ],
+          "thursday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "20:00:00"
+            }
+          ],
+          "friday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "20:00:00"
+            }
+          ],
+          "saturday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "20:00:00"
+            }
+          ],
+          "sunday_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "12:30:00"
+            }
+          ]
+        },
+        {
+          "pattern_id": 48954,
+          "beg_date": "2020-03-23",
+          "end_date": "2020-04-05",
+          "monday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "19:00:00"
+            }
+          ],
+          "tuesday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "19:00:00"
+            }
+          ],
+          "wednesday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "19:00:00"
+            }
+          ],
+          "thursday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "19:00:00"
+            }
+          ],
+          "friday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "19:00:00"
+            }
+          ],
+          "saturday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "19:00:00"
+            }
+          ],
+          "sunday_time_ranges": []
+        },
+        {
+          "pattern_id": 50933,
+          "beg_date": "2020-04-06",
+          "end_date": "2020-04-12",
+          "monday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "19:00:00"
+            }
+          ],
+          "tuesday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "19:00:00"
+            }
+          ],
+          "wednesday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "19:00:00"
+            }
+          ],
+          "thursday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "19:00:00"
+            }
+          ],
+          "friday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "19:00:00"
+            }
+          ],
+          "saturday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "19:00:00"
+            }
+          ],
+          "sunday_time_ranges": []
+        },
+        {
+          "pattern_id": 50935,
+          "beg_date": "2020-04-13",
+          "end_date": "2020-04-19",
+          "monday_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "13:00:00"
+            }
+          ],
+          "tuesday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "19:00:00"
+            }
+          ],
+          "wednesday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "19:00:00"
+            }
+          ],
+          "thursday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "19:00:00"
+            }
+          ],
+          "friday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "19:00:00"
+            }
+          ],
+          "saturday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "19:00:00"
+            }
+          ],
+          "sunday_time_ranges": []
+        },
+        {
+          "pattern_id": 51885,
+          "beg_date": "2020-04-20",
+          "end_date": "2020-05-10",
+          "monday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "19:00:00"
+            }
+          ],
+          "tuesday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "19:00:00"
+            }
+          ],
+          "wednesday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "19:00:00"
+            }
+          ],
+          "thursday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "19:00:00"
+            }
+          ],
+          "friday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "19:00:00"
+            }
+          ],
+          "saturday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "19:00:00"
+            }
+          ],
+          "sunday_time_ranges": []
+        },
+        {
+          "pattern_id": 48953,
+          "beg_date": "2020-05-11",
+          "end_date": "2020-12-31",
+          "monday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "20:00:00"
+            }
+          ],
+          "tuesday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "20:00:00"
+            }
+          ],
+          "wednesday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "20:00:00"
+            }
+          ],
+          "thursday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "20:00:00"
+            }
+          ],
+          "friday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "20:00:00"
+            }
+          ],
+          "saturday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "20:00:00"
+            }
+          ],
+          "sunday_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "12:30:00"
+            }
+          ]
+        },
+        {
+          "pattern_id": 48961,
+          "beg_date": "2021-01-01",
+          "end_date": "2021-12-31",
+          "monday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "20:00:00"
+            }
+          ],
+          "tuesday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "20:00:00"
+            }
+          ],
+          "wednesday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "20:00:00"
+            }
+          ],
+          "thursday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "20:00:00"
+            }
+          ],
+          "friday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "20:00:00"
+            }
+          ],
+          "saturday_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "20:00:00"
+            }
+          ],
+          "sunday_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "12:30:00"
+            }
+          ]
+        }
+      ],
+      "opening_exception_calendar": [
+        {
+          "date_key": "2019-01-01",
+          "status_code": "0",
+          "event_type_code": "holiday",
+          "event_desc": "Jour de l'an",
+          "day_time_ranges": []
+        },
+        {
+          "date_key": "2019-04-22",
+          "status_code": "1",
+          "event_type_code": "holiday",
+          "event_desc": "Lundi de Pâques",
+          "day_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "18:00:00"
+            }
+          ]
+        },
+        {
+          "date_key": "2019-05-01",
+          "status_code": "0",
+          "event_type_code": "holiday",
+          "event_desc": "Fête du Travail",
+          "day_time_ranges": []
+        },
+        {
+          "date_key": "2019-05-08",
+          "status_code": "1",
+          "event_type_code": "holiday",
+          "event_desc": "Victoire 1945",
+          "day_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "19:00:00"
+            }
+          ]
+        },
+        {
+          "date_key": "2019-05-30",
+          "status_code": "1",
+          "event_type_code": "holiday",
+          "event_desc": "Ascension",
+          "day_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "19:00:00"
+            }
+          ]
+        },
+        {
+          "date_key": "2019-06-10",
+          "status_code": "1",
+          "event_type_code": "holiday",
+          "event_desc": "Lundi de Pentecôte",
+          "day_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "19:00:00"
+            }
+          ]
+        },
+        {
+          "date_key": "2019-07-14",
+          "status_code": "1",
+          "event_type_code": "holiday",
+          "event_desc": "Fête Nationale",
+          "day_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "12:30:00"
+            }
+          ]
+        },
+        {
+          "date_key": "2019-08-15",
+          "status_code": "1",
+          "event_type_code": "holiday",
+          "event_desc": "Assomption",
+          "day_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "18:00:00"
+            }
+          ]
+        },
+        {
+          "date_key": "2019-11-01",
+          "status_code": "1",
+          "event_type_code": "holiday",
+          "event_desc": "Toussaint",
+          "day_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "19:00:00"
+            }
+          ]
+        },
+        {
+          "date_key": "2019-11-11",
+          "status_code": "1",
+          "event_type_code": "holiday",
+          "event_desc": "Armistice 1918",
+          "day_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "18:00:00"
+            }
+          ]
+        },
+        {
+          "date_key": "2019-12-22",
+          "status_code": "1",
+          "event_type_code": "exceptional",
+          "day_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "18:00:00"
+            }
+          ]
+        },
+        {
+          "date_key": "2019-12-24",
+          "status_code": "1",
+          "event_type_code": "exceptional",
+          "day_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "18:00:00"
+            }
+          ]
+        },
+        {
+          "date_key": "2019-12-25",
+          "status_code": "0",
+          "event_type_code": "holiday",
+          "event_desc": "Noël",
+          "day_time_ranges": []
+        },
+        {
+          "date_key": "2019-12-29",
+          "status_code": "1",
+          "event_type_code": "exceptional",
+          "day_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "18:00:00"
+            }
+          ]
+        },
+        {
+          "date_key": "2019-12-31",
+          "status_code": "1",
+          "event_type_code": "exceptional",
+          "day_time_ranges": [
+            {
+              "beg_time": "08:30:00",
+              "end_time": "19:00:00"
+            }
+          ]
+        },
+        {
+          "date_key": "2020-01-01",
+          "status_code": "0",
+          "event_type_code": "holiday",
+          "event_desc": "Jour de l'an",
+          "day_time_ranges": []
+        },
+        {
+          "date_key": "2020-04-13",
+          "status_code": "1",
+          "event_type_code": "holiday",
+          "event_desc": "Lundi de Pâques",
+          "day_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "12:30:00"
+            }
+          ]
+        },
+        {
+          "date_key": "2020-05-01",
+          "status_code": "0",
+          "event_type_code": "holiday",
+          "event_desc": "Fête du Travail",
+          "day_time_ranges": []
+        },
+        {
+          "date_key": "2020-05-08",
+          "status_code": "1",
+          "event_type_code": "holiday",
+          "event_desc": "Victoire 1945",
+          "day_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "20:00:00"
+            }
+          ]
+        },
+        {
+          "date_key": "2020-05-21",
+          "status_code": "1",
+          "event_type_code": "holiday",
+          "event_desc": "Ascension",
+          "day_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "19:00:00"
+            }
+          ]
+        },
+        {
+          "date_key": "2020-06-01",
+          "status_code": "1",
+          "event_type_code": "holiday",
+          "event_desc": "Lundi de Pentecôte",
+          "day_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "19:00:00"
+            }
+          ]
+        },
+        {
+          "date_key": "2020-07-14",
+          "status_code": "1",
+          "event_type_code": "holiday",
+          "event_desc": "Fête Nationale",
+          "day_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "12:30:00"
+            }
+          ]
+        },
+        {
+          "date_key": "2020-08-15",
+          "status_code": "1",
+          "event_type_code": "holiday",
+          "event_desc": "Assomption",
+          "day_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "18:00:00"
+            }
+          ]
+        },
+        {
+          "date_key": "2020-11-01",
+          "status_code": "1",
+          "event_type_code": "holiday",
+          "event_desc": "Toussaint",
+          "day_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "19:00:00"
+            }
+          ]
+        },
+        {
+          "date_key": "2020-11-11",
+          "status_code": "1",
+          "event_type_code": "holiday",
+          "event_desc": "Armistice 1918",
+          "day_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "18:00:00"
+            }
+          ]
+        },
+        {
+          "date_key": "2020-12-25",
+          "status_code": "0",
+          "event_type_code": "holiday",
+          "event_desc": "Noël",
+          "day_time_ranges": []
+        },
+        {
+          "date_key": "2021-01-01",
+          "status_code": "0",
+          "event_type_code": "holiday",
+          "event_desc": "Jour de l'an",
+          "day_time_ranges": []
+        },
+        {
+          "date_key": "2021-04-05",
+          "status_code": "1",
+          "event_type_code": "holiday",
+          "event_desc": "Lundi de Pâques",
+          "day_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "12:30:00"
+            }
+          ]
+        },
+        {
+          "date_key": "2021-05-01",
+          "status_code": "0",
+          "event_type_code": "holiday",
+          "event_desc": "Fête du Travail",
+          "day_time_ranges": []
+        },
+        {
+          "date_key": "2021-05-08",
+          "status_code": "1",
+          "event_type_code": "holiday",
+          "event_desc": "Victoire 1945",
+          "day_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "20:00:00"
+            }
+          ]
+        },
+        {
+          "date_key": "2021-05-13",
+          "status_code": "1",
+          "event_type_code": "holiday",
+          "event_desc": "Ascension",
+          "day_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "19:00:00"
+            }
+          ]
+        },
+        {
+          "date_key": "2021-05-24",
+          "status_code": "1",
+          "event_type_code": "holiday",
+          "event_desc": "Lundi de Pentecôte",
+          "day_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "19:00:00"
+            }
+          ]
+        },
+        {
+          "date_key": "2021-07-14",
+          "status_code": "1",
+          "event_type_code": "holiday",
+          "event_desc": "Fête Nationale",
+          "day_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "12:30:00"
+            }
+          ]
+        },
+        {
+          "date_key": "2021-08-15",
+          "status_code": "1",
+          "event_type_code": "holiday",
+          "event_desc": "Assomption",
+          "day_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "18:00:00"
+            }
+          ]
+        },
+        {
+          "date_key": "2021-11-01",
+          "status_code": "1",
+          "event_type_code": "holiday",
+          "event_desc": "Toussaint",
+          "day_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "19:00:00"
+            }
+          ]
+        },
+        {
+          "date_key": "2021-11-11",
+          "status_code": "1",
+          "event_type_code": "holiday",
+          "event_desc": "Armistice 1918",
+          "day_time_ranges": [
+            {
+              "beg_time": "09:00:00",
+              "end_time": "18:00:00"
+            }
+          ]
+        },
+        {
+          "date_key": "2021-12-25",
+          "status_code": "0",
+          "event_type_code": "holiday",
+          "event_desc": "Noël",
+          "day_time_ranges": []
+        }
+      ],
+      "address": {
+        "street_address_one": "Zi Bois Du Chenet",
+        "street_address_two": "Route De Maisse",
+        "city": "Milly-la-Forêt",
+        "city_code": "91405",
+        "country_code": "FR",
+        "postal_code": "91490",
+        "department": "Essonne",
+        "region": "Île-de-France",
+        "city_insee_code": "91405",
+        "department_insee_code": "91",
+        "region_insee_code": "11",
+        "geo_coordinates": {
+          "latitude": 48.39975,
+          "longitude": 2.42097
+        }
+      },
+      "banner": "MARKET",
+      "format": "SUPERMARCHES FRANCE",
+      "status": "Actif",
+      "services": [
+        {
+          "id": "0",
+          "facility_service_id": "7879-0-7879",
+          "name": "selfservice",
+          "label": "Self-Service",
+          "delivery_zones": []
+        },
+        {
+          "id": "310",
+          "facility_service_id": "7879-310-353",
+          "name": "drvretparking",
+          "label": "Drive Retrait Parking",
+          "meti_reference": "353",
+          "store_format": "SUPER",
+          "wlec_service": "PICKING_DRIVE",
+          "wording": "MILLY LA FORET",
+          "status": "OPEN",
+          "is_PVFR": false,
+          "opening_date": "2014-07-15",
+          "delivery_zones": [],
+          "store_loyalty_preparator": "7879"
+        },
+        {
+          "id": "175",
+          "facility_service_id": "7879-175-1",
+          "name": "stationservice",
+          "label": "Station Service 24h/24h",
+          "minefi_code": "91490004",
+          "delivery_zones": []
+        },
+        {
+          "id": "135",
+          "name": "spect",
+          "label": "Spectacles"
+        },
+        {
+          "id": "236",
+          "name": "gaz",
+          "label": "Gaz en bouteille"
+        },
+        {
+          "id": "244",
+          "name": "wifi",
+          "label": "Wi-Fi gratuit et illimité"
+        },
+        {
+          "id": "233",
+          "name": "charpmr",
+          "label": "Chariot Personne à Mobilité Réduite"
+        },
+        {
+          "id": "306",
+          "name": "parking",
+          "label": "Parking gratuit"
+        },
+        {
+          "id": "159",
+          "name": "photom",
+          "label": "Photo d'identité"
+        },
+        {
+          "id": "148",
+          "name": "locutilit",
+          "label": "Location de véhicules"
+        },
+        {
+          "id": "213",
+          "name": "sav",
+          "label": "Service après-vente"
+        },
+        {
+          "id": "202",
+          "name": "carcad",
+          "label": "Cartes Cadeaux"
+        },
+        {
+          "id": "286",
+          "facility_service_id": "7879-286-653",
+          "name": "prx-trait-ligne",
+          "label": "Traiteur en ligne",
+          "delivery_zones": []
+        },
+        {
+          "id": "290",
+          "name": "park",
+          "label": "Parking"
+        },
+        {
+          "id": "162",
+          "name": "presse",
+          "label": "Presse"
+        },
+        {
+          "id": "156",
+          "facility_service_id": "7879-156-1",
+          "name": "satcarb",
+          "label": "Station service",
+          "minefi_code": "91490004",
+          "delivery_zones": []
+        },
+        {
+          "id": "238",
+          "name": "recycl",
+          "label": "Recyclage"
+        },
+        {
+          "id": "160",
+          "name": "dab",
+          "label": "Distributeur automatique de billets"
+        },
+        {
+          "id": "183",
+          "name": "photo",
+          "label": "Développement photo"
+        },
+        {
+          "id": "150",
+          "facility_service_id": "7879-150-353",
+          "name": "drive",
+          "label": "Carrefour Drive",
+          "meti_reference": "353",
+          "store_format": "SUPER",
+          "wlec_service": "PICKING_DRIVE",
+          "wording": "MILLY LA FORET",
+          "status": "OPEN",
+          "is_PVFR": false,
+          "opening_date": "2014-07-15",
+          "delivery_zones": [],
+          "store_loyalty_preparator": "7879"
+        },
+        {
+          "id": "204",
+          "facility_service_id": "14249-204-Relais Colis-G1119-42590",
+          "name": "Relaiscolis",
+          "label": "Point Retrait Colis",
+          "delivery_zones": []
+        },
+        {
+          "id": "204",
+          "facility_service_id": "4240-204-Relais Colis-M3118-33130",
+          "name": "Relaiscolis",
+          "label": "Point Retrait Colis",
+          "delivery_zones": []
+        },
+        {
+          "id": "204",
+          "facility_service_id": "4245-204-Relais Colis-O1217-49100",
+          "name": "Relaiscolis",
+          "label": "Point Retrait Colis",
+          "delivery_zones": []
+        },
+        {
+          "id": "204",
+          "facility_service_id": "4241-204-Relais Colis-C3039-77420",
+          "name": "Relaiscolis",
+          "label": "Point Retrait Colis",
+          "delivery_zones": []
+        },
+        {
+          "id": "204",
+          "facility_service_id": "1424-204-Relais Colis-K3039-21160",
+          "name": "Relaiscolis",
+          "label": "Point Retrait Colis",
+          "delivery_zones": []
+        },
+        {
+          "id": "204",
+          "facility_service_id": "4242-204-Pickup-105169-27930",
+          "name": "Relaiscolis",
+          "label": "Point Retrait Colis",
+          "delivery_zones": []
+        },
+        {
+          "id": "204",
+          "facility_service_id": "4247-204-Pickup-105446-76360",
+          "name": "Relaiscolis",
+          "label": "Point Retrait Colis",
+          "delivery_zones": []
+        },
+        {
+          "id": "204",
+          "facility_service_id": "4244-204-Pickup-105421-72100",
+          "name": "Relaiscolis",
+          "label": "Point Retrait Colis",
+          "delivery_zones": []
+        },
+        {
+          "id": "204",
+          "facility_service_id": "4243-204-Pickup-104886-93160",
+          "name": "Relaiscolis",
+          "label": "Point Retrait Colis",
+          "delivery_zones": []
+        },
+        {
+          "id": "204",
+          "facility_service_id": "4248-204-Pickup-104881-35200",
+          "name": "Relaiscolis",
+          "label": "Point Retrait Colis",
+          "delivery_zones": []
+        },
+        {
+          "id": "204",
+          "facility_service_id": "4249-204-Pickup-105425-53000",
+          "name": "Relaiscolis",
+          "label": "Point Retrait Colis",
+          "delivery_zones": []
+        },
+        {
+          "id": "204",
+          "facility_service_id": "424-204-Pickup-107794-91490",
+          "name": "Relaiscolis",
+          "label": "Point Retrait Colis",
+          "delivery_zones": []
+        },
+        {
+          "id": "301",
+          "name": "charspe",
+          "label": "Chariot Spécifique"
+        },
+        {
+          "id": "ECM",
+          "facility_service_id": "424-ECM-6202",
+          "name": "ecommerce",
+          "label": "e-commerce",
+          "status": "Actif",
+          "opening_date": "2019-06-26",
+          "delivery_zones": []
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "href": "/v2/facilities?meti_reference=353",
+      "rel": "self",
+      "method": "GET"
+    },
+    {
+      "href": "/v2/facilities?meti_reference=353&page=1",
+      "rel": "first",
+      "method": "GET"
+    },
+    {
+      "href": "/v2/facilities?meti_reference=353&page=1",
+      "rel": "last",
+      "method": "GET"
+    }
+  ]
+}

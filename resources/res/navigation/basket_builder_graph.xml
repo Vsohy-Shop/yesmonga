@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/basket_builder_graph" app:startDestination="@+id/basketBuilderFragment">
+    <fragment android:label="fragment_basket_builder" android:name="com.carrefour.fid.android.presentation.p035ui.basketbuilder.BasketBuilderFragment" android:id="@+id/basketBuilderFragment">
+        <action android:id="@+id/action_basketBuilderRecommendedProductsFragment_to_basketBuilderDepartmentFragment" app:destination="@+id/basketBuilderDepartmentFragment"/>
+        <action android:id="@+id/action_basketBuilderFragment_to_searchFragment" app:destination="@+id/product_search_graph" app:launchSingleTop="true" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/fade_out"/>
+        <action android:id="@+id/action_basketBuilderFragment_to_accountList" app:destination="@+id/account_list_graph" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out">
+            <argument android:name="account_list_type" android:defaultValue="@null" app:argType="com.carrefour.fid.android.core.type.AccountListType" app:nullable="true"/>
+        </action>
+        <argument android:name="basketBuilderType" android:defaultValue="FREQUENT_PURCHASES" app:argType="com.carrefour.fid.android.presentation.models.BasketBuilderType"/>
+    </fragment>
+    <fragment android:label="basket_builder_department" android:name="com.carrefour.fid.android.presentation.p035ui.basketbuilder.BasketBuilderDepartmentFragment" android:id="@+id/basketBuilderDepartmentFragment">
+        <argument android:name="basketBuilder" app:argType="com.carrefour.fid.android.presentation.models.RecommendedProductsByDepartmentModel"/>
+    </fragment>
+</navigation>

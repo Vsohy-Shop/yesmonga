@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/checkout_graph" app:startDestination="@+id/checkoutFragment">
+    <fragment android:label="fragment_checkout" android:name="com.carrefour.fid.android.presentation.p035ui.checkout.p036al.CheckoutFragment" android:id="@+id/checkoutFragment">
+        <action android:id="@+id/action_checkoutFragment_to_checkoutPaymentErrorFragment" app:destination="@+id/checkoutPaymentErrorFragment"/>
+        <action android:id="@+id/action_checkoutFragment_to_checkoutConfirmationFragment" app:destination="@+id/checkoutConfirmationFragment" app:popUpTo="@+id/basket_graph" app:popUpToInclusive="true"/>
+        <argument android:name="is_non_food_basket" android:defaultValue="false" app:argType="boolean"/>
+    </fragment>
+    <fragment android:label="fragment_checkout_payment_error" android:name="com.carrefour.fid.android.presentation.p035ui.confirmation.CheckoutPaymentErrorFragment" android:id="@+id/checkoutPaymentErrorFragment">
+        <argument android:name="errorType" app:argType="com.carrefour.fid.android.core.type.PaymentErrorType"/>
+        <argument android:name="errorCode" app:argType="string" app:nullable="true"/>
+        <argument android:name="paymentMethod" app:argType="string" app:nullable="true"/>
+    </fragment>
+    <fragment android:label="fragment_checkout_confirmation" android:name="com.carrefour.fid.android.presentation.p035ui.confirmation.CheckoutConfirmationFragment" android:id="@+id/checkoutConfirmationFragment">
+        <argument android:name="order_confirmation" android:defaultValue="@null" app:argType="android.os.Bundle" app:nullable="true"/>
+        <argument android:name="sub_basket_id" app:argType="string" app:nullable="false"/>
+        <argument android:name="category_list_by_gtin" android:defaultValue="@null" app:argType="android.os.Bundle" app:nullable="true"/>
+    </fragment>
+</navigation>

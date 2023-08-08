@@ -1,0 +1,1527 @@
+{
+  "DetailedFacility": {
+    "services": [
+      {
+        "id": "0",
+        "facility_service_id": "0071-0-0071",
+        "name": "selfservice",
+        "label": "Self-Service",
+        "delivery_zones": [],
+        "pass_days": [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "is_franchised": false
+      },
+      {
+        "id": "310",
+        "facility_service_id": "0071-310-674",
+        "name": "drvretparking",
+        "label": "Drive Retrait Parking",
+        "meti_reference": "674",
+        "store_format": "PPC_HYPER",
+        "wlec_service": "PICKING_DRIVE",
+        "wording": "CARRE SENART",
+        "status": "OPEN",
+        "is_PVFR": false,
+        "opening_date": "2018-03-27",
+        "delivery_zones": [],
+        "store_loyalty_preparator": "0179",
+        "additional_service_information": {
+          "contacts": [],
+          "opening_week_pattern": [
+            {
+              "monday_time_ranges": [
+                {
+                  "beg_time": "08:30:00",
+                  "end_time": "20:00:00"
+                }
+              ],
+              "tuesday_time_ranges": [
+                {
+                  "beg_time": "08:30:00",
+                  "end_time": "20:00:00"
+                }
+              ],
+              "wednesday_time_ranges": [
+                {
+                  "beg_time": "08:30:00",
+                  "end_time": "20:00:00"
+                }
+              ],
+              "thursday_time_ranges": [
+                {
+                  "beg_time": "08:30:00",
+                  "end_time": "20:00:00"
+                }
+              ],
+              "friday_time_ranges": [
+                {
+                  "beg_time": "08:30:00",
+                  "end_time": "20:00:00"
+                }
+              ],
+              "saturday_time_ranges": [
+                {
+                  "beg_time": "08:30:00",
+                  "end_time": "20:00:00"
+                }
+              ],
+              "sunday_time_ranges": [
+                {
+                  "beg_time": "08:30:00",
+                  "end_time": "12:00:00"
+                }
+              ]
+            }
+          ]
+        },
+        "min_order_amount": 30,
+        "preparation_price": 0,
+        "preparator_minimum_amount": 0,
+        "preparator_cnuf": "",
+        "free_preparation_threshold": 0,
+        "max_order_weighting": 9999,
+        "payment_on_site_activated": false,
+        "is_e_wallet_loyalty_activated": true,
+        "free_delivery_threshold": 0,
+        "is_franchised": false
+      },
+      {
+        "id": "175",
+        "facility_service_id": "0071-175-1",
+        "name": "stationservice",
+        "label": "Station Service 24h/24h",
+        "minefi_code": "77127001",
+        "delivery_zones": [],
+        "is_franchised": false
+      },
+      {
+        "id": "313",
+        "facility_service_id": "0071-313-674",
+        "name": "Retrait2h-accueil",
+        "label": "Retrait 2h Accueil",
+        "meti_reference": "674",
+        "store_format": "PPC_HYPER",
+        "wlec_service": "PICKING_DRIVE",
+        "wording": "CARRE SENART",
+        "status": "OPEN",
+        "is_PVFR": false,
+        "opening_date": "2018-03-27",
+        "delivery_zones": [],
+        "store_loyalty_preparator": "0179",
+        "additional_service_information": {
+          "contacts": [],
+          "opening_week_pattern": [
+            {
+              "monday_time_ranges": [
+                {
+                  "beg_time": "09:00:00",
+                  "end_time": "21:30:00"
+                }
+              ],
+              "tuesday_time_ranges": [
+                {
+                  "beg_time": "09:00:00",
+                  "end_time": "21:30:00"
+                }
+              ],
+              "wednesday_time_ranges": [
+                {
+                  "beg_time": "09:00:00",
+                  "end_time": "21:30:00"
+                }
+              ],
+              "thursday_time_ranges": [
+                {
+                  "beg_time": "09:00:00",
+                  "end_time": "21:30:00"
+                }
+              ],
+              "friday_time_ranges": [
+                {
+                  "beg_time": "09:00:00",
+                  "end_time": "21:30:00"
+                }
+              ],
+              "saturday_time_ranges": [
+                {
+                  "beg_time": "08:30:00",
+                  "end_time": "21:30:00"
+                }
+              ],
+              "sunday_time_ranges": [
+                {
+                  "beg_time": "09:00:00",
+                  "end_time": "12:30:00"
+                }
+              ]
+            }
+          ]
+        },
+        "min_order_amount": 30,
+        "preparation_price": 0,
+        "preparator_minimum_amount": 0,
+        "preparator_cnuf": "",
+        "free_preparation_threshold": 0,
+        "max_order_weighting": 9999,
+        "payment_on_site_activated": false,
+        "is_e_wallet_loyalty_activated": true,
+        "free_delivery_threshold": 0,
+        "is_franchised": false
+      },
+      {
+        "id": "135",
+        "name": "spect",
+        "label": "Spectacles"
+      },
+      {
+        "id": "284",
+        "name": "Livraison-gros-électro",
+        "label": "Livraison équipement maison"
+      },
+      {
+        "id": "303",
+        "name": "tkresto",
+        "label": "Ticket Restaurant"
+      },
+      {
+        "id": "244",
+        "name": "wifi",
+        "label": "Wi-Fi gratuit et illimité"
+      },
+      {
+        "id": "174",
+        "name": "boufle",
+        "label": "Boutique Fleurs"
+      },
+      {
+        "id": "217",
+        "name": "comptoir",
+        "label": "Autour du Comptoir"
+      },
+      {
+        "id": "306",
+        "name": "parking",
+        "label": "Parking gratuit"
+      },
+      {
+        "id": "231",
+        "name": "chargmob",
+        "label": "Chargeur mobile"
+      },
+      {
+        "id": "274",
+        "name": "Changebébé",
+        "label": "Change bébé"
+      },
+      {
+        "id": "159",
+        "name": "photom",
+        "label": "Photo d'identité"
+      },
+      {
+        "id": "148",
+        "name": "locutilit",
+        "label": "Location de véhicules"
+      },
+      {
+        "id": "213",
+        "name": "sav",
+        "label": "Service après-vente"
+      },
+      {
+        "id": "285",
+        "name": "rechargeelectrique",
+        "label": "Bornes de recharge pour véhicules électriques"
+      },
+      {
+        "id": "202",
+        "name": "carcad",
+        "label": "Cartes Cadeaux"
+      },
+      {
+        "id": "248",
+        "name": "restau",
+        "label": "Restauration"
+      },
+      {
+        "id": "219",
+        "name": "beaute",
+        "label": "Coiffeur Beauty Bubble"
+      },
+      {
+        "id": "286",
+        "facility_service_id": "0071-286-340",
+        "name": "prx-trait-ligne",
+        "label": "Traiteur en ligne",
+        "delivery_zones": [],
+        "is_franchised": false
+      },
+      {
+        "id": "173",
+        "name": "boutor",
+        "label": "Bijouterie"
+      },
+      {
+        "id": "290",
+        "name": "park",
+        "label": "Parking"
+      },
+      {
+        "id": "249",
+        "name": "tabac",
+        "label": "Tabac"
+      },
+      {
+        "id": "246",
+        "name": "cordo",
+        "label": "Cordonnier"
+      },
+      {
+        "id": "156",
+        "facility_service_id": "0071-156-1",
+        "name": "satcarb",
+        "label": "Station service",
+        "minefi_code": "77127001",
+        "delivery_zones": [],
+        "is_franchised": false
+      },
+      {
+        "id": "311",
+        "facility_service_id": "0071-311-674",
+        "name": "Retrait2h-drive",
+        "label": "Retrait 2h Drive",
+        "meti_reference": "674",
+        "store_format": "PPC_HYPER",
+        "wlec_service": "PICKING_DRIVE",
+        "wording": "CARRE SENART",
+        "status": "OPEN",
+        "is_PVFR": false,
+        "opening_date": "2018-03-27",
+        "delivery_zones": [],
+        "store_loyalty_preparator": "0179",
+        "additional_service_information": {
+          "contacts": [],
+          "opening_week_pattern": [
+            {
+              "monday_time_ranges": [
+                {
+                  "beg_time": "08:30:00",
+                  "end_time": "20:00:00"
+                }
+              ],
+              "tuesday_time_ranges": [
+                {
+                  "beg_time": "08:30:00",
+                  "end_time": "20:00:00"
+                }
+              ],
+              "wednesday_time_ranges": [
+                {
+                  "beg_time": "08:30:00",
+                  "end_time": "20:00:00"
+                }
+              ],
+              "thursday_time_ranges": [
+                {
+                  "beg_time": "08:30:00",
+                  "end_time": "20:00:00"
+                }
+              ],
+              "friday_time_ranges": [
+                {
+                  "beg_time": "08:30:00",
+                  "end_time": "20:00:00"
+                }
+              ],
+              "saturday_time_ranges": [
+                {
+                  "beg_time": "08:30:00",
+                  "end_time": "20:00:00"
+                }
+              ],
+              "sunday_time_ranges": [
+                {
+                  "beg_time": "08:30:00",
+                  "end_time": "12:00:00"
+                }
+              ]
+            }
+          ]
+        },
+        "min_order_amount": 30,
+        "preparation_price": 0,
+        "preparator_minimum_amount": 0,
+        "preparator_cnuf": "",
+        "free_preparation_threshold": 0,
+        "max_order_weighting": 9999,
+        "payment_on_site_activated": false,
+        "is_e_wallet_loyalty_activated": true,
+        "free_delivery_threshold": 0,
+        "is_franchised": false
+      },
+      {
+        "id": "266",
+        "name": "Chariot-gros-volumes",
+        "label": "Chariot gros volumes"
+      },
+      {
+        "id": "238",
+        "name": "recycl",
+        "label": "Recyclage"
+      },
+      {
+        "id": "304",
+        "name": "scanlib",
+        "label": "ScanLib"
+      },
+      {
+        "id": "160",
+        "name": "dab",
+        "label": "Distributeur automatique de billets"
+      },
+      {
+        "id": "247",
+        "name": "pharma",
+        "label": "Pharmacie"
+      },
+      {
+        "id": "183",
+        "name": "photo",
+        "label": "Développement photo"
+      },
+      {
+        "id": "240",
+        "name": "repcles",
+        "label": "Reproduction clés"
+      },
+      {
+        "id": "150",
+        "facility_service_id": "0071-150-674",
+        "name": "drive",
+        "label": "Carrefour Drive",
+        "meti_reference": "674",
+        "store_format": "PPC_HYPER",
+        "wlec_service": "PICKING_DRIVE",
+        "wording": "CARRE SENART",
+        "status": "OPEN",
+        "is_PVFR": false,
+        "opening_date": "2018-03-27",
+        "delivery_zones": [],
+        "store_loyalty_preparator": "0179",
+        "additional_service_information": {
+          "contacts": [
+            {
+              "job_title": "votre contact",
+              "contact_name": "laperdrix",
+              "communication_channels": [
+                {
+                  "code": "TELEPHONE",
+                  "value": "0033164131214"
+                }
+              ]
+            }
+          ],
+          "opening_week_pattern": [
+            {
+              "monday_time_ranges": [
+                {
+                  "beg_time": "08:30:00",
+                  "end_time": "20:00:00"
+                }
+              ],
+              "tuesday_time_ranges": [
+                {
+                  "beg_time": "08:30:00",
+                  "end_time": "20:00:00"
+                }
+              ],
+              "wednesday_time_ranges": [
+                {
+                  "beg_time": "08:30:00",
+                  "end_time": "20:00:00"
+                }
+              ],
+              "thursday_time_ranges": [
+                {
+                  "beg_time": "08:30:00",
+                  "end_time": "20:00:00"
+                }
+              ],
+              "friday_time_ranges": [
+                {
+                  "beg_time": "08:30:00",
+                  "end_time": "20:00:00"
+                }
+              ],
+              "saturday_time_ranges": [
+                {
+                  "beg_time": "08:30:00",
+                  "end_time": "20:00:00"
+                }
+              ],
+              "sunday_time_ranges": [
+                {
+                  "beg_time": "08:30:00",
+                  "end_time": "12:00:00"
+                }
+              ]
+            }
+          ],
+          "additionnal_location": "Côté Non-Alimentaire"
+        },
+        "min_order_amount": 30,
+        "preparation_price": 0,
+        "preparator_minimum_amount": 0,
+        "preparator_cnuf": "",
+        "free_preparation_threshold": 0,
+        "max_order_weighting": 9999,
+        "payment_on_site_activated": false,
+        "is_e_wallet_loyalty_activated": true,
+        "free_delivery_threshold": 0,
+        "is_franchised": false
+      },
+      {
+        "id": "204",
+        "facility_service_id": "4269-204-Relais Colis-A10C8-77127",
+        "name": "Relaiscolis",
+        "label": "Point Retrait Colis",
+        "delivery_zones": [],
+        "is_franchised": false
+      },
+      {
+        "id": "229",
+        "name": "sushi",
+        "label": "Sushi"
+      },
+      {
+        "id": "157",
+        "name": "pressing",
+        "label": "Pressing"
+      },
+      {
+        "id": "176",
+        "name": "parapha",
+        "label": "Parapharmacie"
+      },
+      {
+        "id": "312",
+        "name": "drive_via_waze",
+        "label": "Drive via Waze"
+      },
+      {
+        "id": "VOY",
+        "facility_service_id": "4269-VOY-7083",
+        "name": "voyage",
+        "label": "Agence Voyage",
+        "status": "Actif",
+        "opening_date": "2019-06-27",
+        "delivery_zones": [],
+        "additional_service_information": {
+          "contacts": [
+            {
+              "job_title": "Directeur Magasin",
+              "contact_name": "DYMON VALERIE",
+              "communication_channels": [
+                {
+                  "code": "TELEPHONE",
+                  "name": "TELEPHONE DU MAGASIN",
+                  "value": "0033164131207"
+                },
+                {
+                  "code": "EMAIL",
+                  "value": "https://voyages.carrefour.fr/agence/carre-senart/129"
+                },
+                {
+                  "code": "TELEFAX",
+                  "value": "0033164137609"
+                }
+              ]
+            }
+          ],
+          "opening_week_pattern": []
+        },
+        "is_franchised": false
+      },
+      {
+        "id": "ECM",
+        "facility_service_id": "4269-ECM-14207",
+        "name": "ecommerce",
+        "label": "e-commerce",
+        "status": "Actif",
+        "opening_date": "2019-06-26",
+        "delivery_zones": [],
+        "is_franchised": false
+      },
+      {
+        "id": "BQE",
+        "facility_service_id": "4269-BQE-15011",
+        "name": "banass",
+        "label": "Agence bancaire et assurance",
+        "status": "Actif",
+        "opening_date": "2019-06-27",
+        "delivery_zones": [],
+        "additional_service_information": {
+          "contacts": [
+            {
+              "communication_channels": [
+                {
+                  "code": "TELEPHONE",
+                  "name": "TELEPHONE DU MAGASIN",
+                  "value": "0033164137674"
+                },
+                {
+                  "code": "EMAIL",
+                  "value": "carrefour_banque_carre_senart@carrefour.com"
+                }
+              ]
+            }
+          ],
+          "opening_week_pattern": []
+        },
+        "is_franchised": false
+      }
+    ],
+    "id": "0071",
+    "displayable_url_id": "carre-senart",
+    "name": "Carré Sénart",
+    "format": "HYPERMARCHES FRANCE",
+    "is_franchised": false,
+    "gln": "3020475250000",
+    "anabel_key": "0071",
+    "phone_number": "3235",
+    "opening_week_pattern": [
+      {
+        "pattern_id": 28799,
+        "beg_date": "2019-01-01",
+        "end_date": "2019-12-31",
+        "monday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "21:30:00"
+          }
+        ],
+        "tuesday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "21:30:00"
+          }
+        ],
+        "wednesday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "21:30:00"
+          }
+        ],
+        "thursday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "21:30:00"
+          }
+        ],
+        "friday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "21:30:00"
+          }
+        ],
+        "saturday_time_ranges": [
+          {
+            "beg_time": "08:30:00",
+            "end_time": "21:30:00"
+          }
+        ],
+        "sunday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "12:30:00"
+          }
+        ]
+      },
+      {
+        "pattern_id": 34193,
+        "beg_date": "2020-01-01",
+        "end_date": "2020-03-17",
+        "monday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "21:30:00"
+          }
+        ],
+        "tuesday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "21:30:00"
+          }
+        ],
+        "wednesday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "21:30:00"
+          }
+        ],
+        "thursday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "21:30:00"
+          }
+        ],
+        "friday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "21:30:00"
+          }
+        ],
+        "saturday_time_ranges": [
+          {
+            "beg_time": "08:30:00",
+            "end_time": "21:30:00"
+          }
+        ],
+        "sunday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "12:30:00"
+          }
+        ]
+      },
+      {
+        "pattern_id": 47127,
+        "beg_date": "2020-03-18",
+        "end_date": "2020-03-22",
+        "monday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "20:00:00"
+          }
+        ],
+        "tuesday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "20:00:00"
+          }
+        ],
+        "wednesday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "20:00:00"
+          }
+        ],
+        "thursday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "20:00:00"
+          }
+        ],
+        "friday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "20:00:00"
+          }
+        ],
+        "saturday_time_ranges": [
+          {
+            "beg_time": "08:30:00",
+            "end_time": "20:00:00"
+          }
+        ],
+        "sunday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "12:30:00"
+          }
+        ]
+      },
+      {
+        "pattern_id": 48746,
+        "beg_date": "2020-03-23",
+        "end_date": "2020-04-19",
+        "monday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "19:00:00"
+          }
+        ],
+        "tuesday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "19:00:00"
+          }
+        ],
+        "wednesday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "19:00:00"
+          }
+        ],
+        "thursday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "19:00:00"
+          }
+        ],
+        "friday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "19:00:00"
+          }
+        ],
+        "saturday_time_ranges": [
+          {
+            "beg_time": "08:30:00",
+            "end_time": "19:00:00"
+          }
+        ],
+        "sunday_time_ranges": []
+      },
+      {
+        "pattern_id": 50586,
+        "beg_date": "2020-04-20",
+        "end_date": "2020-05-10",
+        "monday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "20:00:00"
+          }
+        ],
+        "tuesday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "20:00:00"
+          }
+        ],
+        "wednesday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "20:00:00"
+          }
+        ],
+        "thursday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "20:00:00"
+          }
+        ],
+        "friday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "20:00:00"
+          }
+        ],
+        "saturday_time_ranges": [
+          {
+            "beg_time": "08:30:00",
+            "end_time": "20:00:00"
+          }
+        ],
+        "sunday_time_ranges": []
+      },
+      {
+        "pattern_id": 47126,
+        "beg_date": "2020-05-11",
+        "end_date": "2020-12-31",
+        "monday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "21:30:00"
+          }
+        ],
+        "tuesday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "21:30:00"
+          }
+        ],
+        "wednesday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "21:30:00"
+          }
+        ],
+        "thursday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "21:30:00"
+          }
+        ],
+        "friday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "21:30:00"
+          }
+        ],
+        "saturday_time_ranges": [
+          {
+            "beg_time": "08:30:00",
+            "end_time": "21:30:00"
+          }
+        ],
+        "sunday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "12:30:00"
+          }
+        ]
+      },
+      {
+        "pattern_id": 49494,
+        "beg_date": "2021-01-01",
+        "end_date": "2021-12-31",
+        "monday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "21:30:00"
+          }
+        ],
+        "tuesday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "21:30:00"
+          }
+        ],
+        "wednesday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "21:30:00"
+          }
+        ],
+        "thursday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "21:30:00"
+          }
+        ],
+        "friday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "21:30:00"
+          }
+        ],
+        "saturday_time_ranges": [
+          {
+            "beg_time": "08:30:00",
+            "end_time": "21:30:00"
+          }
+        ],
+        "sunday_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "12:30:00"
+          }
+        ]
+      }
+    ],
+    "opening_exception_calendar": [
+      {
+        "date_key": "2019-01-01",
+        "status_code": "0",
+        "event_type_code": "holiday",
+        "event_desc": "Jour de l'an",
+        "day_time_ranges": []
+      },
+      {
+        "date_key": "2019-01-13",
+        "status_code": "1",
+        "event_type_code": "exceptional",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "19:30:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2019-04-22",
+        "status_code": "1",
+        "event_type_code": "holiday",
+        "event_desc": "Lundi de Pâques",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:30:00",
+            "end_time": "20:00:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2019-05-01",
+        "status_code": "0",
+        "event_type_code": "holiday",
+        "event_desc": "Fête du Travail",
+        "day_time_ranges": []
+      },
+      {
+        "date_key": "2019-05-08",
+        "status_code": "1",
+        "event_type_code": "holiday",
+        "event_desc": "Victoire 1945",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:30:00",
+            "end_time": "20:00:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2019-05-30",
+        "status_code": "1",
+        "event_type_code": "holiday",
+        "event_desc": "Ascension",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "20:00:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2019-06-10",
+        "status_code": "1",
+        "event_type_code": "holiday",
+        "event_desc": "Lundi de Pentecôte",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "20:00:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2019-06-30",
+        "status_code": "1",
+        "event_type_code": "exceptional",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "19:30:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2019-07-14",
+        "status_code": "1",
+        "event_type_code": "holiday",
+        "event_desc": "Fête Nationale",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "12:30:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2019-08-15",
+        "status_code": "1",
+        "event_type_code": "holiday",
+        "event_desc": "Assomption",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "20:00:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2019-09-01",
+        "status_code": "1",
+        "event_type_code": "exceptional",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "19:30:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2019-11-01",
+        "status_code": "1",
+        "event_type_code": "holiday",
+        "event_desc": "Toussaint",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "20:00:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2019-11-11",
+        "status_code": "1",
+        "event_type_code": "holiday",
+        "event_desc": "Armistice 1918",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "20:00:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2019-11-24",
+        "status_code": "1",
+        "event_type_code": "exceptional",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "19:30:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2019-12-01",
+        "status_code": "1",
+        "event_type_code": "exceptional",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "19:30:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2019-12-08",
+        "status_code": "1",
+        "event_type_code": "exceptional",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "19:30:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2019-12-15",
+        "status_code": "1",
+        "event_type_code": "exceptional",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "19:30:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2019-12-22",
+        "status_code": "1",
+        "event_type_code": "exceptional",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "19:30:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2019-12-24",
+        "status_code": "1",
+        "event_type_code": "exceptional",
+        "day_time_ranges": [
+          {
+            "beg_time": "08:30:00",
+            "end_time": "18:00:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2019-12-25",
+        "status_code": "0",
+        "event_type_code": "holiday",
+        "event_desc": "Noël",
+        "day_time_ranges": []
+      },
+      {
+        "date_key": "2019-12-29",
+        "status_code": "1",
+        "event_type_code": "exceptional",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "19:30:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2019-12-31",
+        "status_code": "1",
+        "event_type_code": "exceptional",
+        "day_time_ranges": [
+          {
+            "beg_time": "08:30:00",
+            "end_time": "18:00:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2020-01-01",
+        "status_code": "0",
+        "event_type_code": "holiday",
+        "event_desc": "Jour de l'an",
+        "day_time_ranges": []
+      },
+      {
+        "date_key": "2020-04-13",
+        "status_code": "1",
+        "event_type_code": "holiday",
+        "event_desc": "Lundi de Pâques",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "13:00:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2020-05-01",
+        "status_code": "0",
+        "event_type_code": "holiday",
+        "event_desc": "Fête du Travail",
+        "day_time_ranges": []
+      },
+      {
+        "date_key": "2020-05-08",
+        "status_code": "1",
+        "event_type_code": "holiday",
+        "event_desc": "Victoire 1945",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "20:00:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2020-05-21",
+        "status_code": "1",
+        "event_type_code": "holiday",
+        "event_desc": "Ascension",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "20:00:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2020-06-01",
+        "status_code": "1",
+        "event_type_code": "holiday",
+        "event_desc": "Lundi de Pentecôte",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "20:00:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2020-07-14",
+        "status_code": "1",
+        "event_type_code": "holiday",
+        "event_desc": "Fête Nationale",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "20:00:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2020-08-15",
+        "status_code": "1",
+        "event_type_code": "holiday",
+        "event_desc": "Assomption",
+        "day_time_ranges": [
+          {
+            "beg_time": "08:30:00",
+            "end_time": "20:00:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2020-08-30",
+        "status_code": "1",
+        "event_type_code": "exceptional",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "19:30:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2020-11-01",
+        "status_code": "1",
+        "event_type_code": "holiday",
+        "event_desc": "Toussaint",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "12:30:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2020-11-11",
+        "status_code": "1",
+        "event_type_code": "holiday",
+        "event_desc": "Armistice 1918",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "20:00:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2020-12-06",
+        "status_code": "1",
+        "event_type_code": "exceptional",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "19:30:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2020-12-13",
+        "status_code": "1",
+        "event_type_code": "exceptional",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "19:30:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2020-12-20",
+        "status_code": "1",
+        "event_type_code": "exceptional",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "19:30:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2020-12-24",
+        "status_code": "1",
+        "event_type_code": "exceptional",
+        "day_time_ranges": [
+          {
+            "beg_time": "08:30:00",
+            "end_time": "19:00:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2020-12-25",
+        "status_code": "0",
+        "event_type_code": "holiday",
+        "event_desc": "Noël",
+        "day_time_ranges": []
+      },
+      {
+        "date_key": "2020-12-27",
+        "status_code": "1",
+        "event_type_code": "exceptional",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "19:30:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2020-12-31",
+        "status_code": "1",
+        "event_type_code": "exceptional",
+        "day_time_ranges": [
+          {
+            "beg_time": "08:30:00",
+            "end_time": "19:00:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2021-01-01",
+        "status_code": "0",
+        "event_type_code": "holiday",
+        "event_desc": "Jour de l'an",
+        "day_time_ranges": []
+      },
+      {
+        "date_key": "2021-04-05",
+        "status_code": "1",
+        "event_type_code": "holiday",
+        "event_desc": "Lundi de Pâques",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "20:00:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2021-05-01",
+        "status_code": "0",
+        "event_type_code": "holiday",
+        "event_desc": "Fête du Travail",
+        "day_time_ranges": []
+      },
+      {
+        "date_key": "2021-05-08",
+        "status_code": "1",
+        "event_type_code": "holiday",
+        "event_desc": "Victoire 1945",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "20:00:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2021-05-13",
+        "status_code": "1",
+        "event_type_code": "holiday",
+        "event_desc": "Ascension",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "20:00:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2021-05-24",
+        "status_code": "1",
+        "event_type_code": "holiday",
+        "event_desc": "Lundi de Pentecôte",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "20:00:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2021-07-14",
+        "status_code": "1",
+        "event_type_code": "holiday",
+        "event_desc": "Fête Nationale",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "20:00:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2021-08-15",
+        "status_code": "1",
+        "event_type_code": "holiday",
+        "event_desc": "Assomption",
+        "day_time_ranges": [
+          {
+            "beg_time": "08:30:00",
+            "end_time": "20:00:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2021-11-01",
+        "status_code": "1",
+        "event_type_code": "holiday",
+        "event_desc": "Toussaint",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "12:30:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2021-11-11",
+        "status_code": "1",
+        "event_type_code": "holiday",
+        "event_desc": "Armistice 1918",
+        "day_time_ranges": [
+          {
+            "beg_time": "09:00:00",
+            "end_time": "20:00:00"
+          }
+        ]
+      },
+      {
+        "date_key": "2021-12-25",
+        "status_code": "0",
+        "event_type_code": "holiday",
+        "event_desc": "Noël",
+        "day_time_ranges": []
+      }
+    ],
+    "address": {
+      "street_address_one": "Allee Du Preambule",
+      "street_address_two": "Cc Carre Senart",
+      "city": "Lieusaint",
+      "city_code": "77251",
+      "country_code": "FR",
+      "postal_code": "77127",
+      "department": "Seine-et-Marne",
+      "region": "Île-de-France",
+      "city_insee_code": "77251",
+      "department_insee_code": "77",
+      "region_insee_code": "11",
+      "geo_coordinates": {
+        "latitude": 48.61297,
+        "longitude": 2.54793
+      }
+    },
+    "banner": "CARREFOUR",
+    "status": "Actif",
+    "ent_key": "FREE",
+    "ent_desc": "HYPERMARCHES FRANCE",
+    "ope_grp_key": "0001",
+    "operating_company": {
+      "name": "CARREFOUR HYPERMARCHES",
+      "legal_status": "SAS au capital de 6 922 200 Euros",
+      "Company_registration": "451 321 335 EVRY"
+    },
+    "payment_on_site_activated": false,
+    "wording": "CARRE SENART",
+    "is_e_wallet_loyalty_activated": true,
+    "free_delivery_threshold": 0,
+    "free_prep_drive_picking_threshold": 0,
+    "free_prep_drive_solo_threshold": 0,
+    "free_prep_home_delivery_threshold": 0,
+    "free_prep_store_withdrawal_threshold": 0,
+    "free_preparation_threshold": 0,
+    "google_map_store_URL": "https://www.google.fr/maps/place/Carrefour+Carr%C3%A9+S%C3%A9nart/@48.614346,2.548337,17z/data=!4m2!3m1!1s0x47e5e38b957bf39d:0xf689bb5fd40ff323",
+    "max_order_weighting": 9999,
+    "max_order_weighting_drive_picking": 9999,
+    "max_order_weighting_drive_solo": 0,
+    "max_order_weighting_home_delivery": 0,
+    "max_order_weighting_store_withdrawal": 0,
+    "min_order_amount": 30,
+    "min_order_amount_drive_picking": 30,
+    "min_order_amount_drive_solo": 0,
+    "min_order_amount_home_delivery": 0,
+    "min_order_amount_store_withdrawal": 0,
+    "prep_drive_picking_price": 0,
+    "prep_drive_solo_price": 0,
+    "prep_home_delivery_price": 0,
+    "prep_store_withdrawal_price": 0,
+    "preparation_price": 0,
+    "preparator_minimum_amount": 0,
+    "preparator_cnuf": "",
+    "is_PVFR": false
+  }
+}

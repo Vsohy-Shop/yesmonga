@@ -1,0 +1,797 @@
+body {
+  background-color: #f7f7f7;
+}
+
+.PaylineWidget.pl-modal-backdrop {
+	display: none
+}
+
+#PaylineWidget {
+	overflow: hidden
+}
+
+#PaylineWidget * {
+	font-family: Ubuntu, Verdana, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Cantarell, Helvetica Neue, sans-serif
+}
+
+#PaylineWidget.pl-container-lightbox {
+	position: static;
+	z-index: 0;
+	display: flex;
+	width: 100%;
+	padding: 0 .0625rem!important;
+	margin: 0
+}
+
+#PaylineWidget .pl-payModeContainer .pl-icon-pay-mode {
+	top: .25rem;
+	right: auto;
+	left: 0
+}
+
+#PaylineWidget .pl-recap-items-title {
+	color: initial;
+	text-align: left;
+	margin: 0;
+	padding-top: .5rem;
+	padding-right: 40%;
+	border-top: .0625rem solid #e5e5e5
+}
+
+@media only screen and (min-width:1024px) {
+	#PaylineWidget .pl-recap-items-title {
+		color: #fff;
+		border-top: 0;
+		padding-top: 0;
+		margin-top: .5rem
+	}
+}
+
+#PaylineWidget .pl-layout {
+	padding-top: .25rem
+}
+
+#PaylineWidget .pl-message-error {
+	margin: .25rem 0 0;
+	height: auto;
+	text-align: left
+}
+
+#PaylineWidget .pl-input-group-container {
+	padding: 0
+}
+
+#PaylineWidget .pl-container-title {
+	display: flex;
+	margin-bottom: 1rem;
+	font-weight: 700;
+	font-size: .875rem;
+	color: #0e3368;
+	text-align: left
+}
+
+@media only screen and (min-width:768px) {
+	#PaylineWidget .pl-container-title {
+		font-size: 1rem
+	}
+}
+
+#PaylineWidget .pl-walletrow {
+	padding: 1rem;
+	background-color: #fff;
+	border-radius: .25rem;
+	border: .0625rem solid #0970e6;
+	box-shadow: 0 .0625rem .25rem 0 rgba(0, 0, 0, .09)
+}
+
+#PaylineWidget .pl-walletrow.pl-walletrow-closed {
+	border: .0625rem solid #fff;
+	padding: 1rem
+}
+
+#PaylineWidget .pl-walletrow .pl-input-group-container {
+	width: 100%;
+	max-width: none;
+	margin: 0
+}
+
+@media only screen and (min-width:768px) {
+	#PaylineWidget .pl-walletrow .pl-input-group-container {
+		width: 40%
+	}
+}
+
+#PaylineWidget .pl-walletrow .pl-icon-cvv {
+	top: .25rem;
+	right: auto;
+	left: 0
+}
+
+#PaylineWidget .pl-walletrow .pl-cvv-message {
+	display: none;
+	margin: 0;
+	font-size: .75rem;
+	padding-bottom: .5rem
+}
+
+@media only screen and (min-width:768px) {
+	#PaylineWidget .pl-walletrow .pl-cvv-message {
+		font-size: .875rem
+	}
+}
+
+#PaylineWidget .pl-walletrow .pl-wallet-cvv-iframe {
+	width: 100%;
+	margin-top: .5rem
+}
+
+#PaylineWidget .pl-walletrow .pl-message-error {
+	font-weight: 700
+}
+
+#PaylineWidget .pl-walletrow .pl-pay-btn-super-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start
+}
+
+@media only screen and (min-width:768px) {
+	#PaylineWidget .pl-walletrow .pl-pay-btn-super-container {
+		justify-content: initial
+	}
+}
+
+#PaylineWidget .pl-wallet-cvv-container {
+	display: flex;
+	flex-direction: column;
+	padding: 0
+}
+
+#PaylineWidget .pl-wallet-cvv-container.pl-active {
+	max-height: 6rem;
+	padding: .5rem 0 0
+}
+
+#PaylineWidget .pl-wallet-payMode-container.pl-active {
+	padding: 0 0 1rem
+}
+
+#PaylineWidget .pl-wallet-layout {
+	width: 100%;
+	padding: 0 0 .5rem;
+	border: 0;
+	margin-top: 0
+}
+
+#PaylineWidget .pl-header {
+	min-height: 4.75rem;
+	background-color: #f7f7f7
+}
+
+@media only screen and (min-width:1024px) {
+	#PaylineWidget .pl-header {
+		min-height: 0
+	}
+}
+
+#PaylineWidget .pl-header-title-wrapper {
+	height: auto;
+	padding: 0
+}
+
+#PaylineWidget .pl-card-logos {
+	opacity: 0;
+	height: 1.25rem;
+	padding: 0
+}
+
+@media only screen and (min-width:768px) {
+	#PaylineWidget .pl-card-logos {
+		opacity: 1
+	}
+}
+
+#PaylineWidget .pl-card-logos-container {
+	display: flex;
+	justify-content: flex-start;
+	padding: 1rem;
+	margin: 0;
+	width: 100%
+}
+
+@media only screen and (min-width:768px) {
+	#PaylineWidget .pl-card-logos-container {
+		justify-content: flex-end
+	}
+}
+
+#PaylineWidget .pl-card-logos .pl-card-logo {
+	width: 2rem!important;
+	height: 1.25rem!important;
+	background-size: 27.5rem;
+	margin-left: .5rem;
+	border-radius: .25rem
+}
+
+#PaylineWidget .pl-pmForm {
+	padding: 0 1rem;
+	transition: opacity .5s;
+	opacity: 0
+}
+
+#PaylineWidget .pl-pay-btn {
+	padding: .5rem;
+	background-color: #0970e6;
+	border-radius: .25rem;
+	font-size: .875rem;
+	font-weight: 700;
+	letter-spacing: .03125rem;
+	text-transform: uppercase
+}
+
+#PaylineWidget .pl-pay-btn:active,
+#PaylineWidget .pl-pay-btn:hover {
+	background-color: #0970e6
+}
+
+#PaylineWidget .pl-pay-btn-container {
+	display: flex;
+	justify-content: center;
+	margin: 1rem 0 0
+}
+
+@media only screen and (min-width:768px) {
+	#PaylineWidget .pl-pay-btn-container {
+		justify-content: initial
+	}
+}
+
+#PaylineWidget .pl-payment-method-logo.pl-cb {
+	background-position: -106px -34px
+}
+
+#PaylineWidget .pl-payment-method-logo.pl-mcvisa,
+#PaylineWidget .pl-payment-method-logo.pl-visa {
+	background-position: 0 -35px
+}
+
+#PaylineWidget .pl-payment-method-logo.pl-mastercard {
+	background-position: -32px -35px;
+	border-radius: inherit
+}
+
+#PaylineWidget .pl-payment-method-logo.pl-amex {
+	background-position: -141px -34px
+}
+
+#PaylineWidget .pl-payment-method-logo.pl-cbpass {
+	background-position: -80px -3px
+}
+
+#PaylineWidget .pl-comment {
+	margin-top: 1rem
+}
+
+#PaylineWidget .pl-carrefour-cadeau.pl-active .pl-card-logos-container {
+	height: 2rem
+}
+
+@media only screen and (min-width:768px) {
+	#PaylineWidget .pl-carrefour-cadeau.pl-active .pl-card-logos-container {
+		height: 3.5rem
+	}
+}
+
+#PaylineWidget .pl-carrefour-cadeau .pl-pay-btn-container {
+	margin-top: .5rem
+}
+
+#PaylineWidget .pl-carrefour-cadeau .pl-payment-method-logo {
+	margin: 0 0 0 .5rem;
+	width: 2rem
+}
+
+#PaylineWidget .pl-carrefour-cadeau .pl-comment {
+	display: none
+}
+
+#PaylineWidget .pl-pmContainer {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: 0 0 .5rem;
+	padding: 0;
+	background-color: #fff;
+	border: 0;
+	border-radius: .25rem;
+	box-shadow: 0 .0625rem .25rem 0 rgba(0, 0, 0, .09)
+}
+
+#PaylineWidget .pl-pmContainer.pl-active {
+	border: .0625rem solid #0970e6
+}
+
+#PaylineWidget .pl-pmContainer.pl-active .pl-pmForm {
+	width: 100%;
+	padding: 0 1rem 1rem;
+	opacity: 1
+}
+
+#PaylineWidget .pl-pmContainer.pl-active .pl-card-logos-container {
+	padding: 0 0 0 .5rem
+}
+
+@media only screen and (min-width:768px) {
+	#PaylineWidget .pl-pmContainer.pl-active .pl-card-logos-container {
+		padding: 1rem
+	}
+}
+
+#PaylineWidget .pl-pmContainer.pl-active .pl-card-logos {
+	height: 1.25rem;
+	opacity: 1
+}
+
+#PaylineWidget .pl-pmContainer.pl-active .pl-pass-notice:after {
+	content: "";
+	width: 2rem;
+	height: 1.25rem;
+	background: url("https://homologation-payment.cdn.payline.com/assets/images/sprites.png") no-repeat -80px -3px;
+	background-size: 27.5rem;
+	margin-left: .5rem;
+	border-radius: .25rem
+}
+
+#PaylineWidget .pl-pmContainer.pl-active:before {
+	position: static
+}
+
+@media only screen and (min-width:768px) {
+	#PaylineWidget .pl-pmContainer.pl-active:before {
+		position: absolute
+	}
+}
+
+#PaylineWidget .pl-pmContainer:hover {
+	background-color: #fff
+}
+
+#PaylineWidget .pl-pmContainer.pl-cb:before {
+	content: "Carte Bancaire"
+}
+
+#PaylineWidget .pl-pmContainer.pl-carrefour-cadeau:before {
+	content: "Carte Cadeau Carrefour+ et Everywish";
+	text-align: left
+}
+
+#PaylineWidget .pl-pmContainer.pl-carrefour-cadeau .pl-form-container>div {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%
+}
+
+#PaylineWidget .pl-pmContainer.pl-carrefour-cadeau .pl-display-field-container {
+	order: 1;
+	width: 100%
+}
+
+@media only screen and (min-width:1024px) {
+	#PaylineWidget .pl-pmContainer.pl-carrefour-cadeau .pl-display-field-container {
+		width: auto;
+		flex: auto;
+		margin-left: 1.5rem
+	}
+}
+
+@media only screen and (min-width:1024px) {
+	#PaylineWidget .pl-pmContainer.pl-carrefour-cadeau .pl-display-field-text {
+		text-align: left;
+		padding-top: 2rem
+	}
+}
+
+#PaylineWidget .pl-pmContainer.pl-carrefour-cadeau .pl-AMOUNT-container {
+	width: 100%
+}
+
+@media only screen and (min-width:1024px) {
+	#PaylineWidget .pl-pmContainer.pl-carrefour-cadeau .pl-AMOUNT-container {
+		width: auto;
+		flex: auto
+	}
+}
+
+#PaylineWidget .pl-pmContainer.pl-carrefour-cadeau .pl-cardNumber-container {
+	flex: 100%
+}
+
+#PaylineWidget .pl-pmContainer.pl-carrefour-cadeau .pl-cvx-container {
+	left: 0
+}
+
+@media only screen and (min-width:768px) {
+	#PaylineWidget .pl-pmContainer.pl-carrefour-cadeau .pl-cvx-container {
+		margin-left: 1.5rem
+	}
+}
+
+#PaylineWidget .pl-pmContainer.pl-paypal:before {
+	content: "Payer avec PayPal";
+	padding-top: 1.063rem;
+	text-align: left
+}
+
+#PaylineWidget .pl-pmContainer.pl-paypal:after {
+	content: "Nouveau moyen de paiement !";
+	align-items: flex-start;
+	color: #e81e26;
+	font-weight: 700;
+	padding-top: .375rem;
+	font-size: .875rem
+}
+
+#PaylineWidget .pl-pmContainer.pl-paypal .pl-comment {
+	text-align: left
+}
+
+#PaylineWidget .pl-pmContainer.pl-paypal .pl-card-logos .pl-card-logo {
+	width: 5rem!important
+}
+
+#PaylineWidget .pl-pmContainer:after,
+#PaylineWidget .pl-pmContainer:before {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	height: 3.25rem;
+	width: 100%;
+	padding-left: 1rem;
+	color: #0e3368;
+	font-weight: 400;
+	font-size: .875rem;
+	pointer-events: none
+}
+
+@media only screen and (min-width:768px) {
+	#PaylineWidget .pl-pmContainer:after,
+	#PaylineWidget .pl-pmContainer:before {
+		font-size: 1rem
+	}
+}
+
+#PaylineWidget .pl-form-container {
+	display: flex;
+	flex-wrap: wrap
+}
+
+#PaylineWidget .pl-paymentMethod-view {
+	padding: 0
+}
+
+#PaylineWidget .pl-label-input {
+	display: block;
+	text-align: left;
+	margin-bottom: 0;
+	font-weight: 400;
+	color: #0e3368
+}
+
+#PaylineWidget .pl-message {
+	height: auto;
+	margin-top: .313rem
+}
+
+#PaylineWidget .pl-message-warn {
+	margin: 0
+}
+
+#PaylineWidget .pl-input {
+	border: .0625rem solid #929292
+}
+
+#PaylineWidget .pl-pass-notice {
+	margin-bottom: 1.5rem;
+	font-weight: 400;
+	text-align: left;
+	clear: both
+}
+
+#PaylineWidget .pl-walletrow .pl-pass-notice {
+	position: relative;
+	top: 1rem;
+	width: 100%
+}
+
+#PaylineWidget .pl-form-group {
+	margin: 0
+}
+
+#PaylineWidget .pl-form-group.pl-cardNumberContainer {
+	flex: 100%
+}
+
+#PaylineWidget .pl-form-group.pl-has-error label {
+	display: none
+}
+
+#PaylineWidget .pl-form-group .pl-cardTypeIconContainer {
+	right: 1rem
+}
+
+#PaylineWidget .pl-form-control-addon {
+	z-index: 1;
+	right: 0;
+	left: auto;
+	top: .25rem;
+	padding-top: .875rem;
+	color: #0e3368
+}
+
+#PaylineWidget .pl-icon-warning {
+	right: 3rem
+}
+
+#PaylineWidget .pl-expirationDateContainer {
+	width: 100%
+}
+
+@media only screen and (min-width:768px) {
+	#PaylineWidget .pl-expirationDateContainer {
+		width: auto
+	}
+}
+
+#PaylineWidget .pl-cvvContainer {
+	left: 0
+}
+
+@media only screen and (min-width:768px) {
+	#PaylineWidget .pl-cvvContainer {
+		margin-left: 1.5rem
+	}
+}
+
+#PaylineWidget .pl-cvvContainer .pl-icon-warning {
+	right: 2rem
+}
+
+#PaylineWidget .pl-remember-container {
+	margin-bottom: .5rem
+}
+
+#PaylineWidget .pl-remember-container input {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: .25rem 0 0
+}
+
+#PaylineWidget .pl-remember-text {
+	display: block;
+	position: static;
+	padding-left: 1.5rem
+}
+
+#PaylineWidget .pl-consent-text {
+	padding-left: .5rem;
+	color: #0e3368;
+	font-weight: 400
+}
+
+#PaylineWidget .pl-consent-container {
+	position: relative;
+	width: 100%;
+	margin: .25rem 0 0;
+	text-align: left;
+	transition: .5s;
+	transition-property: max-height, margin-bottom
+}
+
+@media only screen and (min-width:768px) {
+	#PaylineWidget .pl-consent-container {
+		margin: .25rem 0 0
+	}
+}
+
+#PaylineWidget .pl-consent-container .pl-consent-text {
+	position: relative;
+	padding-left: .5rem;
+	top: -.125rem
+}
+
+#PaylineWidget .pl-consent-container.has-error .pl-consent-text,
+#PaylineWidget .pl-consent-container.has-error .pl-consent-text a {
+	color: #e81e26
+}
+
+#PaylineWidget div[id$=-behaviorContainer] {
+	width: 100%
+}
+
+@media only screen and (min-width:1024px) {
+	#PaylineWidget div[id$=-behaviorContainer] {
+		width: auto;
+		flex: auto;
+		flex-shrink: 0;
+		margin-left: 1.5rem
+	}
+}
+
+#PaylineWidget .pl-walletrow-closed .pl-consent-container,
+#PaylineWidget .pl-walletrow-closed .pl-pass-notice {
+	max-height: 0;
+	margin-bottom: 0;
+	overflow: hidden
+}
+
+#PaylineWidget #pl-container-lightbox-modal-dialog {
+	width: 100%;
+	margin: 0;
+	box-shadow: none
+}
+
+#PaylineWidget #pl-container-lightbox-header-bar,
+#PaylineWidget #pl-container-lightbox-header-subtitle-separator,
+#PaylineWidget #pl-container-lightbox-header-title {
+	display: none!important
+}
+
+#PaylineWidget #pl-container-lightbox-header-subtitle {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #0e3368;
+	font-size: 1rem;
+	font-weight: 700;
+	padding: 1rem;
+	background: #fff;
+	border-radius: .25rem
+}
+
+@media only screen and (min-width:1024px) {
+	#PaylineWidget #pl-container-lightbox-header-subtitle {
+		display: none
+	}
+}
+
+#PaylineWidget #pl-container-lightbox-header-subtitle span {
+	font-size: 1.25rem
+}
+
+#PaylineWidget #pl-container-lightbox-header-recap-content {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 0 1rem 1rem;
+	margin-bottom: 1rem;
+	background: #fff;
+	border-radius: .25rem
+}
+
+@media only screen and (min-width:1024px) {
+	#PaylineWidget #pl-container-lightbox-header-recap-content {
+		color: #fff;
+		background: #0e3368;
+		padding: 1rem
+	}
+}
+
+#PaylineWidget #pl-container-lightbox-header-recap-items-title {
+	display: flex;
+	justify-content: flex-start;
+	margin: 1rem 0 0;
+	padding-right: 6rem;
+	padding-top: .75rem;
+	border-top: .0625rem solid #e5e5e5;
+	color: #0e3368;
+	font-size: .75rem;
+	text-align: left
+}
+
+@media only screen and (min-width:1024px) {
+	#PaylineWidget #pl-container-lightbox-header-recap-items-title {
+		margin: .5rem 0 0;
+		padding-top: 0;
+		border-top: 0;
+		color: #fff
+	}
+}
+
+#PaylineWidget #pl-container-lightbox-header-recap tr {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 0 .5rem
+}
+
+@media only screen and (min-width:1024px) {
+	#PaylineWidget #pl-container-lightbox-header-recap tr {
+		padding: 0
+	}
+}
+
+#PaylineWidget #pl-container-lightbox-header-recap td {
+	border-bottom: 0
+}
+
+#PaylineWidget #pl-container-lightbox-header-recap td.pl-masked-pan {
+	padding: 0;
+	font-size: .625rem
+}
+
+#PaylineWidget #pl-container-lightbox-header-recap td.pl-left-amount {
+	position: relative;
+	top: -1rem;
+	padding: 0;
+	color: #199a57;
+	font-weight: 700
+}
+
+@media only screen and (min-width:1024px) {
+	#PaylineWidget #pl-container-lightbox-header-recap td.pl-left-amount {
+		color: #fff
+	}
+}
+
+#PaylineWidget #pl-container-lightbox-header-recap td.pl-left-amount:before {
+	content: "-"
+}
+
+#PaylineWidget #pl-container-lightbox-amount-left {
+	order: 1;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #0e3368;
+	font-size: 1rem;
+	font-weight: 700;
+	border-top: .0625rem solid #e5e5e5;
+	padding-top: .5rem
+}
+
+@media only screen and (min-width:1024px) {
+	#PaylineWidget #pl-container-lightbox-amount-left {
+		order: 0;
+		border-top: 0;
+		color: #fff;
+		padding-top: 0
+	}
+}
+
+#PaylineWidget #pl-container-lightbox-amount-left span {
+	font-size: 1.25rem
+}
+
+#PaylineWidget #pl-container-lightbox-body {
+	background-color: transparent;
+	padding: 0
+}
+
+#PaylineWidget #pl-container-lightbox-body-title {
+	background: #fff;
+	position: relative
+}
+
+#PaylineWidget #pl-container-lightbox-footer {
+	margin-bottom: 0
+}
+
+#PaylineWidget #pl-container-lightbox-message {
+	margin: 0;
+	padding-top: 1rem
+}
+
+@media only screen and (min-width:1024px) {
+	#PaylineWidget #pl-container-lightbox-message {
+		padding-bottom: 1rem;
+		padding-top: 0
+	}
+}
+
+#PaylineWidget #pl-container-lightbox-spinner.pl-spinner {
+	margin: 0
+}

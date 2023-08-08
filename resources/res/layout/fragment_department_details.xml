@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/ds_grey_white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/department_details_header_layout" android:background="@color/ds_grey_white" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/ds_header_elevation" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <androidx.compose.p004ui.platform.ComposeView android:id="@+id/department_details_header" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <com.carrefour.fid.android.design.components.widgets.list.ListItemRecyclerView android:id="@+id/department_details_list" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/ds_spacing_s" android:layout_marginRight="@dimen/ds_spacing_s" android:layout_marginHorizontal="@dimen/ds_spacing_s" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/department_details_header_layout"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

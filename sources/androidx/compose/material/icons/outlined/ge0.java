@@ -1,0 +1,101 @@
+package androidx.compose.material.icons.outlined;
+
+import androidx.compose.material.icons.C3053a;
+import androidx.compose.p004ui.graphics.C15225h4;
+import androidx.compose.p004ui.graphics.C15240j2;
+import androidx.compose.p004ui.graphics.C15244j4;
+import androidx.compose.p004ui.graphics.C15253k4;
+import androidx.compose.p004ui.graphics.C15421z1;
+import androidx.compose.p004ui.graphics.vector.C15340c;
+import androidx.compose.p004ui.graphics.vector.C15348e;
+import androidx.compose.p004ui.graphics.vector.C15380n;
+import androidx.compose.p004ui.unit.C16483g;
+import kotlin.jvm.internal.C11363r0;
+import kotlin.jvm.internal.DefaultConstructorMarker;
+import kotlin.jvm.internal.Intrinsics;
+import org.jetbrains.annotations.C12579k;
+import org.jetbrains.annotations.C12580l;
+
+@C11363r0({"SMAP\nPersonalInjury.kt\nKotlin\n*S Kotlin\n*F\n+ 1 PersonalInjury.kt\nandroidx/compose/material/icons/outlined/PersonalInjuryKt\n+ 2 Icons.kt\nandroidx/compose/material/icons/IconsKt\n+ 3 Dp.kt\nandroidx/compose/ui/unit/DpKt\n+ 4 ImageVector.kt\nandroidx/compose/ui/graphics/vector/ImageVectorKt\n+ 5 Vector.kt\nandroidx/compose/ui/graphics/vector/VectorKt\n*L\n1#1,83:1\n122#2:84\n116#2,3:85\n119#2,3:89\n132#2,18:92\n152#2:129\n175#3:88\n694#4,2:110\n706#4,2:112\n708#4,11:118\n53#5,4:114\n*S KotlinDebug\n*F\n+ 1 PersonalInjury.kt\nandroidx/compose/material/icons/outlined/PersonalInjuryKt\n*L\n29#1:84\n29#1:85,3\n29#1:89,3\n30#1:92,18\n30#1:129\n29#1:88\n30#1:110,2\n30#1:112,2\n30#1:118,11\n30#1:114,4\n*E\n"})
+public final class ge0 {
+    @C12580l
+
+    /* renamed from: a */
+    public static C15340c f10828a;
+
+    @C12579k
+    /* renamed from: a */
+    public static final C15340c m16989a(@C12579k C3053a.C3055b bVar) {
+        Intrinsics.checkNotNullParameter(bVar, "<this>");
+        C15340c cVar = f10828a;
+        if (cVar != null) {
+            Intrinsics.checkNotNull(cVar);
+            return cVar;
+        }
+        C15340c.C15341a aVar = r1;
+        C15340c.C15341a aVar2 = new C15340c.C15341a("Outlined.PersonalInjury", C16483g.m74435M(24.0f), C16483g.m74435M(24.0f), 24.0f, 24.0f, 0, 0, false, 224, (DefaultConstructorMarker) null);
+        int c = C15380n.m67238c();
+        C15225h4 h4Var = r0;
+        C15225h4 h4Var2 = new C15225h4(C15240j2.f37547b.mo42841a(), (DefaultConstructorMarker) null);
+        int a = C15244j4.f37564b.mo42862a();
+        int a2 = C15253k4.f37575b.mo42879a();
+        C15348e eVar = new C15348e();
+        eVar.mo43276l(12.0f, 10.0f);
+        C15348e eVar2 = eVar;
+        eVar2.mo43270f(2.21f, 0.0f, 4.0f, -1.79f, 4.0f, -4.0f);
+        eVar2.mo43270f(0.0f, -2.21f, -1.79f, -4.0f, -4.0f, -4.0f);
+        eVar.mo43280p(8.0f, 3.79f, 8.0f, 6.0f);
+        eVar.mo43269e(8.0f, 8.21f, 9.79f, 10.0f, 12.0f, 10.0f);
+        eVar.mo43268d();
+        eVar.mo43276l(12.0f, 4.0f);
+        C15348e eVar3 = eVar;
+        eVar3.mo43270f(1.1f, 0.0f, 2.0f, 0.9f, 2.0f, 2.0f);
+        eVar3.mo43270f(0.0f, 1.1f, -0.9f, 2.0f, -2.0f, 2.0f);
+        eVar.mo43281q(-2.0f, -0.9f, -2.0f, -2.0f);
+        eVar.mo43269e(10.0f, 4.9f, 10.9f, 4.0f, 12.0f, 4.0f);
+        eVar.mo43268d();
+        eVar.mo43276l(18.39f, 12.56f);
+        C15348e eVar4 = eVar;
+        eVar4.mo43269e(16.71f, 11.7f, 14.53f, 11.0f, 12.0f, 11.0f);
+        eVar4.mo43270f(-2.53f, 0.0f, -4.71f, 0.7f, -6.39f, 1.56f);
+        eVar4.mo43269e(4.61f, 13.07f, 4.0f, 14.1f, 4.0f, 15.22f);
+        eVar.mo43284t(22.0f);
+        eVar.mo43273i(2.0f);
+        eVar.mo43285u(-6.78f);
+        C15348e eVar5 = eVar;
+        eVar5.mo43270f(0.0f, -0.38f, 0.2f, -0.72f, 0.52f, -0.88f);
+        eVar5.mo43269e(7.71f, 13.73f, 9.63f, 13.0f, 12.0f, 13.0f);
+        eVar5.mo43270f(0.76f, 0.0f, 1.47f, 0.07f, 2.13f, 0.2f);
+        eVar.mo43275k(-1.55f, 3.3f);
+        eVar.mo43272h(9.75f);
+        C15348e eVar6 = eVar;
+        eVar6.mo43269e(8.23f, 16.5f, 7.0f, 17.73f, 7.0f, 19.25f);
+        eVar6.mo43269e(7.0f, 20.77f, 8.23f, 22.0f, 9.75f, 22.0f);
+        eVar.mo43273i(2.18f);
+        eVar.mo43272h(18.0f);
+        eVar.mo43270f(1.1f, 0.0f, 2.0f, -0.9f, 2.0f, -2.0f);
+        eVar.mo43285u(-4.78f);
+        C15348e eVar7 = eVar;
+        eVar7.mo43269e(20.0f, 14.1f, 19.39f, 13.07f, 18.39f, 12.56f);
+        eVar.mo43268d();
+        eVar.mo43276l(10.94f, 20.0f);
+        eVar.mo43272h(9.75f);
+        eVar7.mo43269e(9.34f, 20.0f, 9.0f, 19.66f, 9.0f, 19.25f);
+        eVar7.mo43270f(0.0f, -0.41f, 0.34f, -0.75f, 0.75f, -0.75f);
+        eVar.mo43273i(1.89f);
+        eVar.mo43274j(10.94f, 20.0f);
+        eVar.mo43268d();
+        eVar.mo43276l(18.0f, 20.0f);
+        eVar.mo43273i(-4.85f);
+        eVar.mo43275k(2.94f, -6.27f);
+        C15348e eVar8 = eVar;
+        eVar8.mo43270f(0.54f, 0.2f, 1.01f, 0.41f, 1.4f, 0.61f);
+        eVar8.mo43269e(17.8f, 14.5f, 18.0f, 14.84f, 18.0f, 15.22f);
+        eVar.mo43284t(20.0f);
+        eVar.mo43268d();
+        C15340c f = C15340c.C15341a.m66873d(aVar, eVar.mo43271g(), c, "", h4Var, 1.0f, (C15421z1) null, 1.0f, 1.0f, a, a2, 1.0f, 0.0f, 0.0f, 0.0f, 14336, (Object) null).mo43184f();
+        f10828a = f;
+        Intrinsics.checkNotNull(f);
+        return f;
+    }
+}

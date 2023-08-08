@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/physical_store_graph" app:startDestination="@+id/physicalStoreFragment">
+    <include app:graph="@navigation/webview_graph"/>
+    <include app:graph="@navigation/catalogs_graph"/>
+    <include app:graph="@navigation/catalog_webview_graph"/>
+    <include app:graph="@navigation/store_graph"/>
+    <fragment android:label="fragment_physical_store" android:name="com.carrefour.fid.android.presentation.p035ui.physicalstore.PhysicalStoreFragment" android:id="@+id/physicalStoreFragment">
+        <action android:id="@+id/to_webView" app:destination="@+id/webview_graph">
+            <argument android:name="webviewUrl" app:argType="string" app:nullable="false"/>
+            <argument android:name="webViewTitle" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+            <argument android:name="webViewHeaderKey" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+            <argument android:name="webViewHeaderValue" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        </action>
+        <action android:id="@+id/to_catalog_webView" app:destination="@+id/catalog_webview_graph">
+            <argument android:name="webviewUrl" app:argType="string" app:nullable="false"/>
+            <argument android:name="webViewHeaderKey" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+            <argument android:name="webViewHeaderValue" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        </action>
+        <action android:id="@+id/action_homePageFragment_to_catalogs" app:destination="@+id/catalogs_graph" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out">
+            <argument android:name="forceStoreIfExist" android:defaultValue="true" app:argType="boolean"/>
+        </action>
+        <action android:id="@+id/action_homePageFragment_to_storePage" app:destination="@+id/store_graph" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out">
+            <argument android:name="forceStoreIfExist" android:defaultValue="false" app:argType="boolean"/>
+        </action>
+        <action android:id="@+id/action_physical_store_fragment_to_challengeFidFragment" app:destination="@+id/challenge_fid_graph">
+            <argument android:name="screenName" app:argType="string"/>
+            <argument android:name="screenTemplate" app:argType="string"/>
+        </action>
+        <action android:id="@+id/action_physical_store_fragment_to_loyaltyCardFragment" app:destination="@+id/loyalty_card_graph" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out"/>
+        <action android:id="@+id/action_physical_store_fragment_to_couponsFragment" app:destination="@+id/coupons_graph" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right">
+            <argument android:name="isInStoreOnly" android:defaultValue="false" app:argType="boolean" app:nullable="false"/>
+        </action>
+        <action android:id="@+id/action_physical_store_fragment_to_loyaltyAmountHistoryFragment" app:destination="@+id/loyaltyAmountHistoryFragment" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out">
+            <argument android:name="loyaltyBalance" app:argType="string"/>
+        </action>
+    </fragment>
+    <fragment android:label="fragment_loyalty_amount_history" android:name="com.carrefour.fid.android.presentation.p035ui.loyalty.fragments.history.LoyaltyAmountHistoryFragment" android:id="@+id/loyaltyAmountHistoryFragment">
+        <argument android:name="loyaltyBalance" app:argType="string"/>
+    </fragment>
+</navigation>

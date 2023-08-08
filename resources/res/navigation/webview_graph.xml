@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/webview_graph" app:startDestination="@+id/webviewActivity">
+    <activity android:label="webview_activity" android:name="com.carrefour.fid.android.shared.presentation.p047ui.webview.WebViewActivity" android:id="@+id/webviewActivity">
+        <argument android:name="webviewUrl" app:argType="string" app:nullable="false"/>
+        <argument android:name="webViewTitle" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <argument android:name="webViewHeaderKey" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <argument android:name="webViewHeaderValue" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <argument android:name="shouldInterceptDeeplink" android:defaultValue="false" app:argType="boolean"/>
+    </activity>
+    <activity android:label="webview_activity" android:name="com.carrefour.fid.android.shared.presentation.p047ui.webview.CatalogWebViewActivity" android:id="@+id/catalogWebviewActivity">
+        <argument android:name="webviewUrl" app:argType="string" app:nullable="false"/>
+        <argument android:name="webViewHeaderKey" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <argument android:name="webViewHeaderValue" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+    </activity>
+</navigation>

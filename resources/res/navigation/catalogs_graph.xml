@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/catalogs_graph" app:startDestination="@+id/allCatalogs">
+    <fragment android:label="fragment_all_catalogs" android:name="com.carrefour.fid.android.catalogs.presentation.p065ui.CatalogBuilderFragment" android:id="@+id/allCatalogs">
+        <argument android:name="forceStoreIfExist" android:defaultValue="true" app:argType="boolean"/>
+        <action android:id="@+id/allCatalogs" app:destination="@+id/allCatalogs" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out">
+            <argument android:name="forceStoreIfExist" android:defaultValue="false" app:argType="boolean"/>
+        </action>
+        <action android:id="@+id/action_catalogs_to_catalogDetails" app:destination="@+id/catalogDetails" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out"/>
+        <action android:id="@+id/action_allCatalogs_to_catalogFavoriteProductList" app:destination="@+id/catalogProductList"/>
+    </fragment>
+    <fragment android:label="catalog_details" android:name="com.carrefour.fid.android.catalogs.presentation.p065ui.details.CatalogDetailsFragment" android:id="@+id/catalogDetails">
+        <argument android:name="catalog" app:argType="com.carrefour.fid.android.domain.models.catalog.Catalog"/>
+        <action android:id="@+id/actionCatalogDetailsToCatalogProductDetails" app:destination="@+id/catalogProductDetails" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out">
+            <argument android:name="product" app:argType="com.carrefour.fid.android.domain.models.catalog.productdetails.CatalogProduct"/>
+        </action>
+    </fragment>
+    <fragment android:label="catalog_product_details" android:name="com.carrefour.fid.android.catalogs.presentation.p065ui.productdetails.CatalogProductDetailsFragment" android:id="@+id/catalogProductDetails">
+        <argument android:name="product" app:argType="com.carrefour.fid.android.domain.models.catalog.productdetails.CatalogProduct"/>
+    </fragment>
+    <fragment android:label="catalog_favorite_product_list" android:name="com.carrefour.fid.android.catalogs.presentation.p065ui.favoriteproducts.CatalogsFavoriteProductListFragment" android:id="@+id/catalogProductList">
+        <action android:id="@+id/action_catalogProductList_to_allCatalogs" app:destination="@+id/allCatalogs"/>
+        <action android:id="@+id/action_catalogProductList_to_catalogProductDetails" app:destination="@+id/catalogProductDetails"/>
+    </fragment>
+</navigation>

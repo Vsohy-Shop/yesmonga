@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:id="@+id/ub_color_picker_selected_border">
+        <shape android:shape="oval">
+            <solid android:color="#00ff00"/>
+            <size android:height="@dimen/ub_color_picker_size" android:width="@dimen/ub_color_picker_size"/>
+        </shape>
+    </item>
+    <item android:id="@+id/ub_color_picker_border" android:left="@dimen/ub_color_picker_selected_border_offset" android:top="@dimen/ub_color_picker_selected_border_offset" android:right="@dimen/ub_color_picker_selected_border_offset" android:bottom="@dimen/ub_color_picker_selected_border_offset">
+        <shape android:shape="oval">
+            <solid android:color="#000"/>
+        </shape>
+    </item>
+    <item android:id="@+id/ub_color_picker_fill" android:left="@dimen/ub_color_picker_border_offset" android:top="@dimen/ub_color_picker_border_offset" android:right="@dimen/ub_color_picker_border_offset" android:bottom="@dimen/ub_color_picker_border_offset">
+        <shape android:shape="oval">
+            <solid android:color="#ff00ff"/>
+        </shape>
+    </item>
+</layer-list>

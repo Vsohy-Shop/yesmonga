@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@android:color/white" android:fitsSystemWindows="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/forgot_pwd_app_bar" android:layout_width="match_parent" android:layout_height="@dimen/signin_in_app_bar_height" app:elevation="0dp" app:layout_insetEdge="0">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" app:contentScrim="@color/transparent" app:layout_collapseMode="1" app:layout_scrollFlags="3">
+            <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/account_header_bg" android:scaleType="centerCrop"/>
+            <View android:layout_gravity="bottom" android:background="@drawable/sign_in_content_bg" android:layout_width="match_parent" android:layout_height="@dimen/signin_in_app_bar_bottom_height"/>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <include android:id="@+id/sign_in_content" layout="@layout/sign_in_content"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@+id/sign_in_close_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:tint="@android:color/transparent" android:contentDescription="@string/accessibility_close_sign_in_page" android:layout_marginEnd="5dp" app:backgroundTint="@android:color/transparent" app:borderWidth="0dp" app:elevation="0dp" app:fabSize="1" app:layout_anchor="@+id/forgot_pwd_app_bar" app:layout_anchorGravity="35" app:pressedTranslationZ="0dp" app:srcCompat="@drawable/ic_close_one_app"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

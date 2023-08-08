@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/payment_method_header_layout" android:background="@color/ds_grey_white" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/ds_header_elevation" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <androidx.compose.p004ui.platform.ComposeView android:id="@+id/payment_method_header" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <WebView android:id="@+id/webview_payline" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/payment_method_header_layout"/>
+    <com.facebook.shimmer.ShimmerFrameLayout android:orientation="vertical" android:id="@+id/loading_layout" android:background="@drawable/shimmer_view_radius" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp" android:layout_margin="@dimen/ds_spacing_s" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/payment_method_header_layout"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

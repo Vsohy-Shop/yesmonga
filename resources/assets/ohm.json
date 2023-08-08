@@ -1,0 +1,101 @@
+[
+  {
+    "status": "CONFIRMED",
+    "one_order_id": "1111111",
+    "order_type": "DRIVE",
+    "store": {
+      "facility_service_id": "7328-150-51"
+    },
+    "delivery_adress": {
+      "city": "PARIS",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY_AND_BILLING",
+      "street_address_one": "189",
+      "street_address_two": "Avenue de France",
+      "street_address_three": "",
+      "city_code": "75013",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-17T17:48:31Z",
+    "slot_info": {
+      "slot_date_begin": "2020-12-19T08:30:00Z",
+      "slot_date_end": "2020-12-19T09:00:00Z"
+    },
+    "one_order_amount": {
+      "unscaled_amount": 345,
+      "scale": 1,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "CONFIRMED",
+    "one_order_id": "512143358",
+    "order_type": "DRIVE",
+    "store": {
+      "facility_service_id": "7328-150-51"
+    },
+    "delivery_adress": {
+      "city": "PARIS",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY_AND_BILLING",
+      "street_address_one": "189",
+      "street_address_two": "Avenue de France",
+      "street_address_three": "",
+      "city_code": "75013",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-17T17:48:31Z",
+    "slot_info": {
+      "slot_date_begin": "2020-04-18T05:30:00Z",
+      "slot_date_end": "2020-04-18T06:00:00Z"
+    },
+    "one_order_amount": {
+      "unscaled_amount": 134,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "CANCELLED",
+    "one_order_id": "99999988",
+    "order_type": "DRIVE",
+    "store": {
+      "facility_service_id": "7328-150-51"
+    },
+    "delivery_adress": {
+      "city": "PARIS",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY_AND_BILLING",
+      "street_address_one": "189",
+      "street_address_two": "Avenue de France",
+      "street_address_three": "",
+      "city_code": "75013",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-17T17:48:31Z",
+    "slot_info": {
+      "slot_date_begin": "2020-04-17T07:30:00Z",
+      "slot_date_end": "2020-04-17T08:00:00Z"
+    },
+    "one_order_amount": {
+      "unscaled_amount": 32,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  }
+]

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" app:cardCornerRadius="@dimen/ds_radius_xl">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:paddingTop="@dimen/ds_spacing_s" android:layout_width="@dimen/width_300dp" android:layout_height="@dimen/width_275dp">
+        <ImageView android:layout_gravity="right" android:id="@+id/closeActiveFidPopIn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close_blue" android:layout_marginEnd="@dimen/ds_spacing_s"/>
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/margin_100dp" android:layout_height="@dimen/margin_80dp" android:src="@drawable/ic_active_fid_alert" android:scaleType="centerInside"/>
+        <TextView android:textSize="@dimen/ds_font_size_s" android:gravity="center" android:padding="@dimen/ds_spacing_xs" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ds_spacing_s" android:text="@string/activate_active_fid_card" android:lineSpacingExtra="@dimen/ds_spacing_xxxs" style="@style/GMPContentStyle"/>
+        <Button android:id="@+id/activateCardNowBtn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ds_spacing_s" android:layout_marginBottom="@dimen/ds_spacing_xs" android:text="@string/activate_now" android:layout_marginStart="@dimen/ds_spacing_s" android:layout_marginEnd="@dimen/ds_spacing_s" style="@style/AppDefaultButtonStyle"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

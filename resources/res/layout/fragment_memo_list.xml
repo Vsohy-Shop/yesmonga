@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:descendantFocusability="beforeDescendants" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.compose.p004ui.platform.ComposeView android:id="@+id/memo_list_header" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <androidx.compose.p004ui.platform.ComposeView android:id="@+id/memo_list_input" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/memo_list_header"/>
+    <com.facebook.shimmer.ShimmerFrameLayout android:orientation="vertical" android:id="@+id/shimmer_account_list_store_memo" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toBottomOf="@+id/memo_list_input" app:shimmer_duration="2000">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include layout="@layout/shimmer_cell_listes"/>
+            <include layout="@layout/shimmer_cell_listes"/>
+            <include layout="@layout/shimmer_cell_listes"/>
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toTopOf="@+id/button_recommendation" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toBottomOf="@+id/memo_list_input">
+        <com.carrefour.fid.android.design.components.widgets.list.ListItemRecyclerView android:id="@+id/list_account_list_store_memo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/ds_sizing_s" app:behavior_overlapTop="120dp"/>
+    </FrameLayout>
+    <com.google.android.material.button.MaterialButton android:id="@+id/button_recommendation" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ds_spacing_m" android:text="@string/shopping_list_memo_start_button" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" style="@style/Button.Large.Primary"/>
+    <ViewStub android:id="@+id/stub_memo_list_error" android:layout="@layout/fragment_message_view" android:inflatedId="@+id/memo_list_error" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/memo_list_input"/>
+    <ViewStub android:id="@+id/stub_account_list_store_memo_empty" android:layout="@layout/fragment_account_list_store_memo_empty" android:inflatedId="@+id/account_list_empty" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toBottomOf="@+id/memo_list_input"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,31 @@
+package com.carrefour.fid.android.loyalty.domain.interactors;
+
+import com.carrefour.fid.android.loyalty.data.repositories.LoyaltyRepository;
+import dagger.internal.C10321e;
+import dagger.internal.C10324h;
+import dagger.internal.C10337q;
+import dagger.internal.C10338r;
+import javax.inject.Provider;
+
+@C10321e
+@C10337q
+@C10338r
+public final class GetLoyaltyClubsUseCase_Factory implements C10324h<GetLoyaltyClubsUseCase> {
+    private final Provider<LoyaltyRepository> repositoryProvider;
+
+    public GetLoyaltyClubsUseCase_Factory(Provider<LoyaltyRepository> provider) {
+        this.repositoryProvider = provider;
+    }
+
+    public static GetLoyaltyClubsUseCase_Factory create(Provider<LoyaltyRepository> provider) {
+        return new GetLoyaltyClubsUseCase_Factory(provider);
+    }
+
+    public static GetLoyaltyClubsUseCase newInstance(LoyaltyRepository loyaltyRepository) {
+        return new GetLoyaltyClubsUseCase(loyaltyRepository);
+    }
+
+    public GetLoyaltyClubsUseCase get() {
+        return newInstance(this.repositoryProvider.get());
+    }
+}

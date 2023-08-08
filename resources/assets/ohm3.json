@@ -1,0 +1,161 @@
+{
+  "count": 13,
+  "data": [
+    {
+      "order_key": "158-83-1353",
+      "order_date": "20190905",
+      "total_monetary_amount_including_taxes": {
+        "unscaled_amount": 1651,
+        "scale": 2,
+        "currency": "EUR"
+      },
+      "facility_id": "0071",
+      "gln": "3020475250000",
+      "facility_name": "CARRE SENART"
+    },
+    {
+      "order_key": "3-292-1856",
+      "order_date": "20190904",
+      "total_monetary_amount_including_taxes": {
+        "unscaled_amount": 16970,
+        "scale": 3,
+        "currency": "EUR"
+      },
+      "facility_id": "6604",
+      "gln": "3021081177693",
+      "facility_name": "MASSY -GD OUEST"
+    },
+    {
+      "order_key": "4-195-1856",
+      "order_date": "20190902",
+      "total_monetary_amount_including_taxes": {
+        "unscaled_amount": 9450,
+        "scale": 3,
+        "currency": "EUR"
+      },
+      "facility_id": "6604",
+      "gln": "3021081177693",
+      "facility_name": "MASSY -GD OUEST"
+    },
+    {
+      "order_key": "6-188-1733",
+      "order_date": "20190831",
+      "total_monetary_amount_including_taxes": {
+        "unscaled_amount": 19210,
+        "scale": 3,
+        "currency": "EUR"
+      },
+      "facility_id": "6604",
+      "gln": "3021081177693",
+      "facility_name": "MASSY -GD OUEST"
+    },
+    {
+      "order_key": "2-113-1851",
+      "order_date": "20190830",
+      "total_monetary_amount_including_taxes": {
+        "unscaled_amount": 34860,
+        "scale": 3,
+        "currency": "EUR"
+      },
+      "facility_id": "6604",
+      "gln": "3021081177693",
+      "facility_name": "MASSY -GD OUEST"
+    },
+    {
+      "order_key": "5-276-1900",
+      "order_date": "20190828",
+      "total_monetary_amount_including_taxes": {
+        "unscaled_amount": 23170,
+        "scale": 3,
+        "currency": "EUR"
+      },
+      "facility_id": "6604",
+      "gln": "3021081177693",
+      "facility_name": "MASSY -GD OUEST"
+    },
+    {
+      "order_key": "7-8-1904",
+      "order_date": "20190826",
+      "total_monetary_amount_including_taxes": {
+        "unscaled_amount": 19260,
+        "scale": 3,
+        "currency": "EUR"
+      },
+      "facility_id": "6604",
+      "gln": "3021081177693",
+      "facility_name": "MASSY -GD OUEST"
+    },
+    {
+      "order_key": "31-56-1238",
+      "order_date": "20190824",
+      "total_monetary_amount_including_taxes": {
+        "unscaled_amount": 4688,
+        "scale": 2,
+        "currency": "EUR"
+      },
+      "facility_id": "7328",
+      "gln": "3021080304400",
+      "facility_name": "LA VILLE DU BOIS"
+    },
+    {
+      "order_key": "2-218-1859",
+      "order_date": "20190823",
+      "total_monetary_amount_including_taxes": {
+        "unscaled_amount": 24220,
+        "scale": 3,
+        "currency": "EUR"
+      },
+      "facility_id": "6604",
+      "gln": "3021081177693",
+      "facility_name": "MASSY -GD OUEST"
+    },
+    {
+      "order_key": "1-430-1922",
+      "order_date": "20190809",
+      "total_monetary_amount_including_taxes": {
+        "unscaled_amount": 38270,
+        "scale": 3,
+        "currency": "EUR"
+      },
+      "facility_id": "6604",
+      "gln": "3021081177693",
+      "facility_name": "MASSY -GD OUEST"
+    },
+    {
+      "order_key": "4-59-1854",
+      "order_date": "20190805",
+      "total_monetary_amount_including_taxes": {
+        "unscaled_amount": 21700,
+        "scale": 3,
+        "currency": "EUR"
+      },
+      "facility_id": "6604",
+      "gln": "3021081177693",
+      "facility_name": "MASSY -GD OUEST"
+    },
+    {
+      "order_key": "2-221-1905",
+      "order_date": "20190731",
+      "total_monetary_amount_including_taxes": {
+        "unscaled_amount": 28000,
+        "scale": 3,
+        "currency": "EUR"
+      },
+      "facility_id": "6604",
+      "gln": "3021081177693",
+      "facility_name": "MASSY -GD OUEST"
+    },
+    {
+      "order_key": "4-56-1907",
+      "order_date": "20190729",
+      "total_monetary_amount_including_taxes": {
+        "unscaled_amount": 14870,
+        "scale": 3,
+        "currency": "EUR"
+      },
+      "facility_id": "6604",
+      "gln": "3021081177693",
+      "facility_name": "MASSY -GD OUEST"
+    }
+  ]
+}

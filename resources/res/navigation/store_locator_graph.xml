@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/store_locator_graph" app:startDestination="@+id/facilitiesSearchFragment">
+    <argument android:name="sourceGraphId" android:defaultValue="@+id/home_graph" app:argType="reference"/>
+    <fragment android:label="fragment_store_locator_search" android:name="com.carrefour.fid.android.storelocator.p048ui.fragments.FacilitiesSearchFragment" android:id="@+id/facilitiesSearchFragment"/>
+</navigation>

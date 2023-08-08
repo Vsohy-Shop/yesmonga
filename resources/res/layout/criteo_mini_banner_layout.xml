@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/image_criteo_banner" android:layout_width="match_parent" android:layout_height="wrap_content" android:adjustViewBounds="true"/>
+    <TextView android:textSize="@dimen/ds_font_size_xs" android:textStyle="bold" android:textColor="@color/ds_primary" android:id="@+id/text_criteo_banner" android:paddingTop="@dimen/ds_spacing_xxxs" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ds_spacing_s" android:layout_marginBottom="@dimen/ds_spacing_s" android:layout_marginStart="@dimen/ds_spacing_s" android:layout_marginEnd="@dimen/ds_spacing_s"/>
+</merge>

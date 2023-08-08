@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/catalog_product_details_graph" app:startDestination="@+id/catalogProductDetails">
+    <fragment android:label="catalog_product_details" android:name="com.carrefour.fid.android.catalogs.presentation.p065ui.productdetails.CatalogProductDetailsFragment" android:id="@+id/catalogProductDetails">
+        <argument android:name="product" app:argType="com.carrefour.fid.android.domain.models.catalog.productdetails.CatalogProduct"/>
+    </fragment>
+</navigation>

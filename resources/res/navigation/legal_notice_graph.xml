@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/legal_notice_graph" app:startDestination="@+id/legalNoticeFragment">
+    <fragment android:name="com.carrefour.fid.android.legalnotice.p059ui.fragments.LegalNoticeFragment" android:id="@+id/legalNoticeFragment">
+        <action android:id="@+id/action_legalNoticeFragment_to_cookiesTracersPolicyFragment" app:destination="@+id/cookiesTracersPolicyFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+        <action android:id="@+id/action_legalNoticeFragment_to_embeddedSoftwareLicensingFragment" app:destination="@+id/embeddedSoftwareLicensingFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment android:name="com.carrefour.fid.android.rgpd.cookies.p040ui.CookiesTracersPolicyFragment" android:id="@+id/cookiesTracersPolicyFragment"/>
+    <fragment android:name="com.carrefour.fid.android.legalnotice.p059ui.fragments.EmbeddedSoftwareLicensingFragment" android:id="@+id/embeddedSoftwareLicensingFragment"/>
+</navigation>

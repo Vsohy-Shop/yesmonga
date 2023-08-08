@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/search_with_list_graph" app:startDestination="@+id/searchWithListFragment">
+    <fragment android:label="search_with_list_fragment" android:name="com.carrefour.fid.android.presentation.p035ui.product.search.ProductSearchWithListFragment" android:id="@+id/searchWithListFragment">
+        <action android:id="@+id/action_searchWithListFragment_to_searchWithListResultFragment" app:destination="@+id/search_with_list_result_graph" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right">
+            <argument android:name="search_result" android:defaultValue="@null" app:argType="android.os.Bundle" app:nullable="true"/>
+            <argument android:name="tab_by_default" android:defaultValue="0" app:argType="integer" app:nullable="false"/>
+        </action>
+    </fragment>
+</navigation>

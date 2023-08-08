@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.usabilla.sdk.ubform.customViews.MaxHeightScrollView android:id="@+id/page_scroll" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/ub_banner_content_min_height" android:fillViewport="false">
+        <LinearLayout android:orientation="vertical" android:id="@+id/page_content" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </com.usabilla.sdk.ubform.customViews.MaxHeightScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@+id/container_buttons" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@+id/buttons_line" android:background="@color/ub_banner_line" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <com.usabilla.sdk.ubform.customViews.PageButtonsLayout android:orientation="horizontal" android:id="@+id/page_buttons" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/checkout_additional_order_graph" app:startDestination="@+id/checkoutStepOneAdditionalOrderFragment">
+    <fragment android:label="CheckoutStepOneAdditionalOrderFragment" android:name="com.carrefour.fid.android.presentation.p035ui.orders.online.additionalorders.checkout.CheckoutStepOneAdditionalOrderFragment" android:id="@+id/checkoutStepOneAdditionalOrderFragment">
+        <argument android:name="orderType" app:argType="com.carrefour.fid.android.shared.domain.models.order.OrderType" app:nullable="true"/>
+        <action android:id="@+id/action_checkoutStepOneAdditionalOrderFragment_to_checkoutStepTwoAdditionalOderFragment" app:destination="@+id/checkoutStepTwoAdditionalOderFragment" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out"/>
+    </fragment>
+    <fragment android:label="CheckoutStepTwoAdditionalOderFragment" android:name="com.carrefour.fid.android.presentation.p035ui.orders.online.additionalorders.checkout.CheckoutStepTwoAdditionalOderFragment" android:id="@+id/checkoutStepTwoAdditionalOderFragment">
+        <argument android:name="orderId" app:argType="string" app:nullable="true"/>
+        <action android:id="@+id/action_checkoutStepTwoAdditionalOderFragment_to_checkoutAdditionalOrderPaymentFragment" app:destination="@+id/checkoutAdditionalOrderPaymentFragment" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out"/>
+        <action android:id="@+id/checkoutStep2AdditionalOder_to_channelsFid" app:destination="@+id/channelsFidFromAdditionalOrder"/>
+        <action android:id="@+id/checkoutStepTwoAdditionalOder_to_blockedCard" app:destination="@+id/blockedCardFromAdditionalOrder"/>
+    </fragment>
+    <fragment android:label="CheckoutAdditionalOrderPaymentFragment" android:name="com.carrefour.fid.android.presentation.p035ui.orders.online.additionalorders.checkout.CheckoutPaymentFragment" android:id="@+id/checkoutAdditionalOrderPaymentFragment">
+        <argument android:name="arguments_payment_confirmation" android:defaultValue="@null" app:argType="android.os.Bundle" app:nullable="true"/>
+        <argument android:name="initial_order_id" app:argType="string" app:nullable="true"/>
+    </fragment>
+    <fragment android:label="ChannelsFidFragment" android:name="com.carrefour.fid.android.presentation.p035ui.loyalty.fragments.otp.ChannelsFidFragment" android:id="@+id/channelsFidFromAdditionalOrder">
+        <argument android:name="loyaltyCardNumber" app:argType="string"/>
+        <argument android:name="origination" app:argType="com.carrefour.fid.android.presentation.ui.loyalty.fragments.otp.OtpOrigination"/>
+        <action android:id="@+id/channelsFidFromAdditionalOrder_to_validateOtp" app:destination="@+id/validateOtpFromAdditionalOrder"/>
+    </fragment>
+    <fragment android:label="ValidateOtpFragment" android:name="com.carrefour.fid.android.presentation.p035ui.loyalty.fragments.otp.ValidateOtpFragment" android:id="@+id/validateOtpFromAdditionalOrder">
+        <argument android:name="loyaltyCardNumber" app:argType="string"/>
+        <argument android:name="origination" app:argType="com.carrefour.fid.android.presentation.ui.loyalty.fragments.otp.OtpOrigination"/>
+        <action android:id="@+id/validateOtpFromAdditionalOrder_to_secretCode" app:destination="@+id/secretCodeFromAdditionalOrder"/>
+    </fragment>
+    <fragment android:label="SecretCodeFragment" android:name="com.carrefour.fid.android.presentation.p035ui.loyalty.fragments.otp.SecretCodeFragment" android:id="@+id/secretCodeFromAdditionalOrder">
+        <argument android:name="loyaltyCardNumber" app:argType="string"/>
+        <argument android:name="validationOtpCode" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <argument android:name="origination" app:argType="com.carrefour.fid.android.presentation.ui.loyalty.fragments.otp.OtpOrigination"/>
+    </fragment>
+    <fragment android:label="fragment_blocked_card" android:name="com.carrefour.fid.android.presentation.p035ui.loyalty.fragments.otp.BlockedCardFragment" android:id="@+id/blockedCardFromAdditionalOrder">
+        <argument android:name="loyaltyCardNumber" app:argType="string"/>
+        <argument android:name="origination" app:argType="com.carrefour.fid.android.presentation.ui.loyalty.fragments.otp.OtpOrigination"/>
+        <action android:id="@+id/action_blockedCardFragment2_to_channelsFidFromAdditionalOrder" app:destination="@+id/channelsFidFromAdditionalOrder"/>
+    </fragment>
+</navigation>

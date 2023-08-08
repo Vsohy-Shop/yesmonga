@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/departments_graph" app:startDestination="@+id/departmentFragment">
+    <include app:graph="@navigation/product_list_department_graph"/>
+    <include app:graph="@navigation/product_list_search_graph"/>
+    <include app:graph="@navigation/product_list_promo_graph"/>
+    <fragment android:label="departments_service_fragment" android:name="com.carrefour.fid.android.categories.presentation.p067ui.department.DepartmentFragment" android:id="@+id/departmentFragment">
+        <argument android:name="goToDepartment" android:defaultValue="@null" app:argType="com.carrefour.fid.android.domain.models.category.ProductCategory" app:nullable="true"/>
+        <action android:id="@+id/action_departmentFragment_to_productSearchFragment" app:destination="@+id/productListDepartmentFragment" app:enterAnim="@anim/fade_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/fade_out">
+            <argument android:name="should_animate_transition" android:defaultValue="false" app:argType="boolean"/>
+        </action>
+        <action android:id="@+id/action_departmentFragment_to_productListFragment" app:destination="@+id/productListDepartmentFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+        <action android:id="@+id/action_departmentFragment_to_departmentDetailsFragment" app:destination="@+id/departmentDetailsFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+        <action android:id="@+id/action_departmentFragment_to_scanBarCodeFragment" app:destination="@+id/scanBarCodeFragment" app:enterAnim="@anim/fade_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/fade_out"/>
+    </fragment>
+    <fragment android:label="department_details_fragment" android:name="com.carrefour.fid.android.categories.presentation.p067ui.department.DepartmentDetailsFragment" android:id="@+id/departmentDetailsFragment">
+        <argument android:name="productCategory" app:argType="com.carrefour.fid.android.domain.models.category.ProductCategory"/>
+        <argument android:name="parentDepartment" android:defaultValue="" app:argType="string"/>
+        <argument android:name="shouldSearchOnBack" android:defaultValue="false" app:argType="boolean"/>
+        <action android:id="@+id/action_departmentDetailsFragment_to_departmentDetailsFragment" app:destination="@+id/departmentDetailsFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+        <action android:id="@+id/action_departmentDetailsFragment_to_searchFragment" app:destination="@+id/productListDepartmentFragment" app:enterAnim="@anim/fade_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/fade_out"/>
+    </fragment>
+    <fragment android:label="ScanBarCodeFragment" android:name="com.carrefour.fid.android.presentation.p035ui.scan.BarcodeScannerFragment" android:id="@+id/scanBarCodeFragment"/>
+</navigation>

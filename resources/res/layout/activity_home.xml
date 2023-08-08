@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.carrefour.fid.android.presentation.components.toolbar.ToolBarDefaultView android:id="@+id/toolbar_home" android:background="@color/ds_grey_white" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/ds_spacing_xxs"/>
+    <androidx.fragment.app.FragmentContainerView android:name="androidx.navigation.fragment.NavHostFragment" android:id="@+id/nav_host_container" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" app:defaultNavHost="true" app:navGraph="@navigation/bottom_nav_graph"/>
+    <com.carrefour.fid.android.design.components.widgets.BottomNavigationComponent android:id="@+id/main_bottom_navigation" app:menu="@menu/bottom_nav_menu" style="@style/BottomNavigationViewTheme"/>
+</LinearLayout>

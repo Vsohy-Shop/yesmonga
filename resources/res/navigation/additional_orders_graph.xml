@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/additional_orders_graph" app:startDestination="@+id/additionalOrderFragment">
+    <fragment android:label="AdditionalOrderFragment" android:name="com.carrefour.fid.android.presentation.p035ui.orders.online.additionalorders.AdditionalOrderFragment" android:id="@+id/additionalOrderFragment">
+        <argument android:name="sourceGraphId" app:argType="reference"/>
+        <action android:id="@+id/action_additionalOrderFragment_to_additionalOrderProductSearchFragment" app:destination="@+id/additionalOrderProductSearchFragment" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out"/>
+        <action android:id="@+id/action_additionalOrderFragment_to_additionalOrderScanProductFragment" app:destination="@+id/additionalOrderScanProductFragment" app:enterAnim="@anim/fade_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/fade_out"/>
+        <action android:id="@+id/action_additionalOrderFragment_to_basketAdditionalOrderFragment" app:destination="@+id/basketAdditionalOrderFragment"/>
+        <action android:id="@+id/action_additionalOrderFragment_to_additionalOrderDepartmentFragment" app:destination="@+id/additionalOrderDepartmentFragment"/>
+    </fragment>
+    <fragment android:label="AdditionalOrderFragment" android:name="com.carrefour.fid.android.presentation.p035ui.product.search.AdditionalOrderProductSearchFragment" android:id="@+id/additionalOrderProductSearchFragment">
+        <argument android:name="sourceGraphId" app:argType="reference"/>
+        <action android:id="@+id/action_additionalOrderProductSearchFragment_to_additionalOrderScanProductFragment" app:destination="@+id/additionalOrderScanProductFragment" app:enterAnim="@anim/fade_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/fade_out"/>
+        <action android:id="@+id/action_additionalOrderProductSearchFragment_to_additionalOrderSearchResultFragment" app:destination="@+id/additionalOrderSearchResultFragment" app:enterAnim="@anim/fade_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/fade_out"/>
+    </fragment>
+    <fragment android:label="additionalOrderSearchResultFragment" android:name="com.carrefour.fid.android.presentation.p035ui.product.search.result.AdditionalOrderSearchResultFragment" android:id="@+id/additionalOrderSearchResultFragment">
+        <action android:id="@+id/action_additionalOrderSearchResultFragment_to_basketAdditionalOrderFragment" app:destination="@+id/basketAdditionalOrderFragment"/>
+        <action android:id="@+id/action_additionalOrderSearchResultFragment_to_additionalOrderScanProductFragment" app:destination="@+id/additionalOrderScanProductFragment"/>
+        <argument android:name="search_text" app:argType="string" app:nullable="false"/>
+        <argument android:name="sourceGraphId" app:argType="reference"/>
+    </fragment>
+    <fragment android:label="ScanBarCodeFragment" android:name="com.carrefour.fid.android.presentation.p035ui.scan.BarcodeScannerFragment" android:id="@+id/additionalOrderScanProductFragment"/>
+    <fragment android:label="basket_builder_department" android:name="com.carrefour.fid.android.presentation.p035ui.orders.online.additionalorders.AdditionalOrderDepartmentFragment" android:id="@+id/additionalOrderDepartmentFragment">
+        <argument android:name="recommendedProductsByDepartmentModel" app:argType="com.carrefour.fid.android.presentation.models.RecommendedProductsByDepartmentModel"/>
+    </fragment>
+    <fragment android:label="BasketAdditionalOrderFragment" android:name="com.carrefour.fid.android.presentation.p035ui.orders.online.additionalorders.BasketAdditionalOrderFragment" android:id="@+id/basketAdditionalOrderFragment">
+        <argument android:name="orderType" app:argType="com.carrefour.fid.android.shared.domain.models.order.OrderType" app:nullable="true"/>
+        <argument android:name="sourceGraphId" app:argType="reference"/>
+        <action android:id="@+id/action_basketAdditionalOrderFragment_to_checkoutAdditionalOrderConfirmationFragment" app:destination="@+id/checkoutAdditionalOrderConfirmationFragment" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out"/>
+        <action android:id="@+id/action_basketAdditionalOrderFragment_to_checkoutAdditionalOrderPaymentErrorFragment" app:destination="@+id/checkoutAdditionalOrderPaymentErrorFragment" app:enterAnim="@anim/slide_in" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/slide_out"/>
+    </fragment>
+    <fragment android:label="CheckoutPaymentErrorFragment" android:name="com.carrefour.fid.android.presentation.p035ui.orders.online.additionalorders.checkout.CheckoutPaymentErrorFragment" android:id="@+id/checkoutAdditionalOrderPaymentErrorFragment">
+        <argument android:name="error_payment" android:defaultValue="@null" app:argType="android.os.Bundle" app:nullable="true"/>
+    </fragment>
+    <fragment android:label="CheckoutConfirmationFragment" android:name="com.carrefour.fid.android.presentation.p035ui.orders.online.additionalorders.checkout.CheckoutConfirmationFragment" android:id="@+id/checkoutAdditionalOrderConfirmationFragment">
+        <argument android:name="order_confirmation" android:defaultValue="@null" app:argType="android.os.Bundle" app:nullable="true"/>
+    </fragment>
+</navigation>

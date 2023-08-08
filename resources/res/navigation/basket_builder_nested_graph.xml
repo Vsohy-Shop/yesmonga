@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/basket_builder_sub_graph" app:startDestination="@+id/frequentPurchaseFragment">
+    <fragment android:name="com.carrefour.fid.android.presentation.p035ui.basketbuilder.BasketBuilderFrequentPurchasesFragment" android:id="@+id/frequentPurchaseFragment"/>
+    <fragment android:name="com.carrefour.fid.android.presentation.p035ui.basketbuilder.BasketBuilderMyListsFragment" android:id="@+id/myListsFragment"/>
+    <fragment android:name="com.carrefour.fid.android.presentation.p035ui.account.list.order.AccountListOrderFragment" android:id="@+id/lastOrderFragment"/>
+    <fragment android:name="com.carrefour.fid.android.presentation.p035ui.account.list.shopping.AccountListShoppingFragment" android:id="@+id/shoppingListFragment"/>
+</navigation>

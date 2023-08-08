@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basket_builder_preview_subtitle">
+        <item quantity="one">%d article</item>
+        <item quantity="other">%d articles</item>
+    </plurals>
+    <plurals name="basket_bundle_discount_message">
+        <item quantity="one">%d lot réalisé = %s %s</item>
+        <item quantity="other">%d lots réalisés = %s %s</item>
+    </plurals>
+    <plurals name="basket_mixing_discount_message">
+        <item quantity="one">%d lot réalisé ! %s d&apos;économies</item>
+        <item quantity="other">%d lots réalisés ! %s d&apos;économies</item>
+    </plurals>
+    <plurals name="basket_total_articles">
+        <item quantity="one">Total (%d article)</item>
+        <item quantity="other">Total (%d articles)</item>
+    </plurals>
+    <plurals name="catalogs_products_number">
+        <item quantity="one">%d produit</item>
+        <item quantity="other">%d produits</item>
+    </plurals>
+    <plurals name="checkout_summary_detail_order">
+        <item quantity="one">Détail commande (%d article)</item>
+        <item quantity="other">Détail commande (%d articles)</item>
+    </plurals>
+    <plurals name="coupon_has_been_updated_successfully">
+        <item quantity="one">a été désactivé avec succès.</item>
+        <item quantity="other">ont été désactivé avec succès.</item>
+    </plurals>
+    <plurals name="coupon_update_status">
+        <item quantity="one">a rencontré un problème pendant</item>
+        <item quantity="other">ont été mis à jour partiellement.</item>
+    </plurals>
+    <plurals name="coupon_update_successfully">
+        <item quantity="one">a été activé avec succès.</item>
+        <item quantity="other">ont été activés avec succès.</item>
+    </plurals>
+    <plurals name="coupon_update_text_your_coupon">
+        <item quantity="one">Votre coupon</item>
+        <item quantity="other">Vos coupons</item>
+    </plurals>
+    <plurals name="coupon_update_title">
+        <item quantity="one">Mise à jour de votre coupon</item>
+        <item quantity="other">Mise à jour de vos coupons</item>
+    </plurals>
+    <plurals name="coupons_popin_load_to_card_message">
+        <item quantity="one">Il disparaîtra alors de votre compte et ne pourra être utilisé qu&apos;en présentant le code-barres au passage en caisse. Attention, une fois converti, vous disposez de 24h pour utiliser votre code-barres.</item>
+        <item quantity="other">Ils disparaîtront alors de votre compte et ne pourront être utilisés qu&apos;en présentant les codes-barres au passage en caisse. Attention, une fois convertis, vous disposez de 24h pour utiliser vos codes-barres.</item>
+    </plurals>
+    <plurals name="coupons_popin_load_to_card_title">
+        <item quantity="one">Voulez-vous vraiment convertir votre bon ?</item>
+        <item quantity="other">Voulez-vous vraiment convertir vos bons ?</item>
+    </plurals>
+    <plurals name="filter_validate_button">
+        <item quantity="one">Voir le produit</item>
+        <item quantity="other">Voir les %d produits</item>
+    </plurals>
+    <plurals name="hub_missing_products_description">
+        <item quantity="one">%d produit est indisponible (voir le détail pour savoir s&apos;il a pu être remplacé).</item>
+        <item quantity="other">%d produits sont indisponibles (voir le détail pour savoir s&apos;ils ont pu être remplacés).</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="nhp_label_products_count">
+        <item quantity="one">%d\10produit</item>
+        <item quantity="other">%d\10produits</item>
+    </plurals>
+    <plurals name="order_missing_product_original_quantity">
+        <item quantity="one">%d Commandé</item>
+        <item quantity="other">%d Commandés</item>
+    </plurals>
+    <plurals name="order_missing_product_prepared_quantity">
+        <item quantity="one">%d Livré et facturé</item>
+        <item quantity="other">%d Livrés et facturés</item>
+    </plurals>
+    <plurals name="search_result">
+        <item quantity="one">%d résultat trouvé</item>
+        <item quantity="other">%d résultats trouvés</item>
+    </plurals>
+    <plurals name="shopping_my_list_item_product">
+        <item quantity="one">%d produit</item>
+        <item quantity="other">%d produits</item>
+    </plurals>
+    <plurals name="shoppinglist_list_item_number">
+        <item quantity="one">%d produit</item>
+        <item quantity="other">%d produits</item>
+    </plurals>
+    <plurals name="ua_mc_description_deleted">
+        <item quantity="one">Deleted %1$d message</item>
+        <item quantity="other">Deleted %1$d messages</item>
+    </plurals>
+    <plurals name="ua_mc_description_marked_read">
+        <item quantity="one">Marked %1$d message as read</item>
+        <item quantity="other">Marked %1$d messages as read</item>
+    </plurals>
+    <plurals name="ua_selected_count">
+        <item quantity="one">%1$d selected</item>
+        <item quantity="other">%1$d selected</item>
+    </plurals>
+    <plurals name="unavailable_product_category">
+        <item quantity="one">Produit indisponible</item>
+        <item quantity="other">Produits indisponibles</item>
+    </plurals>
+    <plurals name="unavailable_product_count">
+        <item quantity="one">%d produit indisponible</item>
+        <item quantity="other">%d produits indisponibles</item>
+    </plurals>
+</resources>

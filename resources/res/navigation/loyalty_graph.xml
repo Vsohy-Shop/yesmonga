@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/loyalty_graph" app:startDestination="@+id/baseLoyaltyFragment">
+    <fragment android:label="fragment_base_loyalty" android:name="com.carrefour.fid.android.presentation.p035ui.loyalty.fragments.BaseLoyaltyFragment" android:id="@+id/baseLoyaltyFragment">
+        <argument android:name="isAttachCard" android:defaultValue="false" app:argType="boolean"/>
+        <argument android:name="isCreateCard" android:defaultValue="false" app:argType="boolean"/>
+        <action android:id="@+id/action_baseLoyaltyFragment_to_loyaltyNotLoggedFragment" app:destination="@+id/loyaltyNotLoggedFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right" app:popUpTo="@+id/baseLoyaltyFragment" app:popUpToInclusive="true"/>
+        <action android:id="@+id/action_baseLoyaltyFragment_to_loyaltyDetailViewFragment" app:destination="@+id/loyaltyDetailViewFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right" app:popUpTo="@+id/baseLoyaltyFragment" app:popUpToInclusive="true"/>
+        <action android:id="@+id/action_baseLoyaltyFragment_to_homeLoyaltyFragment" app:destination="@+id/homeLoyaltyFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right" app:popUpTo="@+id/baseLoyaltyFragment" app:popUpToInclusive="true"/>
+        <action android:id="@+id/action_baseLoyaltyFragment_to_attachCardFragment" app:destination="@+id/attachCardFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right" app:popUpTo="@+id/baseLoyaltyFragment" app:popUpToInclusive="true"/>
+        <action android:id="@+id/action_baseLoyaltyFragment_to_createCardFragment" app:destination="@+id/acceptLoyaltyCguFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right" app:popUpTo="@+id/baseLoyaltyFragment" app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment android:label="fragment_loyalty_not_logged" android:name="com.carrefour.fid.android.presentation.p035ui.loyalty.fragments.details.LoyaltyNotLoggedFragment" android:id="@+id/loyaltyNotLoggedFragment"/>
+    <fragment android:label="fragment_home_loyalty" android:name="com.carrefour.fid.android.presentation.p035ui.loyalty.fragments.create.CreateOrAttachCardFragment" android:id="@+id/homeLoyaltyFragment">
+        <argument android:name="error_balance" android:defaultValue="false" app:argType="boolean"/>
+        <action android:id="@+id/action_homeLoyaltyFragment_to_acceptLoyaltyCguFragment" app:destination="@+id/acceptLoyaltyCguFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+        <action android:id="@+id/action_homeLoyaltyFragment_to_attachCardFragment" app:destination="@+id/attachCardFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+        <action android:id="@+id/action_homeLoyaltyFragment_to_createSecretCodeFragment" app:destination="@+id/createSecretCodeFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment android:label="fragment_loyalty_detail_view" android:name="com.carrefour.fid.android.presentation.p035ui.loyalty.fragments.details.LoyaltyDetailViewFragment" android:id="@+id/loyaltyDetailViewFragment">
+        <action android:id="@+id/action_loyaltyDetailViewFragment_to_homeLoyaltyFragment" app:destination="@+id/homeLoyaltyFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right" app:popUpTo="@+id/loyaltyDetailViewFragment" app:popUpToInclusive="true"/>
+        <action android:id="@+id/action_loyaltyDetailViewFragment_to_couponsFragment" app:destination="@+id/coupons_graph" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right">
+            <argument android:name="isInStoreOnly" android:defaultValue="false" app:argType="boolean" app:nullable="false"/>
+        </action>
+        <action android:id="@+id/action_loyaltyDetailViewFragment_to_channelsFidFragment" app:destination="@+id/channelsFidFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+        <action android:id="@+id/action_loyaltyDetailViewFragment_to_loyaltyAmountHistoryFragment" app:destination="@+id/loyaltyAmountHistoryFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+        <action android:id="@+id/action_loyaltyDetailViewFragment_to_loyaltyCardFragment" app:destination="@+id/loyalty_card_graph" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+        <action android:id="@+id/action_loyaltyDetailViewFragment_to_primeFidFragment" app:destination="@+id/loyalty_prime_fid_graph" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right">
+            <argument android:name="primeList" app:argType="com.carrefour.fid.android.cms.domain.models.LoyaltyBonus[]"/>
+            <argument android:name="isDeepLink" android:defaultValue="false" app:argType="boolean"/>
+        </action>
+        <action android:id="@+id/action_loyaltyDetailViewFragment_to_challengeFidFragment" app:destination="@+id/challenge_fid_graph">
+            <argument android:name="screenName" app:argType="string"/>
+            <argument android:name="screenTemplate" app:argType="string"/>
+        </action>
+    </fragment>
+    <fragment android:label="fragment_channels_fid" android:name="com.carrefour.fid.android.presentation.p035ui.loyalty.fragments.otp.ChannelsFidFragment" android:id="@+id/channelsFidFragment">
+        <argument android:name="loyaltyCardNumber" app:argType="string"/>
+        <argument android:name="origination" app:argType="com.carrefour.fid.android.presentation.ui.loyalty.fragments.otp.OtpOrigination"/>
+        <action android:id="@+id/action_channelsFidFragment_to_validateOtpFragment" app:destination="@+id/validateOtpFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment android:label="fragment_validate_otp" android:name="com.carrefour.fid.android.presentation.p035ui.loyalty.fragments.otp.ValidateOtpFragment" android:id="@+id/validateOtpFragment">
+        <argument android:name="loyaltyCardNumber" app:argType="string"/>
+        <argument android:name="origination" app:argType="com.carrefour.fid.android.presentation.ui.loyalty.fragments.otp.OtpOrigination"/>
+        <action android:id="@+id/action_validateOtpFragment_to_secretCodeFragment" app:destination="@+id/secretCodeFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment android:label="fragment_secret_code" android:name="com.carrefour.fid.android.presentation.p035ui.loyalty.fragments.otp.SecretCodeFragment" android:id="@+id/secretCodeFragment">
+        <argument android:name="loyaltyCardNumber" app:argType="string"/>
+        <argument android:name="validationOtpCode" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <argument android:name="origination" app:argType="com.carrefour.fid.android.presentation.ui.loyalty.fragments.otp.OtpOrigination"/>
+        <action android:id="@+id/action_secretCodeFragment_to_homeLoyaltyFragment" app:destination="@+id/loyalty_graph" app:popUpTo="@+id/loyalty_graph" app:popUpToInclusive="true"/>
+        <action android:id="@+id/action_secretCodeFragment_to_channelsFidFragment" app:destination="@+id/channelsFidFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right" app:popUpTo="@+id/channelsFidFragment" app:popUpToInclusive="true"/>
+        <action android:id="@+id/action_secretCodeFragment_to_blockedCardFragment" app:destination="@+id/blockedCardFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment android:label="fragment_blocked_card" android:name="com.carrefour.fid.android.presentation.p035ui.loyalty.fragments.otp.BlockedCardFragment" android:id="@+id/blockedCardFragment">
+        <argument android:name="loyaltyCardNumber" app:argType="string"/>
+        <argument android:name="origination" app:argType="com.carrefour.fid.android.presentation.ui.loyalty.fragments.otp.OtpOrigination"/>
+        <action android:id="@+id/blockedCardFragment_to_homeLoyaltyFragment" app:destination="@+id/loyalty_graph" app:popUpTo="@+id/loyalty_graph" app:popUpToInclusive="true"/>
+        <action android:id="@+id/blockedCardFragment_to_channelsFidFragment" app:destination="@+id/channelsFidFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment android:label="fragment_loyalty_amount_history" android:name="com.carrefour.fid.android.presentation.p035ui.loyalty.fragments.history.LoyaltyAmountHistoryFragment" android:id="@+id/loyaltyAmountHistoryFragment">
+        <argument android:name="loyaltyBalance" app:argType="string"/>
+    </fragment>
+    <fragment android:label="fragment_accept_loyalty_cgu" android:name="com.carrefour.fid.android.presentation.p035ui.loyalty.fragments.create.AcceptLoyaltyCguFragment" android:id="@+id/acceptLoyaltyCguFragment">
+        <argument android:name="isFromActiveFid" android:defaultValue="false" app:argType="boolean"/>
+        <argument android:name="isFromAttachCard" android:defaultValue="false" app:argType="boolean"/>
+        <argument android:name="loyaltyCardNumber" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <action android:id="@+id/acceptLoyaltyCguFragment_to_createSecretCodeFragment" app:destination="@+id/createSecretCodeFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment android:label="fragment_attach_card" android:name="com.carrefour.fid.android.presentation.p035ui.loyalty.fragments.attach.AttachCardFragment" android:id="@+id/attachCardFragment">
+        <action android:id="@+id/action_attachCardFragment_to_secretCodeFragment" app:destination="@+id/secretCodeFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+        <action android:id="@+id/action_attachCardFragment_to_infoCardsFragment" app:destination="@+id/infoCardsFragment"/>
+        <action android:id="@+id/action_attachCardFragment_to_acceptLoyaltyCguFragment" app:destination="@+id/acceptLoyaltyCguFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment android:label="fragment_create_secret_code" android:name="com.carrefour.fid.android.presentation.p035ui.loyalty.fragments.create.CreateSecretCodeFragment" android:id="@+id/createSecretCodeFragment">
+        <argument android:name="isFromAttachCard" android:defaultValue="false" app:argType="boolean"/>
+        <argument android:name="isFromActiveFid" android:defaultValue="false" app:argType="boolean"/>
+        <argument android:name="loyaltyCardNumber" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <action android:id="@+id/action_createSecretCodeFragment_to_homeLoyaltyFragment" app:destination="@+id/loyalty_graph" app:popUpTo="@+id/loyalty_graph" app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment android:label="fragment_info_cards" android:name="com.carrefour.fid.android.presentation.p035ui.loyalty.fragments.attach.InfoCardsFragment" android:id="@+id/infoCardsFragment"/>
+</navigation>

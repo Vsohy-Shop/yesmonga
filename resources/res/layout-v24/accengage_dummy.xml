@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/com_ad4screen_sdk_logo" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/app_name_text" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/header_text" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/text_line_1" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

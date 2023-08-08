@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="service_slot_day_selected">16sp</dimen>
+    <dimen name="service_slot_day_unselected">10sp</dimen>
+    <dimen name="signin_in_app_bar_height">180dp</dimen>
+</resources>

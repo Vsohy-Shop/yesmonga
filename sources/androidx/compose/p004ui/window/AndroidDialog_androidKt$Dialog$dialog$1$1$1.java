@@ -1,0 +1,73 @@
+package androidx.compose.p004ui.window;
+
+import androidx.compose.p004ui.C8767m;
+import androidx.compose.p004ui.semantics.SemanticsModifierKt;
+import androidx.compose.runtime.C8540g;
+import androidx.compose.runtime.C8570j;
+import androidx.compose.runtime.C8578k2;
+import androidx.compose.runtime.C8592o;
+import androidx.compose.runtime.ComposerKt;
+import androidx.compose.runtime.internal.C8553b;
+import kotlin.C11076d0;
+import kotlin.C11079d2;
+import kotlin.jvm.functions.C11304p;
+import kotlin.jvm.internal.Lambda;
+import org.jetbrains.annotations.C12580l;
+
+@C11076d0(mo22517k = 3, mo22518mv = {1, 8, 0}, mo22520xi = 48)
+/* renamed from: androidx.compose.ui.window.AndroidDialog_androidKt$Dialog$dialog$1$1$1 */
+public final class AndroidDialog_androidKt$Dialog$dialog$1$1$1 extends Lambda implements C11304p<C8592o, Integer, C11079d2> {
+    final /* synthetic */ C8578k2<C11304p<C8592o, Integer, C11079d2>> $currentContent$delegate;
+
+    /* JADX INFO: super call moved to the top of the method (can break code semantics) */
+    public AndroidDialog_androidKt$Dialog$dialog$1$1$1(C8578k2<? extends C11304p<? super C8592o, ? super Integer, C11079d2>> k2Var) {
+        super(2);
+        this.$currentContent$delegate = k2Var;
+    }
+
+    public /* bridge */ /* synthetic */ Object invoke(Object obj, Object obj2) {
+        invoke((C8592o) obj, ((Number) obj2).intValue());
+        return C11079d2.f28267a;
+    }
+
+    @C8540g
+    @C8570j(applier = "androidx.compose.ui.UiComposable")
+    public final void invoke(@C12580l C8592o oVar, int i) {
+        if ((i & 11) != 2 || !oVar.mo15011p()) {
+            if (ComposerKt.m29813g0()) {
+                ComposerKt.m29845w0(488261145, i, -1, "androidx.compose.ui.window.Dialog.<anonymous>.<anonymous>.<anonymous> (AndroidDialog.android.kt:170)");
+            }
+            C8767m c = SemanticsModifierKt.m71868c(C8767m.f23478j, false, C165271.f40974f, 1, (Object) null);
+            final C8578k2<C11304p<C8592o, Integer, C11079d2>> k2Var = this.$currentContent$delegate;
+            AndroidDialog_androidKt.m74860c(c, C8553b.m31048b(oVar, -533674951, true, new C11304p<C8592o, Integer, C11079d2>() {
+                public /* bridge */ /* synthetic */ Object invoke(Object obj, Object obj2) {
+                    invoke((C8592o) obj, ((Number) obj2).intValue());
+                    return C11079d2.f28267a;
+                }
+
+                @C8540g
+                @C8570j(applier = "androidx.compose.ui.UiComposable")
+                public final void invoke(@C12580l C8592o oVar, int i) {
+                    if ((i & 11) != 2 || !oVar.mo15011p()) {
+                        if (ComposerKt.m29813g0()) {
+                            ComposerKt.m29845w0(-533674951, i, -1, "androidx.compose.ui.window.Dialog.<anonymous>.<anonymous>.<anonymous>.<anonymous> (AndroidDialog.android.kt:175)");
+                        }
+                        AndroidDialog_androidKt.m74859b(k2Var).invoke(oVar, 0);
+                        if (ComposerKt.m29813g0()) {
+                            ComposerKt.m29843v0();
+                            return;
+                        }
+                        return;
+                    }
+                    oVar.mo14958a0();
+                }
+            }), oVar, 48, 0);
+            if (ComposerKt.m29813g0()) {
+                ComposerKt.m29843v0();
+                return;
+            }
+            return;
+        }
+        oVar.mo14958a0();
+    }
+}

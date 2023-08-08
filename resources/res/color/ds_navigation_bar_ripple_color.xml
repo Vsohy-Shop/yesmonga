@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_checked="true" android:color="@color/ds_primary"/>
+    <item android:state_selected="true" android:state_pressed="true" android:color="@color/ds_primary" android:alpha="0.08"/>
+    <item android:state_focused="true" android:state_selected="true" android:color="@color/ds_primary" android:alpha="0.16" android:state_hovered="true"/>
+    <item android:state_focused="true" android:state_selected="true" android:color="@color/ds_primary" android:alpha="0.12"/>
+    <item android:state_selected="true" android:color="@color/ds_primary" android:alpha="0.04" android:state_hovered="true"/>
+    <item android:state_selected="true" android:color="@color/ds_primary" android:alpha="0"/>
+    <item android:state_checked="false" android:color="@color/ds_grey_20"/>
+    <item android:state_pressed="true" android:color="@color/ds_grey_20" android:alpha="0.08"/>
+    <item android:state_focused="true" android:color="@color/ds_grey_20" android:alpha="0.16" android:state_hovered="true"/>
+    <item android:state_focused="true" android:color="@color/ds_grey_20" android:alpha="0.12"/>
+    <item android:color="@color/ds_grey_20" android:alpha="0.04" android:state_hovered="true"/>
+    <item android:color="@color/ds_grey_20" android:alpha="0"/>
+</selector>

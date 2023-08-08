@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/delivery_graph" app:startDestination="@+id/deliveryServiceSelectionFragment">
+    <fragment android:label="DeliveryServiceSelectionFragment" android:name="com.carrefour.fid.android.service.presentation.p044ui.delivery.DeliveryServiceSelectionFragment" android:id="@+id/deliveryServiceSelectionFragment">
+        <argument android:name="deliveryType" app:argType="com.carrefour.fid.android.service.presentation.model.DeliveryType"/>
+        <action android:id="@+id/action_deliveryServiceSelectionFragment_to_deliveryServiceSummaryFragment" app:destination="@+id/deliveryServiceSummaryFragment"/>
+    </fragment>
+    <fragment android:label="DeliveryServiceSummaryFragment" android:name="com.carrefour.fid.android.service.presentation.p044ui.delivery.DeliverySummaryFragment" android:id="@+id/deliveryServiceSummaryFragment">
+        <argument android:name="deliveryType" app:argType="com.carrefour.fid.android.service.presentation.model.DeliveryType"/>
+        <argument android:name="address" app:argType="com.carrefour.fid.android.domain.models.account.Address"/>
+        <argument android:name="telephone" app:argType="string"/>
+        <argument android:name="restartSelectionOnBack" android:defaultValue="false" app:argType="boolean"/>
+    </fragment>
+</navigation>

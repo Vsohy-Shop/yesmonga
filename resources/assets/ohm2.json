@@ -1,0 +1,921 @@
+[
+  {
+    "status": "AFFECTED",
+    "one_order_id": "208420094",
+    "order_type": "DRIVE",
+    "store": {
+      "facility_service_id": "MKP_FOOD-2004"
+    },
+    "delivery_adress": {
+      "city": "Paris",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY_AND_BILLING",
+      "street_address_one": "189",
+      "street_address_two": "Avenue",
+      "street_address_three": "de France",
+      "city_code": "75013",
+      "building_name": null
+    },
+    "creation_date_time": "2020-05-04T08:44:07Z",
+    "slot_info": {
+      "slot_date_begin": "2020-04-08T17:00:00Z",
+      "slot_date_end": "2020-04-08T18:00:00Z"
+    },
+    "one_order_amount": {
+      "unscaled_amount": 3067,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "VALIDATED",
+    "one_order_id": "208653566",
+    "order_type": "DRIVE",
+    "store": {
+      "facility_service_id": "MKP_FOOD-2004"
+    },
+    "delivery_adress": {
+      "city": "Paris",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY_AND_BILLING",
+      "street_address_one": "189",
+      "street_address_two": "Avenue",
+      "street_address_three": "de France",
+      "city_code": "75013",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-29T14:42:49Z",
+    "slot_info": {
+      "slot_date_begin": "2020-07-08T13:30:00Z",
+      "slot_date_end": "2020-07-08T14:00:00Z"
+    },
+    "one_order_amount": {
+      "unscaled_amount": 129701,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "VALIDATED",
+    "one_order_id": "208665854",
+    "order_type": "MKTP",
+    "store": {
+      "facility_service_id": "MKP_FOOD-2004"
+    },
+    "delivery_adress": {
+      "city": "Irigny",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY",
+      "street_address_one": "10",
+      "street_address_two": "AVENUE",
+      "street_address_three": "DE BEZANGE",
+      "city_code": "69540",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-29T14:43:30Z",
+    "slot_info": null,
+    "one_order_amount": {
+      "unscaled_amount": 3067,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "PREPARATION_IN_PROGRESS",
+    "one_order_id": "208825598",
+    "order_type": "DRIVE",
+    "store": {
+      "facility_service_id": "MKP_FOOD-2004"
+    },
+    "delivery_adress": {
+      "city": "Paris",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY_AND_BILLING",
+      "street_address_one": "189",
+      "street_address_two": "Avenue",
+      "street_address_three": "de France",
+      "city_code": "75013",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-28T15:48:36Z",
+    "slot_info": {
+      "slot_date_begin": "2020-01-08T22:30:00Z",
+      "slot_date_end": "2020-01-08T23:00:00Z"
+    },
+    "one_order_amount": {
+      "unscaled_amount": 4303,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "DELIVERED",
+    "one_order_id": "209124606",
+    "order_type": "DRIVE",
+    "store": {
+      "facility_service_id": "MKP_FOOD-2004"
+    },
+    "delivery_adress": {
+      "city": "Paris",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY_AND_BILLING",
+      "street_address_one": "189",
+      "street_address_two": "Avenue",
+      "street_address_three": "de France",
+      "city_code": "75013",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-27T13:21:24Z",
+    "slot_info": null,
+    "one_order_amount": {
+      "unscaled_amount": 4405,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "PREPARATION_IN_PROGRESS",
+    "one_order_id": "209128702",
+    "order_type": "MKTP",
+    "store": {
+      "facility_service_id": "MKP_FOOD-2000"
+    },
+    "delivery_adress": {
+      "city": "Paris",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY_AND_BILLING",
+      "street_address_one": "189",
+      "street_address_two": "Avenue",
+      "street_address_three": "de France",
+      "city_code": "75013",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-27T09:08:21Z",
+    "slot_info": null,
+    "one_order_amount": {
+      "unscaled_amount": 3500,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "CANCELLED",
+    "one_order_id": "209132798",
+    "order_type": "MKTP",
+    "store": {
+      "facility_service_id": "MKP_FOOD-2000"
+    },
+    "delivery_adress": {
+      "city": "Paris",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY_AND_BILLING",
+      "street_address_one": "189",
+      "street_address_two": "Avenue",
+      "street_address_three": "de France",
+      "city_code": "75013",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-27T09:04:35Z",
+    "slot_info": null,
+    "one_order_amount": {
+      "unscaled_amount": 3500,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "CLOSED",
+    "one_order_id": "209136894",
+    "order_type": "DRIVE",
+    "store": {
+      "facility_service_id": "MKP_FOOD-2004"
+    },
+    "delivery_adress": {
+      "city": "Paris",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY_AND_BILLING",
+      "street_address_one": "189",
+      "street_address_two": "Avenue",
+      "street_address_three": "de France",
+      "city_code": "75013",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-27T12:31:54Z",
+    "slot_info": null,
+    "one_order_amount": {
+      "unscaled_amount": 4405,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "PREPARATION_IN_PROGRESS",
+    "one_order_id": "209140990",
+    "order_type": "MKTP",
+    "store": {
+      "facility_service_id": "MKP_FOOD-2000"
+    },
+    "delivery_adress": {
+      "city": "Paris",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY_AND_BILLING",
+      "street_address_one": "189",
+      "street_address_two": "Avenue",
+      "street_address_three": "de France",
+      "city_code": "75013",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-27T09:20:07Z",
+    "slot_info": null,
+    "one_order_amount": {
+      "unscaled_amount": 3500,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "CANCELLED",
+    "one_order_id": "209149182",
+    "order_type": "MKTP",
+    "store": {
+      "facility_service_id": "MKP_FOOD-2004"
+    },
+    "delivery_adress": {
+      "city": "Paris",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY_AND_BILLING",
+      "street_address_one": "189",
+      "street_address_two": "Avenue",
+      "street_address_three": "de France",
+      "city_code": "75013",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-27T14:57:16Z",
+    "slot_info": null,
+    "one_order_amount": {
+      "unscaled_amount": 4405,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "CANCELLED",
+    "one_order_id": "209157374",
+    "order_type": "MKTP",
+    "store": {
+      "facility_service_id": "MKP_FOOD-2004"
+    },
+    "delivery_adress": {
+      "city": "Paris",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY_AND_BILLING",
+      "street_address_one": "189",
+      "street_address_two": "Avenue",
+      "street_address_three": "de France",
+      "city_code": "75013",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-27T15:36:47Z",
+    "slot_info": null,
+    "one_order_amount": {
+      "unscaled_amount": 4405,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "AFFECTED",
+    "one_order_id": "209161470",
+    "order_type": "MKTP",
+    "store": {
+      "facility_service_id": "MKP_FOOD-2004"
+    },
+    "delivery_adress": {
+      "city": "Paris",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY_AND_BILLING",
+      "street_address_one": "189",
+      "street_address_two": "Avenue",
+      "street_address_three": "de France",
+      "city_code": "75013",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-27T14:01:06Z",
+    "slot_info": null,
+    "one_order_amount": {
+      "unscaled_amount": 4405,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "CANCELLED",
+    "one_order_id": "209173758",
+    "order_type": "MKTP",
+    "store": {
+      "facility_service_id": "MKP_FOOD-2004"
+    },
+    "delivery_adress": {
+      "city": "Paris",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY_AND_BILLING",
+      "street_address_one": "189",
+      "street_address_two": "Avenue",
+      "street_address_three": "de France",
+      "city_code": "75013",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-27T14:19:19Z",
+    "slot_info": null,
+    "one_order_amount": {
+      "unscaled_amount": 4405,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "CANCELLED",
+    "one_order_id": "209325310",
+    "order_type": "MKTP",
+    "store": {
+      "facility_service_id": "MKP_FOOD-2004"
+    },
+    "delivery_adress": {
+      "city": "Paris",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY_AND_BILLING",
+      "street_address_one": "189",
+      "street_address_two": "Avenue",
+      "street_address_three": "de France",
+      "city_code": "75013",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-23T13:54:48Z",
+    "slot_info": null,
+    "one_order_amount": {
+      "unscaled_amount": 15900,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "SHIPPED",
+    "one_order_id": "209337598",
+    "order_type": "CLCV",
+    "store": {
+      "facility_service_id": "MKP_FOOD-2004"
+    },
+    "delivery_adress": {
+      "city": "Paris",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY_AND_BILLING",
+      "street_address_one": "189",
+      "street_address_two": "Avenue",
+      "street_address_three": "de France",
+      "city_code": "75013",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-23T14:01:13Z",
+    "slot_info": null,
+    "one_order_amount": {
+      "unscaled_amount": 7739,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "CANCELLED",
+    "one_order_id": "209550590",
+    "order_type": "MKTP",
+    "store": {
+      "facility_service_id": "MKP_FOOD-2004"
+    },
+    "delivery_adress": {
+      "city": "Paris",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY_AND_BILLING",
+      "street_address_one": "189",
+      "street_address_two": "Avenue",
+      "street_address_three": "de France",
+      "city_code": "75013",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-23T13:47:55Z",
+    "slot_info": null,
+    "one_order_amount": {
+      "unscaled_amount": 15900,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "READY_TO_PICK",
+    "one_order_id": "209673470",
+    "order_type": "DRIVE",
+    "store": {
+      "facility_service_id": "MKP_FOOD-2004"
+    },
+    "delivery_adress": {
+      "city": "Paris",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY_AND_BILLING",
+      "street_address_one": "189",
+      "street_address_two": "Avenue",
+      "street_address_three": "de France",
+      "city_code": "75013",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-23T08:03:41Z",
+    "slot_info": null,
+    "one_order_amount": {
+      "unscaled_amount": 7260,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "CANCELLED",
+    "one_order_id": "212323582",
+    "order_type": "MKTP",
+    "store": {
+      "facility_service_id": "MKP_FOOD-2000"
+    },
+    "delivery_adress": {
+      "city": "Paris",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY_AND_BILLING",
+      "street_address_one": "189",
+      "street_address_two": "Avenue",
+      "street_address_three": "de France",
+      "city_code": "75013",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-08T13:01:20Z",
+    "slot_info": null,
+    "one_order_amount": {
+      "unscaled_amount": 3500,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "CANCELLED",
+    "one_order_id": "212339966",
+    "order_type": "MKTP",
+    "store": {
+      "facility_service_id": "MKP_FOOD-2000"
+    },
+    "delivery_adress": {
+      "city": "Paris",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY_AND_BILLING",
+      "street_address_one": "189",
+      "street_address_two": "Avenue",
+      "street_address_three": "de France",
+      "city_code": "75013",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-08T10:10:25Z",
+    "slot_info": null,
+    "one_order_amount": {
+      "unscaled_amount": 3000,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "CANCELLED",
+    "one_order_id": "212552958",
+    "order_type": "MKTP",
+    "store": {
+      "facility_service_id": "MKP_FOOD-2000"
+    },
+    "delivery_adress": {
+      "city": "Paris",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY_AND_BILLING",
+      "street_address_one": "189",
+      "street_address_two": "Avenue",
+      "street_address_three": "de France",
+      "city_code": "75013",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-07T15:19:05Z",
+    "slot_info": null,
+    "one_order_amount": {
+      "unscaled_amount": 3500,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "DELIVERED",
+    "one_order_id": "212557054",
+    "order_type": "MKTP",
+    "store": {
+      "facility_service_id": "MKP_FOOD-2004"
+    },
+    "delivery_adress": {
+      "city": "Paris",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY_AND_BILLING",
+      "street_address_one": "189",
+      "street_address_two": "Avenue",
+      "street_address_three": "de France",
+      "city_code": "75013",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-07T12:37:17Z",
+    "slot_info": null,
+    "one_order_amount": {
+      "unscaled_amount": 2585,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "CANCELLED",
+    "one_order_id": "212561150",
+    "order_type": "MKTP",
+    "store": {
+      "facility_service_id": "MKP_FOOD-2000"
+    },
+    "delivery_adress": {
+      "city": "Paris",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY_AND_BILLING",
+      "street_address_one": "189",
+      "street_address_two": "Avenue",
+      "street_address_three": "de France",
+      "city_code": "75013",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-08T09:01:03Z",
+    "slot_info": null,
+    "one_order_amount": {
+      "unscaled_amount": 3000,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "CONFIRMED",
+    "one_order_id": "411938558",
+    "order_type": "R2H",
+    "store": {
+      "facility_service_id": "0020-311-57"
+    },
+    "delivery_adress": {
+      "city": "Paris",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY_AND_BILLING",
+      "street_address_one": "189",
+      "street_address_two": "Avenue",
+      "street_address_three": "de France",
+      "city_code": "75013",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-29T10:19:23Z",
+    "slot_info": null,
+    "one_order_amount": {
+      "unscaled_amount": 1990,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "CONFIRMED",
+    "one_order_id": "411942654",
+    "order_type": "R2H",
+    "store": {
+      "facility_service_id": "0020-311-57"
+    },
+    "delivery_adress": {
+      "city": "Paris",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY_AND_BILLING",
+      "street_address_one": "189",
+      "street_address_two": "Avenue",
+      "street_address_three": "de France",
+      "city_code": "75013",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-24T15:18:17Z",
+    "slot_info": null,
+    "one_order_amount": {
+      "unscaled_amount": 1990,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "CONFIRMED",
+    "one_order_id": "411975422",
+    "order_type": "R2H",
+    "store": {
+      "facility_service_id": "0020-311-57"
+    },
+    "delivery_adress": null,
+    "creation_date_time": "2020-05-13T09:04:52Z",
+    "slot_info": null,
+    "one_order_amount": {
+      "unscaled_amount": 1990,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "NEW",
+    "one_order_id": "411979518",
+    "order_type": "R2H",
+    "store": {
+      "facility_service_id": "0020-311-57"
+    },
+    "delivery_adress": null,
+    "creation_date_time": "2020-04-29T14:05:08Z",
+    "slot_info": null,
+    "one_order_amount": {
+      "unscaled_amount": 1990,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "CONFIRMED",
+    "one_order_id": "411983614",
+    "order_type": "R2H",
+    "store": {
+      "facility_service_id": "0020-311-57"
+    },
+    "delivery_adress": {
+      "city": "Irigny",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY",
+      "street_address_one": "10",
+      "street_address_two": "AVENUE",
+      "street_address_three": "DE BEZANGE",
+      "city_code": "69540",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-29T10:20:12Z",
+    "slot_info": null,
+    "one_order_amount": {
+      "unscaled_amount": 1990,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "CONFIRMED",
+    "one_order_id": "411987710",
+    "order_type": "R2H",
+    "store": {
+      "facility_service_id": "0020-311-57"
+    },
+    "delivery_adress": null,
+    "creation_date_time": "2020-04-29T14:08:11Z",
+    "slot_info": null,
+    "one_order_amount": {
+      "unscaled_amount": 1990,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "NEW",
+    "one_order_id": "411991806",
+    "order_type": "R2H",
+    "store": {
+      "facility_service_id": "0020-311-57"
+    },
+    "delivery_adress": null,
+    "creation_date_time": "2020-04-29T14:07:38Z",
+    "slot_info": null,
+    "one_order_amount": {
+      "unscaled_amount": 1990,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "CONFIRMED",
+    "one_order_id": "412454654",
+    "order_type": "R2H",
+    "store": {
+      "facility_service_id": "0020-311-57"
+    },
+    "delivery_adress": {
+      "city": "Paris",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY_AND_BILLING",
+      "street_address_one": "189",
+      "street_address_two": "Avenue",
+      "street_address_three": "de France",
+      "city_code": "75013",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-09T15:30:32Z",
+    "slot_info": null,
+    "one_order_amount": {
+      "unscaled_amount": 1990,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "VALIDATED",
+    "one_order_id": "512524286",
+    "order_type": "DRIVE",
+    "store": {
+      "facility_service_id": "7879-150-353"
+    },
+    "delivery_adress": {
+      "city": "PARIS",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY_AND_BILLING",
+      "street_address_one": "189",
+      "street_address_two": "Avenue de France",
+      "street_address_three": "",
+      "city_code": "75013",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-06T15:17:18Z",
+    "slot_info": {
+      "slot_date_begin": "2020-04-07T07:00:00Z",
+      "slot_date_end": "2020-04-07T08:00:00Z"
+    },
+    "one_order_amount": {
+      "unscaled_amount": 1614,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  },
+  {
+    "status": "CANCELLED",
+    "one_order_id": "512544766",
+    "order_type": "DRIVE",
+    "store": {
+      "facility_service_id": "7879-150-353"
+    },
+    "delivery_adress": {
+      "city": "PARIS",
+      "country": "FR",
+      "floor": null,
+      "digicode": null,
+      "interphone": null,
+      "elevator": false,
+      "reference": null,
+      "address_type": "DELIVERY_AND_BILLING",
+      "street_address_one": "189",
+      "street_address_two": "Avenue de France",
+      "street_address_three": "",
+      "city_code": "75013",
+      "building_name": null
+    },
+    "creation_date_time": "2020-04-06T15:14:54Z",
+    "slot_info": {
+      "slot_date_begin": "2020-04-07T07:00:00Z",
+      "slot_date_end": "2020-04-07T08:00:00Z"
+    },
+    "one_order_amount": {
+      "unscaled_amount": 1614,
+      "scale": 2,
+      "currency": "EUR"
+    }
+  }
+]

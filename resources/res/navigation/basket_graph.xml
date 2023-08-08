@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/basket_graph" app:startDestination="@+id/basketsListFragment">
+    <include app:graph="@navigation/checkout_slot_graph"/>
+    <include app:graph="@navigation/checkout_non_food_step_graph"/>
+    <fragment android:name="com.carrefour.fid.android.presentation.p035ui.checkout.basketslist.CheckoutBasketsListFragment" android:id="@+id/basketsListFragment">
+        <action android:id="@+id/action_baskets_list_to_basket_fragment" app:destination="@+id/basketFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right"/>
+        <action android:id="@+id/action_baskets_list_to_nal_checkout_step_1_fragment" app:destination="@+id/nonFoodCheckoutStep1Fragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right">
+            <argument android:name="reference_id" app:argType="string" app:nullable="false"/>
+        </action>
+    </fragment>
+    <fragment android:name="com.carrefour.fid.android.presentation.p035ui.checkout.nal.step1.NonFoodCheckoutStep1Fragment" android:id="@+id/nonFoodCheckoutStep1Fragment">
+        <argument android:name="reference_id" app:argType="string" app:nullable="false"/>
+        <action android:id="@+id/action_basket_to_checkout" app:destination="@+id/checkout_graph" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right">
+            <argument android:name="sub_basket_id" app:argType="string" app:nullable="false"/>
+            <argument android:name="is_non_food_basket" android:defaultValue="false" app:argType="boolean"/>
+            <argument android:name="category_list_by_gtin" android:defaultValue="@null" app:argType="android.os.Bundle" app:nullable="true"/>
+        </action>
+    </fragment>
+    <fragment android:name="com.carrefour.fid.android.presentation.p035ui.checkout.p036al.CheckoutStep1Fragment" android:id="@+id/basketFragment">
+        <action android:id="@+id/action_basket_to_checkout" app:destination="@+id/checkout_graph" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right">
+            <argument android:name="basket_slot_booked_message_type" app:argType="com.carrefour.fid.android.domain.models.slot.BasketSlotBookedMessageType"/>
+            <argument android:name="basket_slot_express" android:defaultValue="@null" app:argType="com.carrefour.fid.android.domain.models.slot.SlotExpress" app:nullable="true"/>
+            <argument android:name="basket_selected_slot" android:defaultValue="@null" app:argType="com.carrefour.fid.android.domain.models.slot.Slot" app:nullable="true"/>
+            <argument android:name="category_list_by_gtin" android:defaultValue="@null" app:argType="android.os.Bundle" app:nullable="true"/>
+        </action>
+        <action android:id="@+id/action_basket_to_serviceSlot" app:destination="@+id/checkout_slot_graph" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/pop_exit" app:popEnterAnim="@anim/pop_enter" app:popExitAnim="@anim/slide_out_right">
+            <argument android:name="basket_slot" android:defaultValue="@null" app:argType="com.carrefour.fid.android.domain.models.basket.BasketSlot" app:nullable="true"/>
+            <argument android:name="facility_store_id" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+            <argument android:name="category_list_by_gtin" android:defaultValue="@null" app:argType="android.os.Bundle" app:nullable="true"/>
+        </action>
+    </fragment>
+</navigation>

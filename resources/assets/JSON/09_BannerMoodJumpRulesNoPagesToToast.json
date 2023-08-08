@@ -1,0 +1,163 @@
+{
+    "id": "dffac2d9-23be-4a11-9dc2-20f396f71a90",
+    "version": 1,
+    "structure": {
+        "colors": {
+            "group1": {
+                "hash": "#41474C"
+            },
+            "group2": {
+                "hash": "#00A5C9"
+            },
+            "group3": {
+                "hash": "#59636B"
+            },
+            "group4": {
+                "hash": "#F4606E"
+            },
+            "group5": {
+                "hash": "#FFFFFF"
+            },
+            "group6": {
+                "hash": "#FFFFFF"
+            }
+        },
+        "data": {
+            "appStoreRedirect": false,
+            "appSubmit": "Submit",
+            "appTitle": "Feedback",
+            "errorMessage": "Please check the fields marked with *",
+            "progressbar": false,
+            "screenshot": false,
+            "store_ip": false
+        },
+        "form": {
+            "pages": [
+                {
+                    "type": "banner",
+                    "fields": [
+                        {
+                            "type": "mood",
+                            "caption": "Mood",
+                            "autoSubmit": false,
+                            "forceRequired": false,
+                            "fixed": false,
+                            "interactive": true,
+                            "showHideRule": [],
+                            "validationText": "This field is required",
+                            "name": "mood",
+                            "title": "Campaign without jumping rules goes to subsequent page",
+                            "points": 5,
+                            "options": [
+                                {
+                                    "title": "Hate",
+                                    "value": "1"
+                                },
+                                {
+                                    "title": "Dislike",
+                                    "value": "2"
+                                },
+                                {
+                                    "title": "Neutral",
+                                    "value": "3"
+                                },
+                                {
+                                    "title": "Like",
+                                    "value": "4"
+                                },
+                                {
+                                    "title": "Love",
+                                    "value": "5"
+                                }
+                            ],
+                            "mode": "emoticon"
+                        },
+                        {
+                            "type": "continue",
+                            "caption": "Continue Button",
+                            "autoSubmit": false,
+                            "forceRequired": false,
+                            "fixed": "continue",
+                            "interactive": true,
+                            "showHideRule": [],
+                            "validationText": "This field is required",
+                            "title": "",
+                            "cancel": "Cancel"
+                        }
+                    ],
+                    "jumpRules": [
+                        {
+                            "control": "mood",
+                            "value": [
+                                "1",
+                                "2",
+                                "3"
+                            ],
+                            "jump": "end1"
+                        },
+                        {
+                            "control": "mood",
+                            "value": [
+                                "4",
+                                "5"
+                            ],
+                            "jump": "end2"
+                        }
+                    ],
+                    "autoSubmit": true,
+                    "name": "start"
+                },
+                {
+                    "type": "toast",
+                    "fields": [
+                        {
+                            "type": "paragraph",
+                            "caption": "Paragraph",
+                            "autoSubmit": false,
+                            "forceRequired": false,
+                            "fixed": false,
+                            "interactive": true,
+                            "showHideRule": [],
+                            "validationText": "This field is required",
+                            "text": "Toast 1"
+                        }
+                    ],
+                    "jumpRules": [],
+                    "autoSubmit": false,
+                    "name": "end1"
+                },
+                {
+                    "type": "toast",
+                    "fields": [
+                        {
+                            "type": "paragraph",
+                            "caption": "Paragraph",
+                            "autoSubmit": false,
+                            "forceRequired": false,
+                            "fixed": false,
+                            "interactive": true,
+                            "showHideRule": [],
+                            "validationText": "This field is required",
+                            "text": "Toast 2"
+                        }
+                    ],
+                    "jumpRules": [],
+                    "autoSubmit": false,
+                    "name": "end2"
+                }
+            ],
+            "allowedPageTypes": [
+                "banner",
+                "form",
+                "toast"
+            ]
+        },
+        "localization": {
+            "appStore": "Go to the app store",
+            "cancelButton": "Cancel",
+            "moreFeedback": "Give more feedback",
+            "navigationNext": "Next",
+            "screenshotTitle": "Screenshot"
+        }
+    }
+}

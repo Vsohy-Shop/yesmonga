@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/checkout_blue"/>
+            <corners android:topLeftRadius="4dp" android:topRightRadius="4dp"/>
+        </shape>
+    </item>
+    <item android:top="-5dp" android:start="-5dp" android:end="-5dp">
+        <shape>
+            <solid android:color="@android:color/transparent"/>
+            <stroke android:width="2dp" android:color="@color/ds_primary"/>
+        </shape>
+    </item>
+</layer-list>

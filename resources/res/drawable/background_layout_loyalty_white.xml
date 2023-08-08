@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item>
+        <layer-list>
+            <item>
+                <shape>
+                    <gradient android:startColor="#0a000000" android:endColor="#05000000" android:angle="0" android:centerColor="#14000000"/>
+                </shape>
+            </item>
+            <item android:top="3dp" android:bottom="0dp" android:start="0dp" android:end="0dp">
+                <shape>
+                    <solid android:color="#ffffff"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

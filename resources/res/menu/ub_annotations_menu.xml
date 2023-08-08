@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:id="@+id/ub_action_done" android:title="@string/ub_menu_add" app:showAsAction="always"/>
+    <item android:icon="@drawable/ub_ic_undo" android:id="@+id/ub_action_undo" android:visible="false" android:title="@string/ub_menu_undo" app:showAsAction="always"/>
+    <item android:icon="@drawable/ub_ic_check_confirm" android:id="@+id/ub_action_confirm" android:visible="false" android:title="@string/ub_menu_done" app:showAsAction="always"/>
+</menu>

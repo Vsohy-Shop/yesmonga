@@ -1,0 +1,171 @@
+package androidx.compose.material.icons.sharp;
+
+import androidx.compose.material.icons.C3053a;
+import androidx.compose.p004ui.graphics.C15225h4;
+import androidx.compose.p004ui.graphics.C15240j2;
+import androidx.compose.p004ui.graphics.C15244j4;
+import androidx.compose.p004ui.graphics.C15253k4;
+import androidx.compose.p004ui.graphics.C15421z1;
+import androidx.compose.p004ui.graphics.vector.C15340c;
+import androidx.compose.p004ui.graphics.vector.C15348e;
+import androidx.compose.p004ui.graphics.vector.C15380n;
+import androidx.compose.p004ui.unit.C16483g;
+import kotlin.jvm.internal.C11363r0;
+import kotlin.jvm.internal.DefaultConstructorMarker;
+import kotlin.jvm.internal.Intrinsics;
+import org.jetbrains.annotations.C12579k;
+import org.jetbrains.annotations.C12580l;
+
+@C11363r0({"SMAP\nCoronavirus.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Coronavirus.kt\nandroidx/compose/material/icons/sharp/CoronavirusKt\n+ 2 Icons.kt\nandroidx/compose/material/icons/IconsKt\n+ 3 Dp.kt\nandroidx/compose/ui/unit/DpKt\n+ 4 ImageVector.kt\nandroidx/compose/ui/graphics/vector/ImageVectorKt\n+ 5 Vector.kt\nandroidx/compose/ui/graphics/vector/VectorKt\n*L\n1#1,153:1\n122#2:154\n116#2,3:155\n119#2,3:159\n132#2,18:162\n152#2:199\n175#3:158\n694#4,2:180\n706#4,2:182\n708#4,11:188\n53#5,4:184\n*S KotlinDebug\n*F\n+ 1 Coronavirus.kt\nandroidx/compose/material/icons/sharp/CoronavirusKt\n*L\n29#1:154\n29#1:155,3\n29#1:159,3\n30#1:162,18\n30#1:199\n29#1:158\n30#1:180,2\n30#1:182,2\n30#1:188,11\n30#1:184,4\n*E\n"})
+/* renamed from: androidx.compose.material.icons.sharp.pe */
+public final class C6510pe {
+    @C12580l
+
+    /* renamed from: a */
+    public static C15340c f15828a;
+
+    @C12579k
+    /* renamed from: a */
+    public static final C15340c m21989a(@C12579k C3053a.C3057d dVar) {
+        Intrinsics.checkNotNullParameter(dVar, "<this>");
+        C15340c cVar = f15828a;
+        if (cVar != null) {
+            Intrinsics.checkNotNull(cVar);
+            return cVar;
+        }
+        C15340c.C15341a aVar = r1;
+        C15340c.C15341a aVar2 = new C15340c.C15341a("Sharp.Coronavirus", C16483g.m74435M(24.0f), C16483g.m74435M(24.0f), 24.0f, 24.0f, 0, 0, false, 224, (DefaultConstructorMarker) null);
+        int c = C15380n.m67238c();
+        C15225h4 h4Var = r0;
+        C15225h4 h4Var2 = new C15225h4(C15240j2.f37547b.mo42841a(), (DefaultConstructorMarker) null);
+        int a = C15244j4.f37564b.mo42862a();
+        int a2 = C15253k4.f37575b.mo42879a();
+        C15348e eVar = new C15348e();
+        eVar.mo43276l(20.5f, 10.5f);
+        eVar.mo43285u(0.75f);
+        eVar.mo43273i(-1.54f);
+        C15348e eVar2 = eVar;
+        eVar2.mo43270f(-0.15f, -1.37f, -0.69f, -2.63f, -1.52f, -3.65f);
+        eVar.mo43275k(1.09f, -1.09f);
+        eVar.mo43275k(0.01f, 0.01f);
+        eVar.mo43275k(0.53f, 0.53f);
+        eVar.mo43275k(1.06f, -1.06f);
+        eVar.mo43275k(-2.12f, -2.12f);
+        eVar.mo43275k(-1.06f, 1.06f);
+        eVar.mo43275k(0.52f, 0.52f);
+        eVar.mo43275k(-1.09f, 1.09f);
+        eVar2.mo43270f(-1.02f, -0.82f, -2.27f, -1.36f, -3.64f, -1.51f);
+        eVar.mo43284t(3.5f);
+        eVar.mo43273i(0.01f);
+        eVar.mo43273i(0.75f);
+        eVar.mo43284t(2.0f);
+        eVar.mo43273i(-3.0f);
+        eVar.mo43285u(1.5f);
+        eVar.mo43273i(0.74f);
+        eVar.mo43285u(1.54f);
+        eVar.mo43269e(9.87f, 5.19f, 8.62f, 5.74f, 7.6f, 6.56f);
+        eVar.mo43274j(6.51f, 5.47f);
+        eVar.mo43275k(0.01f, -0.01f);
+        eVar.mo43275k(0.53f, -0.53f);
+        eVar.mo43274j(5.99f, 3.87f);
+        eVar.mo43274j(3.87f, 5.99f);
+        eVar.mo43275k(1.06f, 1.06f);
+        eVar.mo43275k(0.52f, -0.52f);
+        eVar.mo43275k(1.09f, 1.09f);
+        eVar.mo43270f(-0.82f, 1.02f, -1.36f, 2.26f, -1.5f, 3.63f);
+        eVar.mo43272h(3.5f);
+        eVar.mo43284t(10.5f);
+        eVar.mo43272h(2.0f);
+        eVar.mo43285u(3.0f);
+        eVar.mo43273i(1.5f);
+        eVar.mo43285u(-0.75f);
+        eVar.mo43273i(1.54f);
+        eVar.mo43270f(0.15f, 1.37f, 0.69f, 2.61f, 1.5f, 3.63f);
+        eVar.mo43275k(-1.09f, 1.09f);
+        eVar.mo43275k(-0.52f, -0.52f);
+        eVar.mo43275k(-1.06f, 1.06f);
+        eVar.mo43275k(2.12f, 2.12f);
+        eVar.mo43275k(1.06f, -1.06f);
+        eVar.mo43275k(-0.53f, -0.53f);
+        eVar.mo43285u(0.0f);
+        eVar.mo43275k(-0.01f, -0.01f);
+        eVar.mo43275k(1.09f, -1.09f);
+        eVar.mo43270f(1.02f, 0.82f, 2.26f, 1.36f, 3.63f, 1.51f);
+        eVar.mo43285u(1.54f);
+        eVar.mo43272h(10.5f);
+        eVar.mo43284t(22.0f);
+        eVar.mo43273i(3.0f);
+        eVar.mo43285u(-1.5f);
+        eVar.mo43273i(-0.75f);
+        eVar.mo43273i(-0.01f);
+        eVar.mo43285u(-1.54f);
+        eVar.mo43270f(1.37f, -0.14f, 2.62f, -0.69f, 3.64f, -1.51f);
+        eVar.mo43275k(1.09f, 1.09f);
+        eVar.mo43275k(-0.52f, 0.52f);
+        eVar.mo43275k(1.06f, 1.06f);
+        eVar.mo43275k(2.12f, -2.12f);
+        eVar.mo43275k(-1.06f, -1.06f);
+        eVar.mo43275k(-0.53f, 0.53f);
+        eVar.mo43270f(0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f);
+        eVar.mo43275k(-0.01f, 0.01f);
+        eVar.mo43275k(-1.09f, -1.09f);
+        eVar.mo43270f(0.82f, -1.02f, 1.37f, -2.27f, 1.52f, -3.65f);
+        eVar.mo43273i(1.54f);
+        eVar.mo43285u(0.75f);
+        eVar.mo43272h(22.0f);
+        eVar.mo43285u(-3.0f);
+        eVar.mo43272h(20.5f);
+        eVar.mo43268d();
+        eVar.mo43276l(13.75f, 8.0f);
+        eVar.mo43270f(0.55f, 0.0f, 1.0f, 0.45f, 1.0f, 1.0f);
+        eVar.mo43281q(-0.45f, 1.0f, -1.0f, 1.0f);
+        eVar.mo43281q(-1.0f, -0.45f, -1.0f, -1.0f);
+        eVar.mo43280p(13.2f, 8.0f, 13.75f, 8.0f);
+        eVar.mo43268d();
+        eVar.mo43276l(10.25f, 8.0f);
+        eVar.mo43270f(0.55f, 0.0f, 1.0f, 0.45f, 1.0f, 1.0f);
+        eVar.mo43281q(-0.45f, 1.0f, -1.0f, 1.0f);
+        eVar.mo43281q(-1.0f, -0.45f, -1.0f, -1.0f);
+        eVar.mo43280p(9.7f, 8.0f, 10.25f, 8.0f);
+        eVar.mo43268d();
+        eVar.mo43276l(8.5f, 13.0f);
+        C15348e eVar3 = eVar;
+        eVar3.mo43270f(-0.55f, 0.0f, -1.0f, -0.45f, -1.0f, -1.0f);
+        eVar3.mo43270f(0.0f, -0.55f, 0.45f, -1.0f, 1.0f, -1.0f);
+        eVar.mo43281q(1.0f, 0.45f, 1.0f, 1.0f);
+        eVar3.mo43269e(9.5f, 12.55f, 9.05f, 13.0f, 8.5f, 13.0f);
+        eVar.mo43268d();
+        eVar.mo43276l(10.25f, 16.0f);
+        C15348e eVar4 = eVar;
+        eVar4.mo43270f(-0.55f, 0.0f, -1.0f, -0.45f, -1.0f, -1.0f);
+        eVar4.mo43270f(0.0f, -0.55f, 0.45f, -1.0f, 1.0f, -1.0f);
+        eVar.mo43281q(1.0f, 0.45f, 1.0f, 1.0f);
+        eVar4.mo43269e(11.25f, 15.55f, 10.8f, 16.0f, 10.25f, 16.0f);
+        eVar.mo43268d();
+        eVar.mo43276l(12.0f, 13.0f);
+        C15348e eVar5 = eVar;
+        eVar5.mo43270f(-0.55f, 0.0f, -1.0f, -0.45f, -1.0f, -1.0f);
+        eVar5.mo43270f(0.0f, -0.55f, 0.45f, -1.0f, 1.0f, -1.0f);
+        eVar.mo43281q(1.0f, 0.45f, 1.0f, 1.0f);
+        eVar5.mo43269e(13.0f, 12.55f, 12.55f, 13.0f, 12.0f, 13.0f);
+        eVar.mo43268d();
+        eVar.mo43276l(13.75f, 16.0f);
+        C15348e eVar6 = eVar;
+        eVar6.mo43270f(-0.55f, 0.0f, -1.0f, -0.45f, -1.0f, -1.0f);
+        eVar6.mo43270f(0.0f, -0.55f, 0.45f, -1.0f, 1.0f, -1.0f);
+        eVar.mo43281q(1.0f, 0.45f, 1.0f, 1.0f);
+        eVar6.mo43269e(14.75f, 15.55f, 14.3f, 16.0f, 13.75f, 16.0f);
+        eVar.mo43268d();
+        eVar.mo43276l(15.5f, 13.0f);
+        C15348e eVar7 = eVar;
+        eVar7.mo43270f(-0.55f, 0.0f, -1.0f, -0.45f, -1.0f, -1.0f);
+        eVar7.mo43270f(0.0f, -0.55f, 0.45f, -1.0f, 1.0f, -1.0f);
+        eVar.mo43281q(1.0f, 0.45f, 1.0f, 1.0f);
+        eVar7.mo43269e(16.5f, 12.55f, 16.05f, 13.0f, 15.5f, 13.0f);
+        eVar.mo43268d();
+        C15340c f = C15340c.C15341a.m66873d(aVar, eVar.mo43271g(), c, "", h4Var, 1.0f, (C15421z1) null, 1.0f, 1.0f, a, a2, 1.0f, 0.0f, 0.0f, 0.0f, 14336, (Object) null).mo43184f();
+        f15828a = f;
+        Intrinsics.checkNotNull(f);
+        return f;
+    }
+}

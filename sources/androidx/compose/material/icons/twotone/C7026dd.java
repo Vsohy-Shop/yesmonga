@@ -1,0 +1,173 @@
+package androidx.compose.material.icons.twotone;
+
+import androidx.compose.material.icons.C3053a;
+import androidx.compose.p004ui.graphics.C15225h4;
+import androidx.compose.p004ui.graphics.C15240j2;
+import androidx.compose.p004ui.graphics.C15244j4;
+import androidx.compose.p004ui.graphics.C15253k4;
+import androidx.compose.p004ui.graphics.C15421z1;
+import androidx.compose.p004ui.graphics.vector.C15340c;
+import androidx.compose.p004ui.graphics.vector.C15348e;
+import androidx.compose.p004ui.graphics.vector.C15380n;
+import androidx.compose.p004ui.unit.C16483g;
+import kotlin.jvm.internal.C11363r0;
+import kotlin.jvm.internal.DefaultConstructorMarker;
+import kotlin.jvm.internal.Intrinsics;
+import org.jetbrains.annotations.C12579k;
+import org.jetbrains.annotations.C12580l;
+
+@C11363r0({"SMAP\nColorLens.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ColorLens.kt\nandroidx/compose/material/icons/twotone/ColorLensKt\n+ 2 Icons.kt\nandroidx/compose/material/icons/IconsKt\n+ 3 Dp.kt\nandroidx/compose/ui/unit/DpKt\n+ 4 ImageVector.kt\nandroidx/compose/ui/graphics/vector/ImageVectorKt\n+ 5 Vector.kt\nandroidx/compose/ui/graphics/vector/VectorKt\n*L\n1#1,120:1\n122#2:121\n116#2,3:122\n119#2,3:126\n132#2,18:129\n152#2:166\n132#2,18:167\n152#2:204\n132#2,18:205\n152#2:242\n132#2,18:243\n152#2:280\n132#2,18:281\n152#2:318\n132#2,18:319\n152#2:356\n175#3:125\n694#4,2:147\n706#4,2:149\n708#4,11:155\n694#4,2:185\n706#4,2:187\n708#4,11:193\n694#4,2:223\n706#4,2:225\n708#4,11:231\n694#4,2:261\n706#4,2:263\n708#4,11:269\n694#4,2:299\n706#4,2:301\n708#4,11:307\n694#4,2:337\n706#4,2:339\n708#4,11:345\n53#5,4:151\n53#5,4:189\n53#5,4:227\n53#5,4:265\n53#5,4:303\n53#5,4:341\n*S KotlinDebug\n*F\n+ 1 ColorLens.kt\nandroidx/compose/material/icons/twotone/ColorLensKt\n*L\n29#1:121\n29#1:122,3\n29#1:126,3\n30#1:129,18\n30#1:166\n67#1:167,18\n67#1:204\n91#1:205,18\n91#1:242\n97#1:243,18\n97#1:280\n103#1:281,18\n103#1:318\n109#1:319,18\n109#1:356\n29#1:125\n30#1:147,2\n30#1:149,2\n30#1:155,11\n67#1:185,2\n67#1:187,2\n67#1:193,11\n91#1:223,2\n91#1:225,2\n91#1:231,11\n97#1:261,2\n97#1:263,2\n97#1:269,11\n103#1:299,2\n103#1:301,2\n103#1:307,11\n109#1:337,2\n109#1:339,2\n109#1:345,11\n30#1:151,4\n67#1:189,4\n91#1:227,4\n97#1:265,4\n103#1:303,4\n109#1:341,4\n*E\n"})
+/* renamed from: androidx.compose.material.icons.twotone.dd */
+public final class C7026dd {
+    @C12580l
+
+    /* renamed from: a */
+    public static C15340c f16975a;
+
+    @C12579k
+    /* renamed from: a */
+    public static final C15340c m23136a(@C12579k C3053a.C3058e eVar) {
+        Intrinsics.checkNotNullParameter(eVar, "<this>");
+        C15340c cVar = f16975a;
+        if (cVar != null) {
+            Intrinsics.checkNotNull(cVar);
+            return cVar;
+        }
+        C15340c.C15341a aVar = r1;
+        C15340c.C15341a aVar2 = r1;
+        C15340c.C15341a aVar3 = r1;
+        C15340c.C15341a aVar4 = r1;
+        C15340c.C15341a aVar5 = r1;
+        C15340c.C15341a aVar6 = r1;
+        C15340c.C15341a aVar7 = new C15340c.C15341a("TwoTone.ColorLens", C16483g.m74435M(24.0f), C16483g.m74435M(24.0f), 24.0f, 24.0f, 0, 0, false, 224, (DefaultConstructorMarker) null);
+        int c = C15380n.m67238c();
+        C15225h4 h4Var = r0;
+        C15240j2.C15241a aVar8 = C15240j2.f37547b;
+        C15225h4 h4Var2 = new C15225h4(aVar8.mo42841a(), (DefaultConstructorMarker) null);
+        C15244j4.C15245a aVar9 = C15244j4.f37564b;
+        int a = aVar9.mo42862a();
+        C15253k4.C15254a aVar10 = C15253k4.f37575b;
+        int a2 = aVar10.mo42879a();
+        C15348e eVar2 = new C15348e();
+        eVar2.mo43276l(12.0f, 4.0f);
+        C15348e eVar3 = eVar2;
+        eVar3.mo43270f(-4.41f, 0.0f, -8.0f, 3.59f, -8.0f, 8.0f);
+        eVar2.mo43281q(3.59f, 8.0f, 8.0f, 8.0f);
+        eVar3.mo43270f(0.28f, 0.0f, 0.5f, -0.22f, 0.5f, -0.5f);
+        eVar3.mo43270f(0.0f, -0.16f, -0.08f, -0.28f, -0.14f, -0.35f);
+        eVar3.mo43270f(-0.41f, -0.46f, -0.63f, -1.05f, -0.63f, -1.65f);
+        eVar3.mo43270f(0.0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f);
+        eVar2.mo43274j(16.0f, 15.0f);
+        eVar3.mo43270f(2.21f, 0.0f, 4.0f, -1.79f, 4.0f, -4.0f);
+        eVar3.mo43270f(0.0f, -3.86f, -3.59f, -7.0f, -8.0f, -7.0f);
+        eVar2.mo43268d();
+        eVar2.mo43276l(6.5f, 13.0f);
+        eVar3.mo43270f(-0.83f, 0.0f, -1.5f, -0.67f, -1.5f, -1.5f);
+        eVar2.mo43280p(5.67f, 10.0f, 6.5f, 10.0f);
+        eVar2.mo43281q(1.5f, 0.67f, 1.5f, 1.5f);
+        eVar2.mo43280p(7.33f, 13.0f, 6.5f, 13.0f);
+        eVar2.mo43268d();
+        eVar2.mo43276l(9.5f, 9.0f);
+        eVar2.mo43269e(8.67f, 9.0f, 8.0f, 8.33f, 8.0f, 7.5f);
+        eVar2.mo43280p(8.67f, 6.0f, 9.5f, 6.0f);
+        eVar2.mo43281q(1.5f, 0.67f, 1.5f, 1.5f);
+        eVar2.mo43280p(10.33f, 9.0f, 9.5f, 9.0f);
+        eVar2.mo43268d();
+        eVar2.mo43276l(14.5f, 9.0f);
+        eVar2.mo43270f(-0.83f, 0.0f, -1.5f, -0.67f, -1.5f, -1.5f);
+        eVar2.mo43280p(13.67f, 6.0f, 14.5f, 6.0f);
+        eVar2.mo43281q(1.5f, 0.67f, 1.5f, 1.5f);
+        eVar2.mo43280p(15.33f, 9.0f, 14.5f, 9.0f);
+        eVar2.mo43268d();
+        eVar2.mo43276l(19.0f, 11.5f);
+        eVar2.mo43270f(0.0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f);
+        eVar2.mo43281q(-1.5f, -0.67f, -1.5f, -1.5f);
+        eVar2.mo43281q(0.67f, -1.5f, 1.5f, -1.5f);
+        eVar2.mo43281q(1.5f, 0.67f, 1.5f, 1.5f);
+        eVar2.mo43268d();
+        C15340c.C15341a.m66873d(aVar6, eVar2.mo43271g(), c, "", h4Var, 0.3f, (C15421z1) null, 0.3f, 1.0f, a, a2, 1.0f, 0.0f, 0.0f, 0.0f, 14336, (Object) null);
+        int c2 = C15380n.m67238c();
+        C15225h4 h4Var3 = r3;
+        C15225h4 h4Var4 = new C15225h4(aVar8.mo42841a(), (DefaultConstructorMarker) null);
+        int a3 = aVar9.mo42862a();
+        int a4 = aVar10.mo42879a();
+        C15348e eVar4 = new C15348e();
+        eVar4.mo43276l(12.0f, 2.0f);
+        eVar4.mo43269e(6.49f, 2.0f, 2.0f, 6.49f, 2.0f, 12.0f);
+        eVar4.mo43281q(4.49f, 10.0f, 10.0f, 10.0f);
+        C15348e eVar5 = eVar4;
+        eVar5.mo43270f(1.38f, 0.0f, 2.5f, -1.12f, 2.5f, -2.5f);
+        eVar5.mo43270f(0.0f, -0.61f, -0.23f, -1.21f, -0.64f, -1.67f);
+        eVar5.mo43270f(-0.08f, -0.09f, -0.13f, -0.21f, -0.13f, -0.33f);
+        eVar5.mo43270f(0.0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f);
+        eVar4.mo43274j(16.0f, 17.0f);
+        C15348e eVar6 = eVar4;
+        eVar6.mo43270f(3.31f, 0.0f, 6.0f, -2.69f, 6.0f, -6.0f);
+        eVar6.mo43270f(0.0f, -4.96f, -4.49f, -9.0f, -10.0f, -9.0f);
+        eVar4.mo43268d();
+        eVar4.mo43276l(16.0f, 15.0f);
+        eVar4.mo43273i(-1.77f);
+        C15348e eVar7 = eVar4;
+        eVar7.mo43270f(-1.38f, 0.0f, -2.5f, 1.12f, -2.5f, 2.5f);
+        eVar7.mo43270f(0.0f, 0.61f, 0.22f, 1.19f, 0.63f, 1.65f);
+        eVar7.mo43270f(0.06f, 0.07f, 0.14f, 0.19f, 0.14f, 0.35f);
+        eVar7.mo43270f(0.0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f);
+        eVar7.mo43270f(-4.41f, 0.0f, -8.0f, -3.59f, -8.0f, -8.0f);
+        eVar4.mo43281q(3.59f, -8.0f, 8.0f, -8.0f);
+        eVar4.mo43281q(8.0f, 3.14f, 8.0f, 7.0f);
+        eVar4.mo43270f(0.0f, 2.21f, -1.79f, 4.0f, -4.0f, 4.0f);
+        eVar4.mo43268d();
+        C15340c.C15341a.m66873d(aVar5, eVar4.mo43271g(), c2, "", h4Var3, 1.0f, (C15421z1) null, 1.0f, 1.0f, a3, a4, 1.0f, 0.0f, 0.0f, 0.0f, 14336, (Object) null);
+        int c3 = C15380n.m67238c();
+        C15225h4 h4Var5 = r3;
+        C15225h4 h4Var6 = new C15225h4(aVar8.mo42841a(), (DefaultConstructorMarker) null);
+        int a5 = aVar9.mo42862a();
+        int a6 = aVar10.mo42879a();
+        C15348e eVar8 = new C15348e();
+        eVar8.mo43276l(6.5f, 11.5f);
+        eVar8.mo43277m(-1.5f, 0.0f);
+        C15348e eVar9 = eVar8;
+        eVar9.mo43267c(1.5f, 1.5f, 0.0f, true, true, 3.0f, 0.0f);
+        eVar9.mo43267c(1.5f, 1.5f, 0.0f, true, true, -3.0f, 0.0f);
+        C15340c.C15341a.m66873d(aVar4, eVar8.mo43271g(), c3, "", h4Var5, 1.0f, (C15421z1) null, 1.0f, 1.0f, a5, a6, 1.0f, 0.0f, 0.0f, 0.0f, 14336, (Object) null);
+        int c4 = C15380n.m67238c();
+        C15225h4 h4Var7 = r3;
+        C15225h4 h4Var8 = new C15225h4(aVar8.mo42841a(), (DefaultConstructorMarker) null);
+        int a7 = aVar9.mo42862a();
+        int a8 = aVar10.mo42879a();
+        C15348e eVar10 = new C15348e();
+        eVar10.mo43276l(9.5f, 7.5f);
+        eVar10.mo43277m(-1.5f, 0.0f);
+        C15348e eVar11 = eVar10;
+        eVar11.mo43267c(1.5f, 1.5f, 0.0f, true, true, 3.0f, 0.0f);
+        eVar11.mo43267c(1.5f, 1.5f, 0.0f, true, true, -3.0f, 0.0f);
+        C15340c.C15341a.m66873d(aVar3, eVar10.mo43271g(), c4, "", h4Var7, 1.0f, (C15421z1) null, 1.0f, 1.0f, a7, a8, 1.0f, 0.0f, 0.0f, 0.0f, 14336, (Object) null);
+        int c5 = C15380n.m67238c();
+        C15225h4 h4Var9 = r3;
+        C15225h4 h4Var10 = new C15225h4(aVar8.mo42841a(), (DefaultConstructorMarker) null);
+        int a9 = aVar9.mo42862a();
+        int a10 = aVar10.mo42879a();
+        C15348e eVar12 = new C15348e();
+        eVar12.mo43276l(14.5f, 7.5f);
+        eVar12.mo43277m(-1.5f, 0.0f);
+        C15348e eVar13 = eVar12;
+        eVar13.mo43267c(1.5f, 1.5f, 0.0f, true, true, 3.0f, 0.0f);
+        eVar13.mo43267c(1.5f, 1.5f, 0.0f, true, true, -3.0f, 0.0f);
+        C15340c.C15341a.m66873d(aVar2, eVar12.mo43271g(), c5, "", h4Var9, 1.0f, (C15421z1) null, 1.0f, 1.0f, a9, a10, 1.0f, 0.0f, 0.0f, 0.0f, 14336, (Object) null);
+        int c6 = C15380n.m67238c();
+        C15225h4 h4Var11 = r3;
+        C15225h4 h4Var12 = new C15225h4(aVar8.mo42841a(), (DefaultConstructorMarker) null);
+        int a11 = aVar9.mo42862a();
+        int a12 = aVar10.mo42879a();
+        C15348e eVar14 = new C15348e();
+        eVar14.mo43276l(17.5f, 11.5f);
+        eVar14.mo43277m(-1.5f, 0.0f);
+        C15348e eVar15 = eVar14;
+        eVar15.mo43267c(1.5f, 1.5f, 0.0f, true, true, 3.0f, 0.0f);
+        eVar15.mo43267c(1.5f, 1.5f, 0.0f, true, true, -3.0f, 0.0f);
+        C15340c f = C15340c.C15341a.m66873d(aVar, eVar14.mo43271g(), c6, "", h4Var11, 1.0f, (C15421z1) null, 1.0f, 1.0f, a11, a12, 1.0f, 0.0f, 0.0f, 0.0f, 14336, (Object) null).mo43184f();
+        f16975a = f;
+        Intrinsics.checkNotNull(f);
+        return f;
+    }
+}

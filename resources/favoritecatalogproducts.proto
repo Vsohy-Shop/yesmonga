@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+option java_package = "com.carrefour.fid.android";
+option java_multiple_files = true;
+
+message CatalogProduct {
+  string productId = 1;
+  string catalogId = 2;
+  string ean = 3;
+  string name = 4;
+  string brand = 5;
+  string price = 6;
+  string promoImage = 7;
+  string shelf = 8;
+  int64 pageNum = 9;
+  string subShelf = 10;
+  string unitPrice = 11;
+  string legalInfo = 12;
+  repeated CatalogProductDescription descriptions = 13;
+  string catalogEndData = 14;
+  string imageUrl = 15;
+}
+
+message CatalogProductDescription {
+  string label = 1;
+  string content = 2;
+  repeated CatalogProductPicto pictos = 3;
+}
+
+message CatalogProductPicto {
+  string pictoID = 1;
+  string pictoURL = 2;
+}
+
+message FavoriteCatalogProductList {
+  repeated CatalogProduct items = 1;
+}

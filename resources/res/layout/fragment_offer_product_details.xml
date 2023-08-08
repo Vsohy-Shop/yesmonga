@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/ds_grey_white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/toolbar_pdp" layout="@layout/toolbar_pdp"/>
+    <include android:id="@+id/include_pdp_details" layout="@layout/include_pdp_details"/>
+    <include android:id="@+id/product_details_bottom_sheet" layout="@layout/product_details_bottom_sheet"/>
+    <com.carrefour.fid.android.product.presentation.p039ui.details.views.ProductNotificationView android:id="@+id/notification_offer_details_product" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_80dp" android:layout_marginStart="@dimen/ds_spacing_s" android:layout_marginEnd="@dimen/ds_spacing_s" android:elevation="@dimen/ds_spacing_xxs" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0"/>
+    <ViewStub android:id="@+id/stub_offer_details_error" android:layout="@layout/fragment_message_view" android:inflatedId="@+id/offer_details_error" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

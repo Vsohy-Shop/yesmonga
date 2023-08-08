@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle" android:opticalInsetLeft="@dimen/ds_sizing_xs">
+            <solid android:color="@color/ds_grey_60"/>
+            <size android:height="@dimen/ds_sizing_xs"/>
+            <corners android:radius="@dimen/ds_radius_l"/>
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <solid android:color="@color/ds_primary_alternative"/>
+                <corners android:radius="@dimen/ds_radius_l"/>
+            </shape>
+        </clip>
+    </item>
+</layer-list>

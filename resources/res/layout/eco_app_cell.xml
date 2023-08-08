@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="70dp">
+    <ImageView android:id="@+id/appLogo" android:layout_width="40dp" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="19dp" app:srcCompat="@drawable/ic_crf_pin_city"/>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="20dp" android:layout_toEndOf="@+id/appLogo">
+        <TextView android:textSize="@dimen/ds_font_size_s" android:textColor="@color/ds_primary" android:id="@+id/appName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true"/>
+        <TextView android:textSize="@dimen/ds_font_size_xs" android:textColor="@color/ds_grey_10" android:id="@+id/isInstalledText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Déjà installé" android:layout_below="@+id/appName"/>
+    </RelativeLayout>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_right_arrow"/>
+</RelativeLayout>

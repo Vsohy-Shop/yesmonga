@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:background="@drawable/background_white_card" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@+id/french_republic_logo" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="@dimen/ds_spacing_xs" android:adjustViewBounds="true" android:layout_weight="1" app:srcCompat="@drawable/alcohol_legal_information"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

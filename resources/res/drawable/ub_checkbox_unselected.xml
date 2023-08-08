@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:id="@+id/checkbox_unselected_border">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/ub_element_checkbox_corners"/>
+            <solid android:color="@color/ub_error_color"/>
+            <size android:height="@dimen/ub_element_checkbox_dimension" android:width="@dimen/ub_element_checkbox_dimension"/>
+        </shape>
+    </item>
+    <item android:id="@+id/checkbox_unselected_filling" android:left="@dimen/ub_element_checkbox_unselected_border" android:top="@dimen/ub_element_checkbox_unselected_border" android:right="@dimen/ub_element_checkbox_unselected_border" android:bottom="@dimen/ub_element_checkbox_unselected_border">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/ub_element_checkbox_unselected_border"/>
+            <solid android:color="@color/ub_error_color"/>
+        </shape>
+    </item>
+</layer-list>

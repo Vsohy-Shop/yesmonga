@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/drive_graph" app:startDestination="@+id/driveMapFragment">
+    <fragment android:label="DriveMapFragment" android:name="com.carrefour.fid.android.service.presentation.p044ui.drive.map.DriveMapFragment" android:id="@+id/driveMapFragment">
+        <action android:id="@+id/action_driveMapFragment_to_driveSummaryFragment" app:destination="@+id/driveSummaryFragment"/>
+    </fragment>
+    <fragment android:label="DriveSummaryFragment" android:name="com.carrefour.fid.android.service.presentation.p044ui.drive.summary.DriveSummaryFragment" android:id="@+id/driveSummaryFragment">
+        <argument android:name="anabel" app:argType="string"/>
+        <argument android:name="distance_meters" app:argType="float"/>
+    </fragment>
+</navigation>

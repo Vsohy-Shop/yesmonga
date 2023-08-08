@@ -1,0 +1,56 @@
+[
+  {
+    "template_id": "b17_edito",
+    "description": "<p>Créé le : le 04/02/2020</p>\n\n<p>Carrefour accorde une grande importance au respect de votre vie privée et vous invite à lire la présente Politique d’utilisation des cookies et traceurs pour comprendre comment Carrefour utilise les traceurs au niveau de son application mobile.</p>",
+    "weight": 0
+  },
+  {
+    "template_id": "b17_edito",
+    "title": "1. Qu’est-ce qu’un cookie ?",
+    "description": "<p>Un cookie (ci-après « Cookies Web ») est un petit fichier texte stocké sur le disque dur du terminal (ordinateur, smartphone, etc.) de l’utilisateur lorsqu’il visite un site Internet. Il a été conçu pour contenir une petite quantité de données rattachées au terminal de l’utilisateur, et peut uniquement être lu par le serveur du site Internet qui l’a déposé. Cela permet au site Internet de fournir une page adaptée à un utilisateur particulier, de reconnaître ses précédents réglages et de faciliter la navigation. Une page Internet peut elle-même contenir un script qui grâce au cookie, va être capable de transmettre des informations sur la navigation et les préférences de réglages d’une visite d’un site à la visite suivante.</p>",
+    "weight": 1
+  },
+  {
+    "template_id": "b17_edito",
+    "title": "2. Est-ce qu’il y a aussi des cookies sur les applications mobiles ?",
+    "description": "<p>Il n’y a pas de cookies sur les applications mobiles. Les applications utilisent les identifiants uniques de votre mobile (ci-après « identifiants mobiles ») afin d’identifier votre appareil. Ces identifiants mobiles sont stockés dans l’appareil de l’utilisateur et accessibles par l’application Carrefour. Des outils de partenaires ont été installés sur l’application Carrefour (ci-après « traceurs de l’application ») et collectent des informations de ces identifiants afin de s’assurer que l’application fonctionne correctement, de permettre certaines fonctionnalités de fonctionner ou de les utiliser à des fins publicitaires ou d’analyse.</p>",
+    "weight": 2
+  },
+  {
+    "template_id": "b17_edito",
+    "title": "3. Pourquoi l’application Carrefour utilise des identifiants mobiles ?",
+    "description": "<p dir=\"ltr\">Carrefour utilise des identifiants mobiles pour différentes finalités, à savoir : </p>\n\n<ul><li dir=\"ltr\">\n\t<p dir=\"ltr\">garantir l’accès et une performance stable de nos services et de notre application mobile ;</p>\n\t</li>\n\t<li dir=\"ltr\">\n\t<p dir=\"ltr\">personnaliser l’expérience de l’utilisateur lorsqu’il utilise nos services ou accède à notre application mobile ;</p>\n\t</li>\n\t<li dir=\"ltr\">\n\t<p dir=\"ltr\">suivre l’utilisation et le parcours des utilisateurs sur nos services et sur notre application mobile ;</p>\n\t</li>\n\t<li dir=\"ltr\">\n\t<p dir=\"ltr\">mesurer les audiences ;</p>\n\t</li>\n\t<li dir=\"ltr\">\n\t<p dir=\"ltr\">cibler les campagnes publicitaires et en mesurer les résultats.</p>\n\t</li>\n</ul>",
+    "weight": 3
+  },
+  {
+    "template_id": "b17_edito",
+    "title": "4. À quel moment les identifiants mobiles sont collectés ?",
+    "description": "<p>À l'ouverture de l’application, aucune donnée n'est envoyée via nos traceurs. Votre consentement est nécessaire (au niveau de la rubrique “Gérer mes données”) pour déclencher l'envoi de données.\n\nAu niveau de la “<a href=\"deeplink/gestion_donnees\" id=\"deeplink-app\">rubrique “Gérer mes données</a>”, vous avez la possibilité de consentir ou de vous opposer à la collecte de l’identifiant publicitaire unique de votre mobile par les traceurs de l’application afin de recevoir de la publicité personnalisée.\nDe même, vous avez la possibilité de consentir ou de vous opposer à l’utilisation de vos identifiants mobiles à des fins de mesures d’audience.</p>\n\n<p>Les autres utilisations des identifiants mobiles pour des fins strictement nécessaires au fonctionnement de l’application Carrefour sont exemptées de consentement, car elles sont nécessaires pour garantir l’accès et le fonctionnement stable des services.</p>",
+    "weight": 4
+  },
+  {
+    "template_id": "b17_edito",
+    "title": "5. Quelles sont les différentes fonctionnalités des traceurs ?",
+    "description": "<p><strong>Traceurs strictement nécessaires</strong> (SECURITE, SYSTEME ou FONCTIONNEL) : ils peuvent être utilisés à des fins d’authentification ou de sécurité. Ils sont obligatoires pour permettre certaines fonctionnalités du site ou de l’application Carrefour et afin d’en assurer la sécurité.\n\n<strong>Traceurs publicitaires</strong> : ces traceurs collectent des informations à propos de vos habitudes de navigation et vos intérêts afin de vous proposer des publicités pertinentes.\n\n<strong>Traceurs de mesure d’audience</strong> : ils sont utilisés pour obtenir des informations sur le parcours des utilisateurs, pour analyser le trafic sur l’application Carrefour et à des fins de mesures d’audience (par exemple, les traceurs collectent des informations relatives aux pages visitées (nombres de visites, etc.)). Les informations collectées sont anonymes et agrégées. Cela nous permet d’améliorer le fonctionnement de nos services.</p>",
+    "weight": 5
+  },
+  {
+    "template_id": "b17_edito",
+    "title": "6. Finalités et descriptions des traceurs de l’application utilisés par Carrefour",
+    "description": "<p>Les traceurs de l’application ainsi que leurs finalités respectives sont présentés dans le tableau ci-dessous :</p>\n\n<p><img alt=\"Liste des SDK partenaires app carrefour\" data-entity-type=\"file\" data-entity-uuid=\"02206238-e55e-48b4-ac99-fed79d25ebed\" src=\"https://static-cms.carrefour.fr/sites/default/files/inline-images/liste-des-sdk-partenaires-app-carrefour.png\" /></p>",
+    "weight": 6
+  },
+  {
+    "template_id": "b17_edito",
+    "title": "7. Gérer vos Identifiants mobiles et paramétrer les traceurs",
+    "description": "<p>Quand vous lancez pour la première fois l’application Carrefour, une popin stipulant que cette application utilise des cookies et traceurs apparaît. Cette popin vous propose d’accepter ou de personnaliser les traceurs de l’application.\n\nVous pouvez refuser/ désactiver les traceurs à tout moment, à l’exception des traceurs nécessaires au fonctionnement stable de l’application.\n\nPour les traceurs qui ne sont pas nécessaires au fonctionnement de l’application, vous pouvez les désactiver à deux niveaux :\n\n1.  Au clic sur le bouton « Je paramètre » au niveau de la popin cookies et traceurs\n2. À tout moment dans la rubrique « Compte » - « Mes paramètres » - « Mes données » - « Gestion des données »\n\n<strong>NOUS NE VOUS RECOMMANDONS PAS DE BLOQUER ET DÉSACTIVER TOUS LES TRACEURS DANS LES PARAMÈTRES DE VOTRE COMPTE. En effet, si vous bloquez tous les traceurs, notre application pourrait ne pas fonctionner correctement et il est possible que vous ne puissiez pas utiliser certaines de ses fonctionnalités.</strong>\n\nÀ l’exception des traceurs utilisés des fins publicitaires, tous les traceurs de l’application listés précédemment sont indispensables au fonctionnement stable et à l’exploitation des services de l’application auxquels vous avez souscrit.\n\nPour les traceurs à des fins publicitaires, vous pouvez configurer votre compte afin de refuser la publicité personnalisée.</p>",
+    "weight": 7
+  },
+  {
+    "template_id": "b17_edito",
+    "title": "8. Contact",
+    "description": "<p dir=\"ltr\">Si vous avez des questions concernant la présente Charte ou une réclamation à propos de nos cookies ou traceurs, vous pouvez nous contacter : </p>\n\n<ol><li dir=\"ltr\">\n\t<p dir=\"ltr\">En envoyant un e-mail à notre Délégué à la protection des données : droitsdespersonnes@serviceclients-carrefour.com ;\n\t </p>\n\t</li>\n\t<li dir=\"ltr\">\n\t<p dir=\"ltr\">Par courrier postal au Délégué à la protection des données, à l’adresse ci-contre : 35 rue Pierre et Dominique Ponchardier, espace Fauriel, CS 60337, 42015 Saint Etienne Cedex 2, en justifiant de votre identité par tout moyen.</p>\n\t</li>\n</ol><p dir=\"ltr\">Si vous estimez, après nous avoir contactés, que vos droits sur vos données ne sont pas respectés, vous pouvez <a href=\"https://www.cnil.fr/fr/webform/adresser-une-plainte\">adresser une réclamation </a>à la Commission Nationale Informatique et Libertés.</p>\n\n<p dir=\"ltr\">Pour de plus amples informations, reportez-vous à la <a href=\"https://www.carrefour.fr/articles/gestion-donnees-personnelles\">Politique de protection des données personnelles</a>.</p>",
+    "weight": 8
+  }
+]
+

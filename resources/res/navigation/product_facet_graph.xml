@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/product_facet_graph" app:startDestination="@+id/productListFacetFragment">
+    <argument android:name="source" app:argType="com.carrefour.fid.android.product.presentation.viewmodel.list.ProductListSource"/>
+    <fragment android:label="fragment_product_filter_department" android:name="com.carrefour.fid.android.product.presentation.p039ui.facet.FacetFragment" android:id="@+id/productListFacetFragment">
+        <argument android:name="source" app:argType="com.carrefour.fid.android.product.presentation.viewmodel.list.ProductListSource"/>
+    </fragment>
+</navigation>

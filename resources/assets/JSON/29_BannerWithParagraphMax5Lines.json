@@ -1,0 +1,89 @@
+{
+  "id": "42a6a62e-5df4-4331-8dcd-b0784b3829b9",
+  "version": 2,
+  "structure": {
+    "colors": {
+      "group1": {
+        "hash": "#41474C"
+      },
+      "group2": {
+        "hash": "#00A5C9"
+      },
+      "group3": {
+        "hash": "#59636B"
+      },
+      "group4": {
+        "hash": "#F4606E"
+      },
+      "group5": {
+        "hash": "#FFFFFF"
+      },
+      "group6": {
+        "hash": "#FFFFFF"
+      }
+    },
+    "data": {
+      "appStoreRedirect": false,
+      "appSubmit": "Submit",
+      "appTitle": "Feedback",
+      "errorMessage": "Please check the fields marked with *",
+      "progressbar": false,
+      "screenshot": false,
+      "store_ip": false
+    },
+    "form": {
+      "pages": [
+        {
+          "type": "banner",
+          "fields": [
+            {
+              "type": "titleParagraph",
+              "caption": "Title and text",
+              "autoSubmit": false,
+              "forceRequired": false,
+              "fixed": false,
+              "interactive": true,
+              "showHideRule": [],
+              "validationText": "This field is required",
+              "title": "Click to edit title",
+              "text": "t\ne\ns\nt\ni\nn\ng\n",
+              "name": "titleText",
+              "appSection": "app",
+              "empty": "Please choose an option"
+            },
+            {
+              "type": "continue",
+              "caption": "Continue Button",
+              "autoSubmit": false,
+              "forceRequired": false,
+              "fixed": "continue",
+              "interactive": true,
+              "showHideRule": [],
+              "validationText": "This field is required",
+              "title": "Continue",
+              "cancel": "Cancel"
+            }
+          ],
+          "jumpRules": [],
+          "autoSubmit": true,
+          "name": "start"
+        },
+        {
+          "type": "toast",
+          "fields": [],
+          "jumpRules": [],
+          "autoSubmit": false,
+          "name": "end"
+        }
+      ],
+      "allowedPageTypes": ["banner", "form", "toast"]
+    },
+    "localization": {
+      "appStore": "Go to the app store",
+      "cancelButton": "Cancel",
+      "moreFeedback": "Give more feedback",
+      "navigationNext": "Next",
+      "screenshotTitle": "Screenshot"
+    }
+  }
+}

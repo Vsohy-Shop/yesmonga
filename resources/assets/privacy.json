@@ -1,0 +1,37 @@
+{
+  "information": {
+    "update": "2020-03-16",
+    "version": "2",
+    "content": "\n",
+    "saveButton": "Sauvegarder",
+    "privacy_policy_url": "https://www.carrefour.fr/cookies",
+    "privacy_policy_text": "Politique de cookies"
+  },
+  "customisation": {
+    "content": {
+      "fontcolor": "#003F8A",
+      "backgroundcolor": "#ffffff"
+    },
+    "button": {
+      "fontcolor": "#ffffff",
+      "backgroundcolor": "#003F8A"
+    }
+  },
+  "categories": [
+    {
+      "name": "Appsflyers",
+      "ID": "1",
+      "description": "Appsflyer est une plateforme d'attribution publicitaire et d'analyse marketing sur mobile."
+    },
+    {
+      "name": "Google Analytics",
+      "ID": "3",
+      "description": "Google Analytics est une solution de gestion des tags permettant d’analyser les données de navigation des utilisateurs au niveau d’un site web ou d’une application mobile, ce qui nous permet d’optimiser l’expérience de nos utilisateurs"
+    },
+    {
+      "name": "Fonctionnels (non paramétrable)",
+      "ID": "4",
+      "description": "Données pouvant être utilisés à des fins d’authentification ou de sécurité. Ils sont obligatoires pour permettre certaines fonctionnalités du site ou de l’application Carrefour et afin d’en assurer la sécurité."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/SignInRootCoordinatorLyt" android:background="@android:color/white" android:fitsSystemWindows="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/forgot_pwd_app_bar" android:layout_width="match_parent" android:layout_height="140dp" app:elevation="0dp" app:layout_insetEdge="0">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@+id/forgotPwdToolbarLayout" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" app:contentScrim="@color/transparent" app:layout_collapseMode="1" app:layout_scrollFlags="3">
+            <ImageView android:id="@+id/imageView" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/station_services_header" android:scaleType="fitXY"/>
+            <View android:layout_gravity="bottom" android:id="@+id/subtitleView" android:background="@drawable/sign_in_content_bg" android:layout_width="match_parent" android:layout_height="@dimen/signin_in_app_bar_bottom_height"/>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <include android:id="@+id/service_station_content" layout="@layout/service_station_content"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
