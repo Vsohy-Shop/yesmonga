@@ -12,7 +12,7 @@ def login():
     username = request.form.get('username')
     password = request.form.get('password')
 
-    login_url = "https://www.carrefour.fr/auth/login"
+    login_url = "https://moncompte.carrefour.fr/iam/oauth2/CarrefourConnect/access_token?q=login"
     headers = {
         "Content-Type": "application/x-www-form-urlencoded",
         "User-Agent": "Mozilla/5.0",  # Exemple d'User-Agent, à ajuster si nécessaire
